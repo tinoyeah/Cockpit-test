@@ -37,7 +37,7 @@ elenco di titoli senza spiegazione. Inserisci il link originale quando disponibi
 Restituisci esclusivamente JSON valido, con questa struttura:
 {"updated_at":"ISO 8601 UTC","headline":"headline generale della giornata","intro":"3-5 frasi introduttive","sections":[{"title":"Aziende, vertici e M&A","items":[{"title":"titolo","text":"cosa è successo e perché è importante","market":"mercato o area","link":"URL oppure stringa vuota"}]}],"watchlist":["elemento da monitorare"]}
 
-Le sezioni devono essere esattamente queste, nello stesso ordine:
+Devi leggere ed interpretare tutte le sezioni:
 1. Aziende, vertici e M&A
 2. Industria italiana e brand italiani
 3. Food, FMCG e retail
@@ -45,6 +45,7 @@ Le sezioni devono essere esattamente queste, nello stesso ordine:
 5. Materie prime, energia e logistica
 6. Macro e regolamentazione
 7. Sport
+Determina un commento unico che metta in relazione tutte le informazioni ricevute
 Puoi lasciare vuota una sezione se nei dati non c'è nulla di rilevante. Non scrivere
 frasi generiche per riempirla. Dai priorità agli elementi più importanti e limita
 ogni sezione a 2-5 elementi.
