@@ -45,6 +45,31 @@ function loadSport(force){
   })));
 }
 function loadQuote(){return fetch("quotes.json?v=1").then(r=>{if(!r.ok)throw Error("quotes");return r.json()}).then(list=>{if(!list.length)throw Error("empty");const start=new Date(new Date().getFullYear(),0,0),today=new Date(),day=Math.floor((today-start)/86400000),q=list[day%list.length];$("#sumtext").textContent="“"+q.text+"”";$("#quote-meta").textContent=q.author+" · "+q.book+" · "+q.type}).catch(()=>fetch("data/summary.json?v="+Date.now()).then(r=>r.json()).then(s=>{$("#sumtext").textContent=s.summary||"Nessuna frase disponibile."}).catch(()=>{$("#sumtext").textContent="Nessuna frase disponibile."}))}
+function renderSummary(s){
+  const box=$("#daily-summary"); if(!box)return;
+  box.textContent="";
+  if(!s||!s.headline||!Array.isArray(s.sections)){box.append(el("p","err","Briefing non ancora disponibile."));return}
+  box.append(el("h3","summary-headline",s.headline));
+  if(s.intro)box.append(el("p","summary-intro",s.intro));
+  s.sections.forEach(section=>{
+    if(!section||!section.title||!Array.isArray(section.items)||!section.items.length)return;
+    const sec=el("div","summary-group"),h=el("h3",null,section.title),list=el("div","summary-items");
+    section.items.forEach(item=>{
+      if(!item)return;
+      const article=el("article","summary-item");
+      const title=item.link&&/^https?:\/\//.test(item.link)?el("a","summary-item-title",item.title||"Elemento senza titolo"):el("h4","summary-item-title",item.title||"Elemento senza titolo");
+      if(title.tagName==="A"){title.href=item.link;title.target="_blank";title.rel="noopener"}
+      article.append(title);
+      if(item.text)article.append(el("p",null,item.text));
+      if(item.market)article.append(el("p","mu summary-market","Area: "+item.market));
+      list.append(article);
+    });
+    sec.append(h,list);box.append(sec);
+  });
+  if(Array.isArray(s.watchlist)&&s.watchlist.length){const sec=el("div","summary-group summary-watchlist");sec.append(el("h3",null,"Da tenere d’occhio"));const ul=el("ul");s.watchlist.forEach(x=>ul.append(el("li",null,String(x))));sec.append(ul);box.append(sec)}
+  if(s.updated_at)box.append(el("p","mu summary-date","Briefing aggiornato il "+new Date(s.updated_at).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})));
+}
+function loadSummary(force=false){return fetch("data/summary.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(renderSummary).catch(()=>renderSummary(null))}
 function tab(n){["sintesi","prezzi","news","filiali","sport","radar"].forEach(x=>{$("#tab-"+x).hidden=x!==n;$("#b-"+x).setAttribute("aria-selected",String(x===n))});window.scrollTo(0,0);if(n==="filiali"&&FSEL===null)renderBranch(0);if(n==="radar")renderSaved()}
-async function run(force=false){const id=++RUN_ID;$("#day").textContent=new Date().toLocaleDateString("it-IT",{weekday:"long",day:"numeric",month:"long"});$("#stamp").textContent="Carico i dati…";await Promise.all([loadFx(force),loadMarketPrices(),loadThemes(force),loadSport(force),loadQuote()]);if(id===RUN_ID)$("#stamp").textContent="Aggiornato alle "+new Date().toLocaleTimeString("it-IT",{hour:"2-digit",minute:"2-digit"});if(FSEL!==null&&!$("#tab-filiali").hidden)renderBranch(FSEL)}
+async function run(force=false){const id=++RUN_ID;const button=$("#refresh");$("#day").textContent=new Date().toLocaleDateString("it-IT",{weekday:"long",day:"numeric",month:"long"});$("#stamp").textContent=force?"Aggiornamento completo in corso…":"Carico i dati…";if(button){button.disabled=true;button.textContent="Aggiornamento…"}try{await Promise.all([loadFx(force),loadMarketPrices(),loadThemes(force),loadSport(force),loadQuote(),loadSummary(force)]);if(id===RUN_ID)$("#stamp").textContent="Aggiornato alle "+new Date().toLocaleTimeString("it-IT",{hour:"2-digit",minute:"2-digit"})}catch(e){$("#stamp").textContent="Aggiornamento parziale: alcuni dati non sono disponibili"}finally{if(button){button.disabled=false;button.textContent="Aggiorna"}}if(FSEL!==null&&!$("#tab-filiali").hidden)renderBranch(FSEL)}
 $("#refresh").onclick=()=>run(true);$("#readall").onclick=()=>{document.querySelectorAll("#themes li.new").forEach(li=>{markSeen(li.dataset.h);li.classList.remove("new")})};["sintesi","prezzi","news","filiali","sport","radar"].forEach(x=>$("#b-"+x).onclick=()=>tab(x));buildChips();buildBranches();renderSaved();run();if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
