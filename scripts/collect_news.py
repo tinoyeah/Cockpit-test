@@ -8,6 +8,7 @@ Il ranking avanzato verrà applicato in un passaggio successivo.
 import datetime as dt
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -17,6 +18,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 MAX_ITEMS_PER_FEED = 12
+REQUEST_TIMEOUT = 12
+MAX_WORKERS = 8
 MAX_DYNAMIC_QUERIES = 24
 
 
@@ -217,7 +220,7 @@ def get_feed(query_info):
     query = f'{query_info["query"]} when:{query_info["when"]}'
     rss = "https://news.google.com/rss/search?q=" + urllib.parse.quote(query) + "&hl=it&gl=IT&ceid=IT:it"
     request = urllib.request.Request(rss, headers={"User-Agent": "Mozilla/5.0 CFO-Cockpit/3.0"})
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
         root = ET.fromstring(response.read())
 
     result = []
@@ -249,13 +252,18 @@ def deduplicate(items):
 def main():
     items = []
     queries = build_queries()
-    print(f"Eseguo {len(queries)} query editoriali")
+    print(f"Eseguo {len(queries)} query editoriali", flush=True)
 
-    for query_info in queries:
-        try:
-            items.extend(get_feed(query_info))
-        except Exception as exc:
-            print(f"Feed non disponibile ({query_info['category']}): {exc}")
+    # Le fonti vengono interrogate in parallelo: una fonte lenta non blocca
+    # l'intero aggiornamento quotidiano.
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        jobs = {executor.submit(get_feed, query_info): query_info for query_info in queries}
+        for job in as_completed(jobs):
+            query_info = jobs[job]
+            try:
+                items.extend(job.result())
+            except Exception as exc:
+                print(f"Feed non disponibile ({query_info['category']}): {exc}", flush=True)
 
     unique = deduplicate(items)
     output_path = DATA / "news.json"
@@ -263,7 +271,7 @@ def main():
         try:
             with output_path.open(encoding="utf-8") as file:
                 json.load(file)
-            print("Nessun feed disponibile: mantengo le news precedenti")
+            print("Nessun feed disponibile: mantengo le news precedenti", flush=True)
             return
         except Exception:
             pass
@@ -275,7 +283,7 @@ def main():
     with output_path.open("w", encoding="utf-8") as file:
         json.dump(output, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    print(f"Salvate {len(unique)} news")
+    print(f"Salvate {len(unique)} news", flush=True)
 
 
 if __name__ == "__main__":
