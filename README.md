@@ -36,3 +36,5 @@ La chiave Gemini, se utilizzata, deve essere salvata in:
 `Settings → Secrets and variables → Actions`
 
 con nome `GEMINI_API_KEY`. Non inserire mai chiavi API nei file pubblici.
+
+Aggiornamento dati automatico attivo.
