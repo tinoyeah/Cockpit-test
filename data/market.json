@@ -1,4 +1,89 @@
 {
-  "updated_at": null,
-  "items": []
+  "updated_at": "2026-11-18T20:41:37.144522+00:00",
+  "items": [
+    {
+      "name": "PUN",
+      "value": 208.66,
+      "unit": "€/MWh",
+      "date": "2026-11-18",
+      "source": "GME"
+    },
+    {
+      "name": "Gas TTF",
+      "value": 85.48,
+      "unit": "€/MWh",
+      "date": "2026-11-17",
+      "source": "ICE Endex"
+    },
+    {
+      "name": "Brent",
+      "value": 92.14,
+      "unit": "USD/bbl",
+      "date": "2026-11-11",
+      "source": "EIA"
+    },
+    {
+      "name": "Gas PSV",
+      "value": 84.2,
+      "unit": "€/MWh",
+      "date": "2026-11-18",
+      "source": "GME"
+    },
+    {
+      "name": "CO₂",
+      "value": 87.27,
+      "unit": "€/tCO₂",
+      "date": "2026-11-16",
+      "source": "EEX"
+    },
+    {
+      "name": "Zucchero",
+      "value": 18.07,
+      "unit": "USD/lb",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Caffè",
+      "value": 276.05,
+      "unit": "USD/lb",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Cacao",
+      "value": 5027.0,
+      "unit": "USD/t",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Grano",
+      "value": 586.75,
+      "unit": "USD/bu",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Rame",
+      "value": 5.66,
+      "unit": "USD/lb",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Alluminio",
+      "value": 2832.25,
+      "unit": "USD/t",
+      "date": "2026-11-18",
+      "source": "Yahoo Finance"
+    },
+    {
+      "name": "Pomodoro industriale",
+      "value": null,
+      "unit": "",
+      "date": "",
+      "source": "Quotazione pubblica giornaliera non disponibile"
+    }
+  ]
 }
