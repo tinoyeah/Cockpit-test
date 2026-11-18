@@ -14,27 +14,17 @@ const CONFIG = {
     google: { name: "Google News", priority: 1, query: "" }
   },
   themes: [
-    { id: "vertici", title: "Movimenti ai vertici", when: "30d", feeds: [{ source: "google", query: "nomina nuovo CEO OR CFO OR amministratore delegato alimentare OR food OR largo consumo OR lusso OR moda" }] },
-    { id: "macro", title: "Macro e geopolitica", when: "2d", feeds: [
-      { source: "bce", query: "BCE tassi inflazione eurozona" },
-      { source: "eurostat", query: "Eurostat inflation GDP euro area" },
-      { source: "reuters", query: "geopolitica Iran Hormuz Ucraina dazi USA" }
-    ] },
-    { id: "materie", title: "Materie prime", when: "3d", feeds: [
-      { source: "reuters", query: "prezzo cacao OR caffè OR zucchero OR grano OR pomodoro mercato" },
-      { source: "google", query: "commodity prices tomato wheat sugar coffee cocoa" }
-    ] },
-    { id: "fmcg", title: "Corporate e FMCG", when: "3d", feeds: [
-      { source: "reuters", query: "FMCG food grocery Nestle Danone Kraft Heinz" },
-      { source: "google", query: "largo consumo food NielsenIQ OR Circana OR Ipsos OR Mutti" }
-    ] },
-    { id: "gov", title: "Governance e lusso", when: "3d", feeds: [
-      { source: "official", query: "corporate governance assemblea CDA Consob OPA Piazza Affari" },
-      { source: "google", query: "lusso moda Prada OR Kering OR LVMH OR Moncler" }
-    ] },
-    { id: "sport", title: "Sport", when: "14d", feeds: [
-      { source: "google", query: "canoa slalom OR ATP Slam OR Masters 1000 OR Sinner OR Cobolli OR WRC rally mondiale" }
-    ] }
+    { id: "vertici_societari", title: "Vertici societari", when: "7d", feeds: [] },
+    { id: "industria_italiana", title: "Industria italiana", when: "3d", feeds: [] },
+    { id: "brand_italiani", title: "Brand italiani", when: "3d", feeds: [] },
+    { id: "food_fmcg", title: "Food e FMCG", when: "3d", feeds: [] },
+    { id: "retail_consumatori", title: "Retail e consumatori", when: "3d", feeds: [] },
+    { id: "materie_prime", title: "Materie prime", when: "3d", feeds: [] },
+    { id: "energia_logistica", title: "Energia e logistica", when: "3d", feeds: [] },
+    { id: "macro_economia", title: "Macro e geopolitica", when: "2d", feeds: [] },
+    { id: "regolamentazione", title: "Regolamentazione", when: "7d", feeds: [] },
+    { id: "m_and_a", title: "M&A e private equity", when: "7d", feeds: [] },
+    { id: "mercati_internazionali", title: "Mercati internazionali", when: "3d", feeds: [] }
   ],
   branches: [
     { name: "Regno Unito", currencies: ["GBP"], query: "UK economy OR inflation OR Bank of England OR grocery Tesco OR Sainsbury's" },
