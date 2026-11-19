@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T23:17:57.167864+00:00",
+  "updated_at": "2026-11-19T07:29:56.228968+00:00",
   "items": [
     {
       "name": "PUN",
@@ -10,9 +10,9 @@
     },
     {
       "name": "Gas TTF",
-      "value": 85.48,
+      "value": 81.11,
       "unit": "€/MWh",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "source": "ICE Endex"
     },
     {
@@ -59,23 +59,23 @@
     },
     {
       "name": "Grano",
-      "value": 586.75,
+      "value": 588.0,
       "unit": "USD/bu",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Rame",
-      "value": 5.67,
+      "value": 5.68,
       "unit": "USD/lb",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Alluminio",
-      "value": 2832.25,
+      "value": 2868.75,
       "unit": "USD/t",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
