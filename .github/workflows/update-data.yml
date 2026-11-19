@@ -7,12 +7,12 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
     steps:
       - name: Scarica il repository
         uses: actions/checkout@v4
@@ -28,11 +28,69 @@ jobs:
       - name: Raccoglie cambi e prezzi
         run: python scripts/collect_market.py
 
-      - name: Genera summary.json con Gemini
-        if: ${{ env.GEMINI_API_KEY != '' }}
+      - name: Configura Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installa Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Genera summary.json con Copilot
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/generate_summary.py
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "$(cat <<'PROMPT'
+          Leggi esclusivamente questi file del repository:
+          - data/news.json
+          - data/market.json
+
+          Genera o sostituisci il file data/summary.json.
+
+          Il file deve essere JSON valido e avere esattamente questa struttura:
+          {
+            "updated_at": "ISO 8601 UTC",
+            "headline": "headline generale della giornata",
+            "intro": "introduzione di 3-5 frasi",
+            "sections": [
+              {
+                "title": "Aziende, vertici e M&A",
+                "items": [
+                  {
+                    "title": "titolo",
+                    "text": "cosa è successo e perché è importante",
+                    "market": "mercato o area",
+                    "link": "URL oppure stringa vuota"
+                  }
+                ]
+              }
+            ],
+            "watchlist": ["elemento da monitorare"]
+          }
+
+          Le sezioni devono essere esattamente:
+          1. Aziende, vertici e M&A
+          2. Industria italiana e brand italiani
+          3. Food, FMCG e retail
+          4. Mercati e filiali internazionali
+          5. Materie prime, energia e logistica
+          6. Macro e regolamentazione
+          7. Sport
+
+          Usa esclusivamente le informazioni presenti nei due file.
+          Non inventare dati, eventi, numeri o collegamenti causali.
+          Puoi lasciare vuota una sezione se non ci sono informazioni rilevanti.
+          Limita ogni sezione a un massimo di 5 elementi.
+          Il briefing deve essere leggibile in circa 4-5 minuti.
+          Inserisci il link originale quando disponibile.
+
+          Dopo aver generato il file, verifica che sia JSON valido.
+          Non modificare nessun altro file del repository.
+          PROMPT
+          )" --allow-tool=write --allow-tool='shell(cat:*)' --allow-tool='shell(date:*)' --no-ask-user
+
+      - name: Verifica summary.json
+        run: python -m json.tool data/summary.json > /dev/null
 
       - name: Pubblica news e sintesi
         run: |
