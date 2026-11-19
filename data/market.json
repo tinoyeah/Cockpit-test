@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-19T07:29:56.228968+00:00",
+  "updated_at": "2026-11-19T18:12:24.879840+00:00",
   "items": [
     {
       "name": "PUN",
-      "value": 208.66,
+      "value": 218.84,
       "unit": "€/MWh",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "GME"
     },
     {
@@ -24,9 +24,9 @@
     },
     {
       "name": "Gas PSV",
-      "value": 84.2,
+      "value": 81.05,
       "unit": "€/MWh",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "GME"
     },
     {
@@ -38,42 +38,42 @@
     },
     {
       "name": "Zucchero",
-      "value": 18.07,
+      "value": 17.18,
       "unit": "USD/lb",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Caffè",
-      "value": 276.05,
+      "value": 276.75,
       "unit": "USD/lb",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Cacao",
-      "value": 5027.0,
+      "value": 5183.0,
       "unit": "USD/t",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Grano",
-      "value": 588.0,
+      "value": 593.25,
       "unit": "USD/bu",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Rame",
-      "value": 5.68,
+      "value": 5.63,
       "unit": "USD/lb",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Alluminio",
-      "value": 2868.75,
+      "value": 2810.0,
       "unit": "USD/t",
       "date": "2026-11-19",
       "source": "Yahoo Finance"

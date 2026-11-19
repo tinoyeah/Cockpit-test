@@ -1,5 +1,207 @@
 {
-  "date": "2026-11-15",
-  "summary": "Il briefing manageriale verrà aggiornato qui. Questo file è il punto di ingresso della sintesi AI: sostituisci questo testo con il riepilogo complessivo di cambi, prezzi, news, filiali e sport.",
-  "cfo": []
+  "updated_at": "2026-11-19T18:12:24.879840+00:00",
+  "headline": "Mercati in attesa, vertici aziendali in movimento e energia ancora cara",
+  "intro": "La giornata combina notizie di vertice, operazioni societarie e segnali dai mercati globali. Nvidia resta al centro dell'attenzione per il management e i risultati trimestrali, mentre Anthropic prepara una delle principali IPO attese. In Italia proseguono cambi ai vertici di gruppi industriali e alimentari e si registra la revisione al rialzo dell'inflazione. Sul fronte delle materie prime, energia, metalli e commodities presentano valori differenziati.",
+  "sections": [
+    {
+      "title": "Aziende, vertici e M&A",
+      "items": [
+        {
+          "title": "Nvidia: in corso la ricerca del nuovo CEO",
+          "text": "Secondo il Wall Street Journal, Nvidia avrebbe incaricato un cacciatore di teste per individuare il nuovo CEO.",
+          "market": "Globale",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPLXAwdzZQRDVHTGNUOUZHRTdJamNOYjUxWVhmUXQ2ZUEwd0xBaUVpLVhTWWUzby1hMU9Da1RTcHN0UFFVaURUQi1aMVdPSGpyYzJseC1uX3N5YzJtcUV1bHFqWjd4dXVqb2FvOTBsVXNseVZMQUxiUE1qZjg3QjIwNVFHaHhNUHdPR1hiMU9JeDluUU1WMm5mcmI3OTJqLU91QVlFdU9LWEFwaVRSVm5CMXE3dnVfZE9JZUQ3dTR2UUhUMmdNcERkWnNjaXNZUDZKNmx2Y0RHTWFmOVNRMjRIdzBIc3o2cG1vdFU1UlBEVlFmTFZVeGLSAYICQVVfeXFMTkluN1lSW"
+        },
+        {
+          "title": "Anthropic verso una grande IPO",
+          "text": "Anthropic ha fissato il prezzo a 83 dollari per un'offerta indicata come potenzialmente tra le più rilevanti della storia.",
+          "market": "Globale",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMWpzZzEtU0Zta2ZtOVNOVmpRU1p1eWRSZDJPRGlKOXVVRGNUNm45bzN6a1RQU1MwMzQ5bmxyTVBHWF8zTjNiWGNCMHd4VEo4U1MyVVQ5NHZtRG1wdE9uR1lmVkxrUW80WHA4QWc5dG9ON2trc0NGVWgyOWU4RGN6SThqTEY1TTdvY1haOUxidExob1ctY2sxM1NjOXVrZFlHbnhGbXl"
+        },
+        {
+          "title": "MPS valuta la cessione della quota Generali",
+          "text": "Il Financial Times riferisce che MPS considera la vendita di una partecipazione in Generali per 7,4 miliardi di euro.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVDlMM0dqdmNDMUc0bHkzT0JGZzA4R1FMT0p6YXMzeHg3Z2YxU1lfTUFOamJEX2hGNWYwd3A1NXNTX2otT21aeHlyN2cwS0tSMWNLRUEzX2F0YXoxcVhWdV85NGxZZmo4cnJzZFZaUEpVcml0b2QwX2FHejYyS1dzbllWZVY?oc=5"
+        },
+        {
+          "title": "NewPrinces torna sulle acquisizioni",
+          "text": "L'italiana NewPrinces ha raggiunto un accordo sulle attività francesi di Mondelez.",
+          "market": "Italia-Francia",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkEtX2NSUVNjXzhSOVhjbWNQQkJnTGhhSVBSMzhKT2xKdWs5RjRRdkE2aE5tbmN4dGN1UVpta29UVkRWM3NLSVRTajk3eHFWalRZeGlXbThjc19oSjBYQmlzdURDSHcyR2NXTl9lZ2U1YVZtaHJ4dzdfakxyX3lNbnJXMzNacWpyQ1gxMkQwakZFSlFHQ2hKeHp6cDVVTFBRdzRVamo2a0JtRU9pT2hv?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Industria italiana e brand italiani",
+      "items": [
+        {
+          "title": "Lactalis nomina Paolo Guzzardi",
+          "text": "Paolo Guzzardi assume il ruolo di General Manager della divisione Cheese per guidare crescita e sviluppo.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNazNESkRJUWdCR2pHWVVjZFJCcmdLQWF3d280aW4xNEZhZGt0dExzd2RvSlBMbzVscEIzZGc3RXA1ZVNuNVNqMEtmZEd4VGRSQVpkaWtUUzNJODB2ZExjSnV4TmpQbXNTaG92S3Z6NkpLb1ZtMGVVRlZjMGJGWlZweDAzck9OUnhCVlNncDhhZzBqNExsX0E?oc=5"
+        },
+        {
+          "title": "Paolo Rizzo alla guida di PepsiCo Italia",
+          "text": "Paolo Rizzo è stato nominato Country Manager e Amministratore Delegato di PepsiCo Beverages Italia.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNV9pVjhxQnhJeC1rSmxiQ0dQNEtFZ3BHbTMyMG9CVjFTeFBmV1QtNzFwZDgxMzBXS0tQSnZVY0VITXJKUU1ETERBdFNCWVZ2Zkx5MkFaLWVVVUxKRGhNN2VCUzNyUTFYWXRzd0JQU0dLYWFvLV9GZVlBdnA2N21LY2pwa3lLdDUtVTliNHpIZDVJeWhsME5ObTdCY2RMVnp1aFVjNmhmelFLRkxRSEJDMWpDUQ?oc=5"
+        },
+        {
+          "title": "Yesim Ucelli guida Mars Italia e Sud Europa",
+          "text": "Yesim Ucelli è stata nominata Amministratore Delegato di Mars Italia e General Manager per il Sud Europa.",
+          "market": "Italia-Europa",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOFMwYmtVZTYtN3lYR0R3Q0w4RDZJTXZPSzdGbTd0RXo3Y0F4RXgtNTYtQkE3NlVYR3ZmcUVaZlBWbjlXLS1xQ09Ndmp1SnB1cFFmb0dHNjN3VVN5ckVoTzRmbUltQTBEODdQTHNIZlhhQ1d1UzRlQm12VG9QeGc3SzRmVWlQTldMMGFMaXlFM1c"
+        },
+        {
+          "title": "A Varsavia la settimana della cucina italiana",
+          "text": "A Varsavia è in programma una cena dedicata alla Liguria nell'ambito della Settimana della cucina italiana.",
+          "market": "Italia-Polonia",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNYkpzRmxPMGZHQm51cjNxZVpMalNzbU5qU2Qya1JDSnpXWVlvaU9GSXVQZkg2cWt0OWotRVd1WTBTbjR3a3JLbGpMa2hPUFRFd2JSQlR6S3ladGs4ME4taDdBYXNCNjhtcnhJVHBDdTRFMG5NOTV5Tk9yVzYwSTFXTHV2VUNvOE40aW9vNmJ2b3Nma3NOVUZBQ0xuWFVEU0pRdEQ1NWF0ZHF3ZV95Z2hISF8yd0NqTEZyY1NDdDZGSldKbUpQbmJZ"
+        }
+      ]
+    },
+    {
+      "title": "Food, FMCG e retail",
+      "items": [
+        {
+          "title": "AI e bevande del futuro al Simei",
+          "text": "Il Simei di Fiera Milano presenta progetti sull'uso dell'AI nella progettazione delle bevande del futuro.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQW41cldWQ1FzbkVFVGQyekJVMmVLRFViUEJ5NEZsOXVkVHg3V3lFcnJxMTI1TnVUbjBMaDRFelNKZURnS1BneEEzRjZnUFlScWtsQ1BZeWYtVGZjYmctVENhNGE0a0FwUE00N3o4WWNQWkhDMFZqRmVaZUlzZzd1eWZORWc3bDV1NUhQTjI3d0?oc=5"
+        },
+        {
+          "title": "Potenzialità del Brunello negli Stati Uniti",
+          "text": "Il mercato statunitense resta indicato come un'area con potenziale di crescita per il Brunello.",
+          "market": "Italia-Stati Uniti",
+          "link": ""
+        },
+        {
+          "title": "Tartufo in 275 prodotti della grande distribuzione",
+          "text": "Il tartufo è presente in gelati, pasta e altri prodotti distribuiti nei supermercati.",
+          "market": "Globale",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Mercati e filiali internazionali",
+      "items": [
+        {
+          "title": "Borse europee in attesa di Anthropic",
+          "text": "Europa in ribasso con Milano sotto i 50.000 punti mentre gli investitori attendono gli sviluppi legati ad Anthropic.",
+          "market": "Europa",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcFZvMDBERXFmaVJ6QlJoSHE1dnVpWmloUXFDVkg4MERMdEM5bmhnc19vdzJ0TjNnWXFpLTRBOWRZTXZqZkJ4aDhlX1pDMzlxZW1peTdNbDJNY3lQbXF2UFgyODBPVnRyNUw3VTlXejZhOFZNLXdvM2YxMy1ncm8weUI3YXdNTjRKOXpHakhLbVVEUlc0aUN4YVZQQWRmY04zdnMtbmU0a1JQbU5VMS1kampORUY3MlplOWNpZ1FZQU1XNTdkR04ycEZuSjkwTzRHbW5zUm1sOGlaUmpwVWJoMWlR?oc=5"
+        },
+        {
+          "title": "Lazio sede del secondo hub distributivo europeo",
+          "text": "Secondo il titolo riportato dalle fonti, il Lazio ospita il secondo più grande hub di distribuzione in Europa.",
+          "market": "Italia-Europa",
+          "link": ""
+        },
+        {
+          "title": "Previsioni europee: crescita moderata",
+          "text": "Le previsioni economiche europee sono indicate con crescita moderata nonostante inflazione e tensioni internazionali.",
+          "market": "Unione Europea",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Materie prime, energia e logistica",
+      "items": [
+        {
+          "title": "PUN a 218,84 €/MWh",
+          "text": "Il Prezzo Unico Nazionale è stato rilevato il 19 novembre 2026 a 218,84 €/MWh dalla GME.",
+          "market": "Italia",
+          "link": ""
+        },
+        {
+          "title": "Gas TTF a 81,11 €/MWh",
+          "text": "Il Gas TTF è stato rilevato a 81,11 €/MWh il 18 novembre 2026.",
+          "market": "Europa",
+          "link": ""
+        },
+        {
+          "title": "Brent a 92,94 USD/bbl",
+          "text": "Il Brent è stato rilevato a 92,94 dollari al barile il 17 novembre 2026.",
+          "market": "Globale",
+          "link": ""
+        },
+        {
+          "title": "Rame e alluminio",
+          "text": "Il rame vale 5,63 USD/lb e l'alluminio 2810 USD/t alla data del 19 novembre 2026.",
+          "market": "Globale",
+          "link": ""
+        },
+        {
+          "title": "Ex Ilva: piano e problema energetico",
+          "text": "Arvedi ha presentato dettagli del piano per l'ex Ilva alla Camera dei Deputati; il titolo evidenzia il tema del costo dell'energia.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZm1EU1FQMTNQMXRfcll3N2E0ZjhXaFhBVDItZ2FMcjBfNkIxUWhwOHdIOExpWU1EQWFOUW5JR3JLUnphNWVVczF0bzM0Mk1tblJoMEk1M200UHdTd0pwOXVlclJkdHZidXp5clR6M0ZEM3BZWmRWWGdGVzUtVXBuNllsTEUtUUhfbno3a21VdU1WT1lVZDBReGtpcVRSbkVv?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Macro e regolamentazione",
+      "items": [
+        {
+          "title": "Inflazione italiana rivista al rialzo",
+          "text": "Istat ha rivisto al rialzo la stima dell'inflazione italiana di ottobre al 5,5 per cento su base annua.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUUVZcDdDMndWTXo4cWVsZFdJUUN2V1plQkdUbzhNRnBoWnI3Y1lwbW1jR3Q2XzNTUGNoYlRWU1E2dDhNdWxXSmZ4R01WRlU3M3NES3h0YkYtdWNQSWs5VUMzN2VKWTNwaU1sRE5CWlVnbDd5S1gybHM2dGhGa3NSTl83eWRnREVYcjd4SVdnS1A0YUM1TXFJUTZldm9lWnExbzJPYkt5Zm5nRVJ4ZGFNVVcxdThTaEdVb1E?oc=5"
+        },
+        {
+          "title": "Sciopero generale CGIL il 20 novembre",
+          "text": "Il titolo riporta partecipanti, non partecipanti, servizi essenziali e manifestazioni dello sciopero generale previsto.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQlZQelBvaTQ3U1cyUVp0XzZTMGhnX21udDFuTllyT1Zaczd4VlJvOEtjT3h2OS11cEhTekRRcjIyUWdtUGhGWnlGU01pdGI5NjJGUkxlNTJZQzRMOVlVbE40b1hlcVd4elZIMHpKa0NhZnpPTUlNaEczQnRORGlSYXBLMXJ1alBGc1I4c1ZtaFFubFVmSkREU1R4MURNYllyZGplOHFsVHd3WWx0SjZVdVdhODlzWEctR2JfWFUybHpOeVc3ZWg3dVlPUkRnVWctQk1IRHFrcTdCZ3VyT1kxUmxnakk4VmVV?oc=5"
+        },
+        {
+          "title": "Quasi 7.000 emendamenti alla Manovra 2027",
+          "text": "La Manovra 2027 ha quasi 7.000 emendamenti, un dato presentato come record.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZmo4dzZ4MXY4LXZGVGtkRHJoNHlmZ2pGSHFpVldnYUs3blFOa1c5YnEwUkliVTlVM3pTdXJzd0lHZzRTWjU3OGNMWHQtWXNOOV9LV3RPVGhaN1czSEYxYnRpdldraGZ4VTF1N0xwR05tUW9nR3ZPY3dYYWw1OGdmSkRlNElIbl96d0VZSTZJT2FNYmQ3Z1V1NFBwNV9vT1lJN2c?oc=5"
+        },
+        {
+          "title": "COP31: omessa l'indicazione sull'uscita da fossili",
+          "text": "Nel testo della COP31 è stata omessa l'indicazione sull'uscita da petrolio, gas e carbone.",
+          "market": "Globale",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdzJhTWdqY3FfRC03N3A4WW1JNkVoRmpyZUs0X01rWWMzaHJxdHFwOXY1eGxuUHpxZW5PbHFiUU8tZ0FxY3NXSVRfeE1nd0dCUHJwaGt1eFRJWmMtT2l1bW1lX29aNEgzaDgxVDNqYk5mV2lOeXRyUlZHTnRGUWZZcGUtSDZmaUNCbkpjYm92aEk0VWlRNjVxeGo4aGtFdw?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Sport",
+      "items": [
+        {
+          "title": "Armani Olimpia Milano verso la Supercoppa",
+          "text": "Il General Manager Christos Stavropoulos presenta la Supercoppa come un titolo importante per l'Armani Olimpia Milano.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeHQta2llZkFCcmVjbVdaeFlWVl9FRGhNcUlfMUhWVHUwRmhQcVVCX1A1bjBBUmNTNURpd0J3Q1pzWEZQMzYybFA0bnNvSDFkXzM2WF9Hdm0yYTYyTWpBVVNRYmRKanNwdjNYcVliWGQzOGVMeGY3SkNPeXh4X3YycWRJMzZPdjJwRXNVQldrQTNaTnVXRUpHajhDeTJsU01GZGdOTkZocV9pd2tWU0dCdFlqMElMcGR0M0syVk"
+        },
+        {
+          "title": "Samuel Zinicola secondo assoluto nel snowboardcross",
+          "text": "Samuel Zinicola si è classificato secondo assoluto nella Fis Race di snowboardcross a San Pellegrino.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTEdyc204dWlNN1p3RkZyaVJweGdGQnE5UXBHam1XUmVoSl9YaDY5Q0FnRUx2d2RScG5YSTJJY3hYN3lRSTl2SUFFcTNBbFNUU3RVbS1TbnlBdlY0ZGxpOWpYVWN1U2NRc29CQkdQMm1GYThOdDdETjc1aExtenJIV0VWR0s4bTA2NC1vbFVyNjdnd0hzM3F6TGJ5Rjg5TDJ3X3pDSmJpSkhZWmtYR3NUbVUydmpEa0swUzc4VTQwZnAwN0FOdFFV"
+        },
+        {
+          "title": "Europeo di ginnastica artistica femminile",
+          "text": "La Federazione Italiana Ginnastica comunica l'avvio delle gare a Zagabria il 13 agosto e le modalità per seguirle in tv.",
+          "market": "Italia-Croazia",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM1lOVlhnQ3BXY0xwV3g5MEEwUTZFRTdyYTVxaHhyVWF5S2dCX3lrekVxdVlDSEpCUWJGMWVDWTBQdzVZeFdoRmU2SFRSYUZTZlpXSnZBQkY5dnB6QmdMOU1XdXFYRUZEd09xcjFYWU9OTTFQYjg0MHd5UDlQS1BuS1pLN3V6WFZ0UjNTR1NOdzJBTnRndDlfanVVd0JzcFVMNWpvSEEwZXRic2FWMnQtbFlfOUowT0tGRWdTbThVX1RXN3padXU"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    "Sviluppi sulla ricerca del nuovo CEO Nvidia",
+    "Esito della quotazione Anthropic",
+    "Aggiornamenti su MPS e Generali",
+    "Accordo NewPrinces-Mondelez sulle attività francesi",
+    "Andamento di PUN, TTF, Brent e metalli",
+    "Inflazione italiana al 5,5 per cento",
+    "Sciopero generale CGIL del 20 novembre"
+  ]
 }
