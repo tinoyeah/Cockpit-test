@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T19:25:38.432547+00:00",
+  "updated_at": "2026-11-19T20:09:33.702444+00:00",
   "items": [
     {
       "name": "PUN",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Grano",
-      "value": 594.75,
+      "value": 595.25,
       "unit": "USD/bu",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
@@ -73,7 +73,7 @@
     },
     {
       "name": "Alluminio",
-      "value": 2810.0,
+      "value": 2790.0,
       "unit": "USD/t",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
