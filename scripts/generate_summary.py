@@ -5,7 +5,7 @@ import re
 import urllib.parse
 import urllib.request
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 
 
 def clean_json(text):
