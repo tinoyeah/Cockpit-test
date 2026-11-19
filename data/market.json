@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T18:29:55.500425+00:00",
+  "updated_at": "2026-11-19T19:25:38.432547+00:00",
   "items": [
     {
       "name": "PUN",
@@ -45,21 +45,21 @@
     },
     {
       "name": "Caffè",
-      "value": 275.7,
+      "value": 275.5,
       "unit": "USD/lb",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Cacao",
-      "value": 5163.0,
+      "value": 5169.0,
       "unit": "USD/t",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
     },
     {
       "name": "Grano",
-      "value": 593.0,
+      "value": 594.75,
       "unit": "USD/bu",
       "date": "2026-11-19",
       "source": "Yahoo Finance"
