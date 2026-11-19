@@ -28,30 +28,52 @@ def generate():
     with open("data/market.json", encoding="utf-8") as file:
         market = json.load(file)
 
-    prompt = """Sei il responsabile Group Business Controlling di un gruppo FMCG alimentare.
-Prepara un briefing manageriale in italiano usando esclusivamente i dati forniti.
-Non inventare fatti, numeri, collegamenti causali o implicazioni. Ogni elemento deve
-riportare cosa è successo, perché è rilevante e quale mercato/area riguarda. Usa solo
-informazioni contenute nei dati. Se un dato non è disponibile, non colmare il vuoto.
-Il briefing deve anticipare le sezioni News, Filiali, Sport, Prezzi e scenario macro.
-Deve essere concreto, leggibile in circa 4-5 minuti e non deve trasformarsi in un
-elenco di titoli senza spiegazione. Inserisci il link originale quando disponibile.
-Restituisci esclusivamente JSON valido, con questa struttura:
-{"updated_at":"ISO 8601 UTC","headline":"headline generale della giornata","intro":"3-5 frasi introduttive","sections":[{"title":"Aziende, vertici e M&A","items":[{"title":"titolo","text":"cosa è successo e perché è importante","market":"mercato o area","link":"URL oppure stringa vuota"}]}],"watchlist":["elemento da monitorare"]}
+    prompt = """Sei il responsabile Group Business Controlling di un gruppo FMCG internazionale.
 
-Le sezioni devono essere esattamente queste, nello stesso ordine:
-1. Aziende, vertici e M&A
-2. Industria italiana e brand italiani
-3. Food, FMCG e retail
-4. Mercati e filiali internazionali
-5. Materie prime, energia e logistica
-6. Macro e regolamentazione
-7. Sport
-Puoi lasciare vuota una sezione se nei dati non c'è nulla di rilevante. Non scrivere
-frasi generiche per riempirla. Dai priorità agli elementi più importanti e limita
-ogni sezione a 2-5 elementi.
+Leggi e interpreta tutti i dati presenti nei file forniti:
+- news;
+- mercati internazionali e filiali;
+- food, FMCG e retail;
+- industria e brand italiani;
+- aziende, vertici e M&A;
+- materie prime, energia e logistica;
+- scenario macroeconomico e regolamentazione;
+- sport;
+- prezzi e cambi.
 
-DATI DI MERCATO:
+Prepara una sola lettura manageriale complessiva della giornata.
+
+Non creare sezioni, capitoli, elenchi puntati, liste di notizie o blocchi separati. Devi scrivere un unico discorso fluido e continuo, come se stessi facendo un briefing orale a un CFO o a un CEO.
+
+Il testo deve:
+- riassumere tutto ciò che è rilevante nei dati;
+- trovare un filo rosso che colleghi gli eventi;
+- spiegare le dinamiche in corso;
+- mettere in relazione mercati, aziende, consumatori, costi, supply chain e scenario macro;
+- indicare perché ciò che sta accadendo è importante;
+- esprimere un punto di vista manageriale;
+- evidenziare le implicazioni più probabili per aziende e mercati;
+- indicare, all’interno del discorso, ciò che merita maggiore attenzione.
+
+Non limitarti a ripetere le singole notizie che l’utente troverà nelle altre pagine. Devi spiegare che cosa significano nel loro insieme.
+
+Usa esclusivamente le informazioni presenti nei dati. Non inventare fatti, numeri, eventi o relazioni causali. Distingui implicitamente tra fatti e interpretazioni. Quando i dati non consentono una conclusione, usa formule prudenti come “potrebbe indicare”, “sembra emergere” o “sarà importante monitorare”.
+
+Il testo deve essere discorsivo, autorevole, naturale e leggibile in circa 4-5 minuti. Non usare titoletti interni, numerazioni o bullet point.
+
+Restituisci esclusivamente JSON valido con questa struttura:
+
+{
+  "headline": "una frase breve che sintetizza la dinamica centrale della giornata",
+  "intro": "un unico discorso completo e continuo di circa 4-5 minuti",
+  "sections": [],
+  "watchlist": []
+}
+
+Tutto il contenuto del briefing deve stare dentro il campo "intro".
+
+Aggiungi solo in calce il campo "watchlist" con la lista delle cose da monitorare nel prossimo futuro.
+
 """ + json.dumps(market, ensure_ascii=False) + "\n\nNOTIZIE:\n" + json.dumps(news, ensure_ascii=False)
 
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
