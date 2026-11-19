@@ -1,0 +1,27 @@
+name: Test GitHub Copilot
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  copilot-requests: write
+
+jobs:
+  test-copilot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Installa Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Installa Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Test Copilot
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "Rispondi esclusivamente con: TEST COPILOT RIUSCITO" -s --no-ask-user
