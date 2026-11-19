@@ -1,3 +1,4 @@
+
 "use strict";
 let FX=null,FSEL=null,THEME_SEL="all",RUN_ID=0;
 const STORE="cfo-cockpit-v2";
@@ -48,10 +49,10 @@ function loadQuote(){return fetch("quotes.json?v=1").then(r=>{if(!r.ok)throw Err
 function renderSummary(s){
   const box=$("#daily-summary"); if(!box)return;
   box.textContent="";
-  if(!s||!s.headline||!Array.isArray(s.sections)){box.append(el("p","err","Briefing non ancora disponibile."));return}
+  if(!s||!s.headline||!s.intro){box.append(el("p","err","Briefing non ancora disponibile."));return}
   box.append(el("h3","summary-headline",s.headline));
   if(s.intro)box.append(el("p","summary-intro",s.intro));
-  s.sections.forEach(section=>{
+  if(Array.isArray(s.sections))s.sections.forEach(section=>{
     if(!section||!section.title||!Array.isArray(section.items)||!section.items.length)return;
     const sec=el("div","summary-group"),h=el("h3",null,section.title),list=el("div","summary-items");
     section.items.forEach(item=>{
@@ -73,3 +74,4 @@ function loadSummary(force=false){return fetch("data/summary.json?ts="+Date.now(
 function tab(n){["sintesi","prezzi","news","filiali","sport","radar"].forEach(x=>{$("#tab-"+x).hidden=x!==n;$("#b-"+x).setAttribute("aria-selected",String(x===n))});window.scrollTo(0,0);if(n==="filiali"&&FSEL===null)renderBranch(0);if(n==="radar")renderSaved()}
 async function run(force=false){const id=++RUN_ID;const button=$("#refresh");$("#day").textContent=new Date().toLocaleDateString("it-IT",{weekday:"long",day:"numeric",month:"long"});$("#stamp").textContent=force?"Aggiornamento completo in corso…":"Carico i dati…";if(button){button.disabled=true;button.textContent="Aggiornamento…"}try{await Promise.all([loadFx(force),loadMarketPrices(),loadThemes(force),loadSport(force),loadQuote(),loadSummary(force)]);if(id===RUN_ID)$("#stamp").textContent="Aggiornato alle "+new Date().toLocaleTimeString("it-IT",{hour:"2-digit",minute:"2-digit"})}catch(e){$("#stamp").textContent="Aggiornamento parziale: alcuni dati non sono disponibili"}finally{if(button){button.disabled=false;button.textContent="Aggiorna"}}if(FSEL!==null&&!$("#tab-filiali").hidden)renderBranch(FSEL)}
 $("#refresh").onclick=()=>run(true);$("#readall").onclick=()=>{document.querySelectorAll("#themes li.new").forEach(li=>{markSeen(li.dataset.h);li.classList.remove("new")})};["sintesi","prezzi","news","filiali","sport","radar"].forEach(x=>$("#b-"+x).onclick=()=>tab(x));buildChips();buildBranches();renderSaved();run();if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+
