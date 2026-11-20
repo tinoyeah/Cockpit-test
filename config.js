@@ -27,13 +27,13 @@ const CONFIG = {
     { id: "mercati_internazionali", title: "Mercati internazionali", when: "3d", feeds: [] }
   ],
   branches: [
-    { name: "UK", currencies: ["GBP"], query: "UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending economy inflation" },
-    { name: "GER", currencies: [], query: "Germany food FMCG grocery market brands competitors Aldi Lidl Rewe Edeka consumer spending economy inflation" },
-    { name: "FRA&BNL", currencies: [], query: "France Benelux food FMCG grocery market brands competitors Carrefour Leclerc Ahold Delhaize consumer spending economy inflation" },
-    { name: "POL", currencies: ["PLN"], query: "Poland food FMCG grocery market brands competitors Biedronka Lidl retail consumer spending economy inflation zloty" },
-    { name: "SCAND", currencies: ["SEK", "NOK"], query: "Nordics Sweden Norway Denmark Finland food FMCG grocery market brands competitors ICA Coop Salling consumer spending economy inflation" },
-    { name: "USA", currencies: ["USD"], query: "US economy OR Fed OR inflation OR tariffs OR consumer spending grocery" },
-    { name: "ANZ", currencies: ["AUD"], query: "Australia New Zealand food FMCG grocery market brands competitors Woolworths Coles Aldi consumer spending economy inflation" }
+    { name: "UK", currencies: ["GBP"], terms: ["UK", "Britain", "British", "Tesco", "Sainsbury", "Aldi", "Lidl"], query: "UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending economy inflation" },
+    { name: "GER", currencies: [], terms: ["Germany", "German", "Aldi", "Lidl", "Rewe", "Edeka"], query: "Germany food FMCG grocery market brands competitors Aldi Lidl Rewe Edeka consumer spending economy inflation" },
+    { name: "FRA&BNL", currencies: [], terms: ["France", "French", "Belgium", "Belgian", "Netherlands", "Dutch", "Carrefour", "Leclerc", "Delhaize"], query: "France Benelux food FMCG grocery market brands competitors Carrefour Leclerc Ahold Delhaize consumer spending economy inflation" },
+    { name: "POL", currencies: ["PLN"], terms: ["Poland", "Polish", "Biedronka", "Lidl", "zloty"], query: "Poland food FMCG grocery market brands competitors Biedronka Lidl retail consumer spending economy inflation zloty" },
+    { name: "SCAND", currencies: ["SEK", "NOK"], terms: ["Sweden", "Norway", "Denmark", "Finland", "Nordic", "ICA", "Coop", "Salling"], query: "Nordics Sweden Norway Denmark Finland food FMCG grocery market brands competitors ICA Coop Salling consumer spending economy inflation" },
+    { name: "USA", currencies: ["USD"], terms: ["US", "USA", "United States", "American", "Walmart", "Costco", "Kroger"], query: "US food FMCG grocery market brands competitors Walmart Costco Kroger private label consumer spending inflation tariffs" },
+    { name: "ANZ", currencies: ["AUD"], terms: ["Australia", "Australian", "New Zealand", "Woolworths", "Coles", "Aldi"], query: "Australia New Zealand food FMCG grocery market brands competitors Woolworths Coles Aldi consumer spending economy inflation" }
   ],
   sports: [
     { title: "Canoa slalom", query: "canoa slalom" },
