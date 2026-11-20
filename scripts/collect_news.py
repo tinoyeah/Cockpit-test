@@ -33,6 +33,16 @@ COMPANIES = read_json("companies.json")["companies"]
 SOURCES = read_json("sources.json")["sources"]
 SOURCE_BY_DOMAIN = {item["domain"]: item for item in SOURCES}
 
+BRANCH_QUERIES = {
+    "UK": ["UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending prices inflation", "UK food market retailer strategy private label brand growth"],
+    "GER": ["Germany food FMCG grocery market brands competitors Aldi Lidl Rewe Edeka consumer spending prices inflation", "Germany food market retailer strategy private label brand growth"],
+    "FRA&BNL": ["France Benelux food FMCG grocery market brands competitors Carrefour Leclerc Delhaize consumer spending prices inflation", "France Belgium Netherlands food market retailer strategy private label brand growth"],
+    "POL": ["Poland food FMCG grocery market brands competitors Biedronka Lidl consumer spending prices inflation", "Poland food market retailer strategy private label brand growth"],
+    "SCAND": ["Nordic food FMCG grocery market brands competitors ICA Coop Salling consumer spending prices inflation", "Sweden Norway Denmark Finland food market retailer strategy private label brand growth"],
+    "USA": ["US food FMCG grocery market brands competitors Walmart Costco Kroger private label consumer spending prices inflation", "US food market retailer strategy brand growth consumer trends"],
+    "ANZ": ["Australia New Zealand food FMCG grocery market brands competitors Woolworths Coles Aldi consumer spending prices inflation", "Australia New Zealand food market retailer strategy private label brand growth"],
+}
+
 
 CATEGORIES = {
     "vertici_societari": {
@@ -169,6 +179,17 @@ def build_queries():
                 "market": "Italia" if category in {"industria_italiana", "brand_italiani"} else "Globale",
             })
 
+    branch_domains = site_clause(source_domains(["agenzia_stampa", "stampa_economica", "stampa_retail"], limit=6))
+    for branch, branch_queries in BRANCH_QUERIES.items():
+        for base in branch_queries:
+            queries.append({
+                "category": "filiali",
+                "branch": branch,
+                "query": base + branch_domains,
+                "when": "3d",
+                "market": branch,
+            })
+
     # Intercetta nomine, risultati e deal delle società con priorità alta.
     priority_companies = [item["name"] for item in COMPANIES if item.get("priority", 0) >= 4]
     priority_brands = [item["name"] for item in BRANDS if item.get("priority", 0) >= 4]
@@ -236,6 +257,7 @@ def get_feed(query_info):
                 "pubDate": pub_date,
                 "category": query_info["category"],
                 "market": query_info["market"],
+                "branch": query_info.get("branch", ""),
                 **source_info,
             })
     return result
