@@ -4,7 +4,7 @@ const CONFIG = {
   maxArticlesPerTheme: 5,
   newsProxy: "https://api.rss2json.com/v1/api.json?rss_url=",
   currencies: ["GBP", "USD", "AUD", "PLN", "SEK", "NOK"],
-  currencyNames: { GBP: "Regno Unito", USD: "USA", AUD: "Australia", PLN: "Polonia", SEK: "Nordici", NOK: "Nordici" },
+  currencyNames: { GBP: "UK", USD: "USA", AUD: "ANZ", PLN: "POL", SEK: "SCAND", NOK: "SCAND" },
   sources: {
     bce: { name: "BCE", priority: 5, query: "site:ecb.europa.eu" },
     eurostat: { name: "Eurostat", priority: 5, query: "site:ec.europa.eu/eurostat" },
@@ -27,13 +27,13 @@ const CONFIG = {
     { id: "mercati_internazionali", title: "Mercati internazionali", when: "3d", feeds: [] }
   ],
   branches: [
-    { name: "Regno Unito", currencies: ["GBP"], query: "UK economy OR inflation OR Bank of England OR grocery Tesco OR Sainsbury's" },
-    { name: "Germania", currencies: [], query: "Germany economy OR inflation OR Bundesbank OR Ifo OR budget" },
-    { name: "Francia e Benelux", currencies: [], query: "France OR Netherlands OR Belgium economy OR inflation OR budget OR strike" },
-    { name: "Polonia", currencies: ["PLN"], query: "Poland economy OR inflation OR zloty OR NBP" },
-    { name: "Paesi nordici", currencies: ["SEK", "NOK"], query: "Sweden OR Norway OR Denmark OR Finland economy OR Riksbank OR Norges Bank OR inflation" },
+    { name: "UK", currencies: ["GBP"], query: "UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending economy inflation" },
+    { name: "GER", currencies: [], query: "Germany food FMCG grocery market brands competitors Aldi Lidl Rewe Edeka consumer spending economy inflation" },
+    { name: "FRA&BNL", currencies: [], query: "France Benelux food FMCG grocery market brands competitors Carrefour Leclerc Ahold Delhaize consumer spending economy inflation" },
+    { name: "POL", currencies: ["PLN"], query: "Poland food FMCG grocery market brands competitors Biedronka Lidl retail consumer spending economy inflation zloty" },
+    { name: "SCAND", currencies: ["SEK", "NOK"], query: "Nordics Sweden Norway Denmark Finland food FMCG grocery market brands competitors ICA Coop Salling consumer spending economy inflation" },
     { name: "USA", currencies: ["USD"], query: "US economy OR Fed OR inflation OR tariffs OR consumer spending grocery" },
-    { name: "Australia", currencies: ["AUD"], query: "Australia economy OR RBA OR inflation OR Woolworths OR Coles" }
+    { name: "ANZ", currencies: ["AUD"], query: "Australia New Zealand food FMCG grocery market brands competitors Woolworths Coles Aldi consumer spending economy inflation" }
   ],
   sports: [
     { title: "Canoa slalom", query: "canoa slalom" },
