@@ -46,7 +46,7 @@ function loadSport(force){
     return fetchFeed({source:"google",query:s.query},"14d","it",force).then(items=>{ul.textContent="";articleList(ul,items,3)}).catch(()=>ul.replaceChildren(el("li","err","News sportive non disponibili.")));
   })));
 }
-function loadQuote(){return fetch("quotes.json?v=1").then(r=>{if(!r.ok)throw Error("quotes");return r.json()}).then(list=>{if(!list.length)throw Error("empty");const start=new Date(new Date().getFullYear(),0,0),today=new Date(),day=Math.floor((today-start)/86400000),q=list[day%list.length];$("#sumtext").textContent="“"+q.text+"”";$("#quote-meta").textContent=q.author+" · "+q.book+" · "+q.type}).catch(()=>fetch("data/summary.json?v="+Date.now()).then(r=>r.json()).then(s=>{$("#sumtext").textContent=s.summary||"Nessuna frase disponibile."}).catch(()=>{$("#sumtext").textContent="Nessuna frase disponibile."}))}
+function loadQuote(){return fetch("quotes.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("quotes");return r.json()}).then(list=>{if(!list.length)throw Error("empty");const now=new Date(),start=new Date(now.getFullYear(),0,1),today=new Date(now.getFullYear(),now.getMonth(),now.getDate()),day=Math.floor((today-start)/86400000),q=list[day%list.length];$("#sumtext").textContent="“"+q.text+"”";$("#quote-meta").textContent=q.author+" · "+q.book+" · "+q.type}).catch(()=>fetch("data/summary.json?ts="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(s=>{$("#sumtext").textContent=s.summary||"Nessuna frase disponibile."}).catch(()=>{$("#sumtext").textContent="Nessuna frase disponibile."}))}
 function renderSummary(s){
   const box=$("#daily-summary"); if(!box)return;
   box.textContent="";
