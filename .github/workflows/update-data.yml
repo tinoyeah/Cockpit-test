@@ -60,6 +60,7 @@ jobs:
           Prepara una sola lettura manageriale complessiva della giornata.
 
           Non creare elenchi di titoli. Se serve dividi pure il testo in capitoletti. Devi scrivere un unico discorso fluido e continuo, come se stessi scrivendo un one-pager a un CFO o a un CEO.
+          Usa uno stile asciutto e giornalistico, che riesca a mettere in connessione i vari punti. Se serve usa qualche capitoletto ma non voglio una lista standard di titoli.
 
           Il discorso deve:
           - riassumere tutto ciò che è rilevante nei dati;
@@ -88,7 +89,7 @@ jobs:
           - leggibile in circa 3-4 minuti;
           - adatto a un manager o a un responsabile finanziario.
 
-          Cerca di non usare titoletti, numerazioni o bullet point all’interno del discorso.
+          
           Non trasformare il briefing in una lista di notizie.
           Non ripetere inutilmente lo stesso concetto.
           Dai priorità alle dinamiche più rilevanti e alle loro implicazioni manageriali.
@@ -105,7 +106,7 @@ jobs:
           }
 
           Tutto il contenuto del briefing deve essere inserito nel campo "intro".
-          Il campo "watchlist" deve contenere solo gli elementi realmente rilevanti da monitorare nel prossimo futuro.
+          Il campo "watchlist" deve essere una bullet list e contenere solo gli elementi realmente rilevanti da monitorare nel prossimo futuro.
           Se non ci sono elementi sufficientemente rilevanti, restituisci una lista vuota.
 
           Dopo aver generato il contenuto, scrivi obbligatoriamente il JSON nel file:
