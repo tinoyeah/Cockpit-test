@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T10:38:53.740894+00:00",
+  "updated_at": "2026-11-20T10:44:25.935889+00:00",
   "items": [
     {
       "name": "PUN Index GME",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Zucchero",
-      "value": 17.15,
+      "value": 17.14,
       "unit": "USD/lb",
       "date": "2026-11-20",
       "source": "Yahoo Finance",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Caffè",
-      "value": 277.1,
+      "value": 269.35,
       "unit": "USD/lb",
       "date": "2026-11-20",
       "source": "Yahoo Finance",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Cacao",
-      "value": 5021.0,
+      "value": 5162.0,
       "unit": "USD/t",
       "date": "2026-11-20",
       "source": "Yahoo Finance",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Grano",
-      "value": 594.75,
+      "value": 594.25,
       "unit": "USD/bu",
       "date": "2026-11-20",
       "source": "Yahoo Finance",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Rame",
-      "value": 5.57,
+      "value": 5.56,
       "unit": "USD/lb",
       "date": "2026-11-20",
       "source": "Yahoo Finance",
