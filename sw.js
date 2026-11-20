@@ -1,4 +1,4 @@
-const CACHE="cfo-cockpit-shell-v6";
+const CACHE="cfo-cockpit-shell-v7";
 
 const ASSETS=[
   "./",
