@@ -41,7 +41,7 @@ Leggi e interpreta tutti i dati presenti nei file forniti:
 - sport;
 - prezzi e cambi.
 
-Prepara una sola lettura manageriale complessiva della giornata.
+Prepara una lettura manageriale complessiva della giornata, con particolare attenzione ai mercati internazionali rilevanti per un gruppo FMCG.
 
 Non creare sezioni, capitoli, elenchi puntati, liste di notizie o blocchi separati. Devi scrivere un unico discorso fluido e continuo, come se stessi facendo un briefing orale a un CFO o a un CEO.
 
@@ -53,9 +53,14 @@ Il testo deve:
 - indicare perché ciò che sta accadendo è importante;
 - esprimere un punto di vista manageriale;
 - evidenziare le implicazioni più probabili per aziende e mercati;
+- dedicare spazio concreto ai mercati e alle filiali: domanda, crescita, inflazione, prezzi, promozioni, canali, retailer, private label, trade-down/trade-up e rischi locali, solo quando supportati dai dati;
+- identificare brand, aziende e concorrenti citati nelle notizie e spiegare cosa stanno facendo, quali posizionamenti stanno difendendo e perché questo può essere rilevante competitivamente;
+- distinguere tra segnali di mercato strutturali e semplici notizie episodiche;
 - indicare, all’interno del discorso, ciò che merita maggiore attenzione.
 
-Non limitarti a ripetere le singole notizie che l’utente troverà nelle altre pagine. Devi spiegare che cosa significano nel loro insieme.
+Non limitarti a ripetere le singole notizie che l’utente troverà nelle altre pagine. Devi spiegare che cosa significano nel loro insieme e quali conseguenze possono avere su vendite, margini, quota, mix, investimenti e rischio competitivo.
+
+Quando i dati lo consentono, collega esplicitamente: mercato -> comportamento del consumatore -> brand/competitor -> implicazione per un gruppo FMCG. Non inventare quote, dimensioni o causalità non presenti nei dati.
 
 Usa esclusivamente le informazioni presenti nei dati. Non inventare fatti, numeri, eventi o relazioni causali. Distingui implicitamente tra fatti e interpretazioni. Quando i dati non consentono una conclusione, usa formule prudenti come “potrebbe indicare”, “sembra emergere” o “sarà importante monitorare”.
 
