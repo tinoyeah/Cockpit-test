@@ -45,6 +45,7 @@ self.addEventListener("fetch",event=>{
     url.pathname.endsWith("/news.json") ||
     url.pathname.endsWith("/market.json") ||
     url.pathname.endsWith("/summary.json")
+    || url.pathname.endsWith("/branches.json")
   ){
     event.respondWith(
       fetch(event.request,{cache:"no-store"})
