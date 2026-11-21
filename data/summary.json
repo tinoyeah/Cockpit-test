@@ -1,9 +1,187 @@
 {
-  "updated_at": "2026-11-21T15:31:03Z",
-  "headline": "Il sell-off dell’AI incontra l’inflazione dei costi: imprese strette fra attese e margini",
-  "intro": "La giornata mette in evidenza due pressioni che si sommano, pur arrivando da fronti diversi: i mercati stanno ridimensionando le aspettative legate all’intelligenza artificiale, mentre per le imprese resta aperto il problema dei costi energetici e del credito. Il tonfo del Nasdaq, in calo del 5,37% venerdì, e la perdita dell’8,5% di Anthropic dopo un debutto in Borsa da record mostrano che la domanda degli investitori non è più soltanto quanto possa crescere l’AI, ma quanto di quella crescita sia già incorporato nelle valutazioni. Anche a Milano i titoli tecnologici hanno pesato, contribuendo alla flessione dell’indice dell’1,2%. È una correzione che segnala cautela, non una prova che gli investimenti nell’AI si stiano fermando.\n\nLa distinzione conta per le aziende: l’entusiasmo per una tecnologia può restare forte mentre si fanno più selettive le valutazioni finanziarie. Nei dati, l’AI compare anche dal lato dei consumi: un titolo riferisce che influenza le scelte d’acquisto di un italiano su quattro. Il quadro suggerisce quindi un’adozione che si estende alla relazione con il cliente, ma non basta a stabilire quali operatori ne ricaveranno ricavi o margini. Per i mercati, la prova sarà trasformare le promesse in risultati; per le imprese, capire dove l’uso della tecnologia incide davvero sulle decisioni d’acquisto e sui costi.\n\nSul fronte operativo, lo scenario è meno favorevole. Le notizie riportano una crescita italiana che ristagna, con prezzi energetici elevati che alimentano l’inflazione; la Banca d’Italia richiama inoltre il ritorno delle pressioni sui prezzi. A ottobre sono aumentati i tassi sui prestiti alle imprese, secondo il rapporto ABI. Il PUN elettrico è indicato a 196,26 euro per MWh il 21 novembre; il dato, senza una serie di confronto, fotografa il livello ma non permette di misurarne la direzione. Anche i pellet risultano rincarati di oltre il 30%, pur restando meno costosi del gas naturale. Per le aziende energivore e per i settori con fabbisogni termici, costo dell’energia e costo del capitale possono così comprimere insieme la capacità di assorbire investimenti e proteggere i margini. Il piano di rilancio dell’ex Ilva presentato da Arvedi, con il problema energetico ancora aperto, rende concreta la posta in gioco per la manifattura pesante.\n\nLe materie prime alimentari mostrano invece un quadro disomogeneo, non una pressione uniforme: il grano quota 592 dollari per bushel, circa il 17% sopra il valore di inizio anno, mentre caffè e cacao sono sotto i rispettivi livelli di gennaio. Le notizie segnalano sia difficoltà nelle esportazioni di Russia e Ucraina, che limitano l’offerta globale di cereali, sia esportazioni statunitensi di mais in aumento del 15% nel 2026, a un nuovo record. I due elementi non si annullano automaticamente: la disponibilità può migliorare su alcune rotte e restare vulnerabile su altre. Per produttori alimentari e distribuzione, conta quindi l’evoluzione delle singole filiere più di un generico andamento delle commodity.\n\nLa questione da seguire nei prossimi giorni è se le tensioni restino circoscritte — correzione dei titoli legati all’AI da una parte, costi e credito dall’altra — o se finiscano per rafforzarsi a vicenda. La tenuta dei titoli tecnologici dirà quanto il mercato rivede le aspettative; nuovi dati su elettricità e finanziamenti chiariranno quanto spazio resta alle imprese per investire senza trasferire ulteriori rincari a valle.",
+  "updated_at": "2026-11-21T15:58:36Z",
+  "headline": "Vertici aziendali, IPO tecnologiche e mercati sotto pressione",
+  "intro": "La giornata è segnata da rinnovamenti ai vertici e da operazioni industriali sia in Italia sia sui mercati internazionali. Il confronto sulla leadership di Nvidia e il debutto di Anthropic restano al centro del settore tecnologico. Tra le notizie economiche emergono le quotazioni delle materie prime, l'andamento del PUN e i movimenti delle borse europee e americane. Sul fronte italiano, acquisizioni, investimenti, esportazioni e iniziative di brand e retail completano il quadro.",
+  "sections": [
+    {
+      "title": "Aziende, vertici e M&A",
+      "items": [
+        {
+          "title": "Illva Saronno acquisisce Averna e Zedda Piras",
+          "text": "Illva Saronno ha acquisito Amaro Averna e Zedda Piras da Campari per 100 milioni di euro; l'operazione amplia il portafoglio italiano di marchi della società.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZHhrRmU5cWRsallENElMUXlRbHBlYzBmTExSMUw1UjhuNkpya1l0OTNfSjc0STkwclZtVGltSEVTdEJ0LW1kWUhHMThQVS1MSXo0Sl9EYnk3U3Q0ZXFFSm1TUFd1NmFXb2h4bVE5dHQxNWZ2Tk9MbjhMQ0RHR3kyYUZjR3JvaXBKT3o2SXdhZnktT1hWdmZJSHhpSVR3LWYydThrMjh0T0cxSWxaQlpTNmJYMk94bTZU?oc=5"
+        },
+        {
+          "title": "Nuovi vertici per Esselunga",
+          "text": "Claude Sarrailh assume il ruolo di CEO e direttore generale di Esselunga, mentre Alessandra Cozzani entra nel consiglio di amministrazione.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUTNNMkQwMV9tOGRub0FvRHNxQnVjQWdfQ2gxZmN4MnhoY2U3M2JsTk1kZ2c5V1JkNjRYdUZmaHg2UW5Ja3pKV01tUEluNHBUNTc5Z0F0QW5EeEpRT3d5UTg1ZmpsNFZLRDZsaFRBREFsdGV4eHE3X0dIYk90X2FxWmNwM1JKSWpxc1lPM1planM5VXNYYjVTSm80N3J4dVdoVWkwTmU0NXdwZDRRQ25YUGhzLTNQbGM?oc=5"
+        },
+        {
+          "title": "Paolo Rizzo guida PepsiCo Beverages Italia",
+          "text": "PepsiCo Beverages Italia ha nominato Paolo Rizzo country manager e amministratore delegato.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNV9pVjhxQnhJeC1rSmxiQ0dQNEtFZ3BHbTMyMG9CVjFTeFBmV1QtNzFwZDgxMzBXS0tQSnZVY0VITXJKUU1ETERBdFNCWVZ2Zkx5MkFaLWVVVUxKRGhNN2VCUzNyUTFYWXRzd0JQU0dLYWFvLV9GZVlBdnA2N21LY2pwa3lLdDUtVTliNHpIZDVJeWhsME5ObTdCY2RMVnp1aFVjNmhmelFLRkxRSEJDMWpDUQ?oc=5"
+        },
+        {
+          "title": "Nvidia tra aspettative sui conti e cambi al vertice",
+          "text": "Nvidia ha superato le attese sui conti del terzo trimestre, con vendite raddoppiate, mentre emergono discussioni sulla successione alla guida.",
+          "market": "Globale",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOEd2UjBRSDdIY0xGSW5yS1Q1bG9Cd1hwckhvemhnV2d5a0RTSjFELVVxOGdmQzZyckJlZm55YWpIdWVWT0hXMnZuVzhuRmQtX2NrTzA2X2wtaUZWTHNYbnRFT1JZQmM3bGNvUE9zRHFpSkJNbnk0dTR3bGVWT1ZSQXdJN0IySnhDVFJhSXlvQWV6aW8yTTA1YjhuSTYwUUlJWDJHekREUEVVd1VKd2hvRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Industria italiana e brand italiani",
+      "items": [
+        {
+          "title": "Subacquea e accordo Confindustria-Fondazione PNS",
+          "text": "Confindustria e Fondazione PNS hanno siglato un'intesa a sostegno del settore subacqueo, indicato con 3,5 miliardi di ricavi.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTYzQWpkTWY1ZmxwZ1lwcVEwLVdtc280dUNaUWx0eVQ2OGNwbmIzbHBGbU9relYwTGRaTVJpcGc2QjMzcURObVotVEpoZV9nNVdrSXZTbENZb3hELUsxZjRVaDdFY1hxY3hramk1NEY0clI2N1J1Sl8zbGlzR2Ixb1dFVHc1U05Kd3BDeEtaVkVaM1pUYi1vdDQwZ184UWNDbHNrVThlTkx5bnBxWi1LdjVXWXZmZWFt?oc=5"
+        },
+        {
+          "title": "I porti italiani nel corridoio Europa-India",
+          "text": "Il ministro indiano Goyal ha indicato i porti italiani come canale d'accesso dell'India alla rete europea.",
+          "market": "Italia-Europa-India",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWXBpWUZZaDBMU25jSWV5UVJIWHVmNFRFNG1RM2pPSmNlLUI2UklFNWhjSW94MUNVYjItMmYyam85Tm9qa21FUk9YZHpjcngxRm1tclRYdDZ3MW55MEdzekVLeUNrZlo0SXhxRWZlYXBodE4zaG45eldVMUJGdUo5TncxbHhRY1piZFBVNWQ4bmtGX2txNXFmckdVa3JlMnJmR0FiV0d1eVhaNmNvYjFuYmY4dlFrRHQ3ZzFmdGxWQlVwUy1LekNBRA?oc=5"
+        },
+        {
+          "title": "Il supporto italiano alla fusione nucleare",
+          "text": "Nel Veneziano è stato costruito un supporto a un tokamak destinato agli studi sulla fusione nucleare.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR2FpelJ3N0lBOTRKVF9rd1J4R2pwbU55SlJrMFB4akV3VWZDWGNRcExBS3U0RG1hTTQxQWpMZG80b05wS0Z0bE9PRTFfVXprWDFMQlY3QjllZDN1dkxfQ3U0Y2lrdmxBU1BuR1hIOVRVTUxUYjltYXZkNFJHajduYjBDUll2MnhvVHpzVXk5ZDFyUlZ0TEhfaVRNSEVNZk0xOFBtTFFwcFM1Wk1ZYmNPTlJJNTkwSlhRQURuTkZBTkFFd2NkX0NNRWtROEZOaFdsSzBUNjQ5eE5FdVJJR3NmaEVjYVpCVURveHRiV2JENHZkUC0tbmfSAfsBQVVfeXFMTkZPdlBFUE9qcVVNWTdQT2dIeUZsSDg0RzhubFZNWjE4WVQ2X3FVR1V1X0ozcHV1WHRLems2STdIMTdmaDhuWnBMeDJaQzBKekxEUUlUeFJXVUtyNUhRTmxEOWpzQmgybU8xa3VXMWNfZ1JtdDVFX3pFWW9qeThrOXViUTR5UXNud25DcmxrbDJlMGRkUkZNWnhIRVY4UVQ1MTFtQkw5RkJoLS1taUxXZ19DaTRHVUI1Wnlud213RHVGbDNsd2ZhUHlTQWNQRDdSdTFWNFBFUlFQOGJvblVBaldxZk9MdDQ1VEFlenlqaVpnejEzcWQxM3dtOVE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Food, FMCG e retail",
+      "items": [
+        {
+          "title": "Prezzemolo & Vitale punta a 70 milioni",
+          "text": "Il retailer palermitano Prezzemolo & Vitale ha indicato una previsione di fatturato da 70 milioni di euro nel 2026.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbzltdFgyZUtNcGlvRWVIWHNTckxnN3V0UW5RNEFEdlYxejVOTU1WQUU4X201TVpaM2VoTGpZZVlkS2ZUcHdtanBLN2dhTU5LdllVMnBFb19xQnhndTRfeHN4ZFRFY05zcGNCdWZ6eWZERk9RU285WUxDbXJsRU5QXzh5d3M2NGFkMGQ1dWJqbkxydlVBRjZudXRlSUg5dzQ?oc=5"
+        },
+        {
+          "title": "Nutella Cookies arrivano nei supermercati",
+          "text": "Il lancio dei Nutella Cookies nei punti vendita è accompagnato da una strategia di shopper marketing firmata ARC'S.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX042QXNCUUVmeVpkZ1RHdjQzcHcwNWdfeU5rYklray1VMVVWSWtESkhnOHlDNm5WVjZTdDFubWYxLXBjYlY5THVuV0pxU2hzbHBQYW1kbWUyWFRpUnN4VFI1MHd5amZTZjk1U0lDUU53VVJBcE1SQ3FsR0YyTk5aT0VqVTVxbEpsWGRSVEE5MzVCQVhfSmxrMGlGRWFNZXk0Z3BDakVDRy1YOWJRM1hXLWtMcw?oc=5"
+        },
+        {
+          "title": "Campari punta ad ampliare Aperol",
+          "text": "Campari ha presentato una strategia 2025-2027 con l'obiettivo dichiarato di raddoppiare Aperol.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HZXIxS0dyUjlUUnJ2QlVNbE9HVnF5TmdhRjA0UklVWUl0bXNYUE5OZ3VKS0dOaExvVUxFNmRuNC1sWGJLYTJPLWx4Nm8wSnBlVGQzZ196Ml9INzZ5NVByTGJRQXJuT1kwTmVnbi1qc01mVmNqRnFpRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Mercati e filiali internazionali",
+      "items": [
+        {
+          "title": "Borse europee negative sul comparto tecnologico",
+          "text": "I mercati europei hanno risentito dei timori sull'intelligenza artificiale; a Milano il FTSE MIB è sceso dell'1,2% e i titoli tecnologici sono stati sotto pressione.",
+          "market": "Europa",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTGlXSF9LODJ2b083UXQtdk04Q2NFRXhHV1lJamUzcjFkSnMzcjFkSnN6VXNYRUJoZVNxczMtMFhaZTU2Z21rQm5Fa0c4MENZVVZKSHNjRmE0MU9DNDBNTUxyTGJ6dVoxdUpaLVZKaDBZR1RKSjJLOU1NV0t6b3drcFZ0MW9wYmEwZ3pOZl9NbWItdTM3TkY1d09uVjBGZ2VER016M3NySEZXUnRTS1RIZzc5ZHBR?oc=5"
+        },
+        {
+          "title": "Spread BTp-Bund e rendimento",
+          "text": "Lo spread dei BTp è aumentato a 109 punti nel finale, con un rendimento indicato al 4,39%.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT1BYQWFDOGg4WER3UmRYZm9OUFNfTTRTNkVYYW1UT2FuczdlTzl4bTY4a2t5WXRQZjV5a09sdFh6SDZYZ0pYZ3BQOUItdUMybnh3X3B3MXFwX2p6UXFyX2VlRVJmRFNTSlRFUlpmcHgzRC11VlJEX1l2S0FNWjIwN1o3VFBvWVFLYXNiOFU4eEVMSkhIc0pBaUVnOWJXTk1DNWhhYw?oc=5"
+        },
+        {
+          "title": "Anthropic prepara il debutto a Wall Street",
+          "text": "Anthropic ha fissato il prezzo dell'IPO a 83 dollari e il giornale ANSA lo presenta come un possibile record.",
+          "market": "Stati Uniti",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMWpzZzEtU0Zta2ZtOVNOVmpRU1p1eWRSZDJPRGlKOXVVRGNUNm45bzN6a1RQU1MwMzQ5bmxyTVBHWF8zTjNiWGNCMHd4VEo4U1MyVVQ5NHZtRG1wdE9uR1lmVkxrUW80WHA4QWc5dG9ON2trc0NGVWgyOWU4RGN6SThqTEY1TTdvY1haOUxidExob1ctY2sxM1NjOXVrZFlHbnhGbV9VOGtneXVxX0FCbW9WMDNWdUlIU2JGU1ktdWk0VWVicWJUb1dQNldLaERVdjJuSnE3TkJweHp4T215RV9oRDBEZm9OT1p3Wi1n0gHzAUFVX3lxTE93ZWpIZGtjNDVYdGNLbzFRM2huZVpRQmNpUFZaNjJoTjlwU1JCV3RaSTh2TnlIQXFFQkZGREFEeUtZUEhEU0lyT01BN19PV1ZRUU1zbFRSSXFZZ0RmMzVYWFF2cExOWFRKUldfU0IzSWhoYUllYVE1SVFTaUZySzZ0cWZ6Yi1oY2pVQXpaOGtKRWEtV2lldzFzSTRoU3F4VUl4VllPdUhaYjkwc3BaZHVwSGFtMDVBOXJkQ3NvTktTMXNIVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Materie prime, energia e logistica",
+      "items": [
+        {
+          "title": "PUN GME a 196,26 €/MWh",
+          "text": "Il PUN Index GME rileva 196,26 €/MWh alla data del 21 novembre 2026.",
+          "market": "Italia",
+          "link": ""
+        },
+        {
+          "title": "Zucchero, caffè, cacao e grano",
+          "text": "Le quotazioni del 20 novembre sono 17,07 USD/lb per lo zucchero, 273,35 USD/lb per il caffè, 5.150 USD/t per il cacao e 592 USD/bu per il grano.",
+          "market": "Mercati globali",
+          "link": ""
+        },
+        {
+          "title": "Rame e alluminio",
+          "text": "Il rame vale 5,49 USD/lb e l'alluminio 2.789,5 USD/t alla quotazione del 20 novembre 2026.",
+          "market": "Mercati globali",
+          "link": ""
+        },
+        {
+          "title": "Pellet: prezzi in aumento",
+          "text": "I pellet registrano un aumento superiore al 30%, secondo la notizia riportata; restano indicati come più economici del gas naturale.",
+          "market": "Globale",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaTd4cENOLWJEVkU4NC1FREdWOUZzVFdHTWtWcmFjTUdlcTRyd0xSYkNzOXFWM0M5LXE4dmctNVhFbE56NlhKR2pSczA3Y3Q2cTNNZFg4QWVydXpwTndVOE9HTmF4bmxSbXVmSDhkUDdvWmVlVWxoeUxNQldOZWhkbU1jaHlJRHFwdnhROGk4dkRyeHd5bzJBR2RDeW9DNVlpSTE5X0FBRmtTalg3bjAwNHZnSTJXaG8?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Macro e regolamentazione",
+      "items": [
+        {
+          "title": "Panetta sulle pressioni inflazionistiche",
+          "text": "Panetta indica che l'inflazione è di nuovo in crescita e invita a evitare una risposta basata sui tagli fiscali.",
+          "market": "Europa",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbFA3NnI5S2pyNzduWWpLS2VOb2pfQ0F0YzJaUGpXOTdBLThQS3JCQVlRV0NhSGxiay1zVDZVMWxCTm5VLVJlOG1SeC00SU5PTjllZlhiZDNadXNhT0pwX242eDlXUnQ2cjhETll5VW1RVFJzRmdxSXdWZ3Z0aEZ2SnNvbWczQmQ0bGtiRGFqdGRaWHBWVWprczhYVlVaQm5lX0c4QkFoR1E3Qms?oc=5"
+        },
+        {
+          "title": "Accordo UE-Regno Unito su dogane ed emissioni",
+          "text": "UE e Regno Unito hanno raggiunto intese su norme doganali e quote sulle emissioni; restano aperte le discussioni sulle quote universitarie.",
+          "market": "UE-Regno Unito",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbU5TUUhKTHlDYklNUEdfQWFfX2NfS2dIUHBmMkliNU1YbVA0aVZHUnNTQUVIazl5Ukx4UXBCQ29Kdy1mR0lGeFFpczlqZmtfSS13OUlPV1JKWWRvRHloMVg3NzVsWEpKZVhiLUhSVG83YnBjWnEydkIxVG1Ra01lbjBZRG53aEgtZ2laelpadEU2NXY1cmR1XzE0YVVqRi11S0Jnbkg1dGVzUktjbGx2SzFtNndKSmh1cWc?oc=5"
+        },
+        {
+          "title": "Presidenza BCE tra Spagna, Parigi e Berlino",
+          "text": "La presidenza della BCE viene descritta come destinata alla Spagna, con Parigi e Berlino indicate tra i principali centri decisionali.",
+          "market": "Europa",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQzNxSWRReTFFTUk2bUVPcF9tUk5kMUhLaUo3VEN2ZTRSNTdFZ0hjVXNsby16WTRvbVpnY1pRdFlsaFJyZFpQVHR3bkJac3dRc1FmcnVzWVo5WVdCWUp0OXl6SV81WFRBUXpDdWtlVW1jQWZyMVJCNmhNRkM4bVdXVW1JV0pIaWwx?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Sport",
+      "items": [
+        {
+          "title": "Sinner e Maldini al Nike Store di Torino",
+          "text": "Jannik Sinner e Paolo Maldini sono stati presenti al Nike Store di Torino.",
+          "market": "Italia",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHpod3BzV3VKamZrNVpkXy1VWHhWRjBhN2lUcFBqRUdlV2p5RUJsTVZyM3FWdkxRdkkxTjY4dzhIc2lzSllnLXl1NlNPSko0UHRSanJuRTNzR2pDemttblI2blpFekVNWGttbFdQcEtrREhDSkZFcjJiMjIzcTFOUTRUV1BNajBGVEstelhWQmFhNUEzaUtZbWRrdWlRVmlkZW5KLWFR?oc=5"
+        },
+        {
+          "title": "Rosolino testimonial per l'America's Cup di Napoli",
+          "text": "Massimiliano Rosolino è indicato come testimonial a Sydney dell'America's Cup prevista a Napoli.",
+          "market": "Italia-Australia",
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPNUdqa0lXMXRGUUQySG9QU0RobkJPSWRMeGlwdU5DX2VwOTB0STBTbXpCc0Z1UEM0NTFvekI5dC14NjVNMmFodmU1cncyTms1c0pOajA5Q1E2VUdrVDBJaHNIbXRJc2wzUm9RMHU3SjZpWVhfb1BoWGtpVlIxV3ptcV96UDJnS3ZBX0hBSUxCSERkZlVTZDVPUmdZRlpSdFA4aV9kYUNGYUZ0clRKSnA5RUJnV0oyaU5tMTVLWXFFUlBxVXJNRzNhOVlFOWw5RnhZY2RzY3RsdS0yc2xOREwxdkFSM1ZTdXJ5UWRtWmFjeEFRQTFkVnoxWFltWS1Wb01JMXVHLTU1S3FfMEZVZ2pDbmNHS2MtYXF5S3l4d0NFRdIBpAJBVV95cUxQcFRvejJKN3NiTkU5TnhwZkxicjVhRDhwZVVSbkNmQUswcXhncmo4QTJMZGxlOFlBMHh1WDl3YzBNN0ZJako0ekd2SV9wWHpiSEhpM040ekdTazdJVFJSVks5TTNfX3hTV0J2X0t6WDY3THhqVUNmWFliTzdwYVRUOXBGeE55MXNlUlY3N2xNYnU3WWZnRmN0czlJRTI3Z3QtYjNYUHF6WTJuUzhIQUNldHFTQ21NUlAyNnRPRGJmcUFkdUY3bFhzSGpfMm1PUE45SUU4cDNXNmtxeVh5MTlWNUtBNzRnQVlMNjRWRzRtZGxKVU1sVUxORFNrTmlhZ2xZZHl2cHFRaVhOSlZpb054Ty1TRy16UUt0QldKVXlDZWRoY2x3?oc=5"
+        },
+        {
+          "title": "Sports memorabilia per 20 milioni",
+          "text": "MatchWornShirt ha annunciato una campagna globale da 20 milioni per memorabilia sportive.",
+          "market": "Globale",
+          "link": ""
+        }
+      ]
+    }
+  ],
   "watchlist": [
-    "La tenuta dei titoli tecnologici dopo il calo del Nasdaq e di Anthropic, per capire se la revisione delle valutazioni legate all’AI prosegue.",
-    "I prossimi aggiornamenti su PUN e tassi dei prestiti alle imprese: sono i segnali più diretti, nei dati disponibili, della pressione su energia e finanziamento."
+    "Andamento del PUN e disponibilità dei dati IG e TTF",
+    "Esito dei conti Nvidia e evoluzione delle discussioni sulla successione",
+    "Debutto e prima seduta di Anthropic a Wall Street",
+    "Quotazioni di zucchero, caffè, cacao, grano, rame e alluminio",
+    "Sviluppi dei vertici in Esselunga e PepsiCo Beverages Italia"
   ]
 }
