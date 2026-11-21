@@ -3,7 +3,7 @@ name: Aggiorna dati cockpit
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 3 * * *"
 
 permissions:
   contents: write
@@ -25,6 +25,9 @@ jobs:
       - name: Raccoglie le news
         run: python scripts/collect_news.py
 
+      - name: Raccoglie le news delle filiali
+        run: python scripts/collect_branches.py
+
       - name: Raccoglie cambi e prezzi
         run: python scripts/collect_market.py
 
@@ -41,51 +44,79 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           copilot -p "$(cat <<'PROMPT'
-          Leggi esclusivamente questi file del repository:
+          Sei il responsabile Group Business Controlling di un gruppo FMCG internazionale.
+
+          Leggi direttamente e interpreta esclusivamente questi file del repository:
           - data/news.json
           - data/market.json
 
-          Genera o sostituisci il file data/summary.json.
+          I dati comprendono, quando disponibili:
+          - aziende, vertici e operazioni M&A;
+          - industria italiana e brand italiani;
+          - food, FMCG e retail;
+          - mercati internazionali e filiali;
+          - materie prime, energia e logistica;
+          - scenario macroeconomico e regolamentazione;
+          - sport;
+          - prezzi e cambi.
 
-          Il file deve essere JSON valido e avere esattamente questa struttura:
+          Prepara una sola lettura manageriale complessiva della giornata.
+
+          Non creare elenchi di titoli. Se serve dividi pure il testo in capitoletti. Devi scrivere un unico discorso fluido e continuo, come se stessi scrivendo un one-pager a un CFO o a un CEO.
+          Usa uno stile asciutto e giornalistico, che riesca a mettere in connessione i vari punti. Se serve usa qualche capitoletto ma non voglio una lista standard di titoli.
+
+          Il discorso deve:
+          - riassumere tutto ciò che è rilevante nei dati;
+          - individuare un filo rosso che colleghi gli eventi;
+          - spiegare le dinamiche in corso;
+          - mettere in relazione aziende, mercati, consumatori, costi, supply chain, energia e scenario macroeconomico;
+          - spiegare perché ciò che sta accadendo è importante;
+          - esprimere un punto di vista manageriale;
+          - evidenziare le implicazioni più probabili per aziende e mercati;
+          - indicare, all’interno del discorso, ciò che merita maggiore attenzione;
+          - integrare anche le informazioni sportive solo se risultano presenti e rilevanti nei dati.
+
+          Non limitarti a ripetere le singole notizie che l’utente troverà nelle altre pagine. Devi spiegare che cosa significano nel loro insieme e quale dinamica complessiva sembra emergere.
+
+          Usa esclusivamente le informazioni presenti nei file.
+          Non inventare fatti, numeri, eventi, fonti o relazioni causali.
+          Non attribuire ai dati significati che non possono sostenere.
+          Quando i dati non consentono una conclusione certa, utilizza formule prudenti come:
+          "potrebbe indicare", "sembra emergere", "il quadro suggerisce" oppure "sarà importante monitorare".
+
+          Il testo deve essere:
+          - discorsivo;
+          - autorevole;
+          - naturale;
+          - concreto;
+          - leggibile in circa 3-4 minuti;
+          - adatto a un manager o a un responsabile finanziario.
+
+          
+          Non trasformare il briefing in una lista di notizie.
+          Non ripetere inutilmente lo stesso concetto.
+          Dai priorità alle dinamiche più rilevanti e alle loro implicazioni manageriali.
+
+          Restituisci esclusivamente JSON valido, senza markdown e senza blocchi di codice, con questa struttura:
+
           {
-            "updated_at": "ISO 8601 UTC",
-            "headline": "headline generale della giornata",
-            "intro": "introduzione di 3-5 frasi",
-            "sections": [
-              {
-                "title": "Aziende, vertici e M&A",
-                "items": [
-                  {
-                    "title": "titolo",
-                    "text": "cosa è successo e perché è importante",
-                    "market": "mercato o area",
-                    "link": "URL oppure stringa vuota"
-                  }
-                ]
-              }
-            ],
-            "watchlist": ["elemento da monitorare"]
+            "updated_at": "data e ora attuali in formato ISO 8601 UTC",
+            "headline": "una frase breve che sintetizza la dinamica centrale della giornata",
+            "intro": "un unico discorso completo e continuo di circa 4-5 minuti",
+            "watchlist": [
+              "eventuale elemento da monitorare"
+            ]
           }
 
-          Le sezioni devono essere esattamente:
-          1. Aziende, vertici e M&A
-          2. Industria italiana e brand italiani
-          3. Food, FMCG e retail
-          4. Mercati e filiali internazionali
-          5. Materie prime, energia e logistica
-          6. Macro e regolamentazione
-          7. Sport
+          Tutto il contenuto del briefing deve essere inserito nel campo "intro".
+          Il campo "watchlist" deve essere una bullet list e contenere solo gli elementi realmente rilevanti da monitorare nel prossimo futuro.
+          Se non ci sono elementi sufficientemente rilevanti, restituisci una lista vuota.
 
-          Usa esclusivamente le informazioni presenti nei due file.
-          Non inventare dati, eventi, numeri o collegamenti causali.
-          Puoi lasciare vuota una sezione se non ci sono informazioni rilevanti.
-          Limita ogni sezione a un massimo di 5 elementi.
-          Il briefing deve essere leggibile in circa 4-5 minuti.
-          Inserisci il link originale quando disponibile.
+          Dopo aver generato il contenuto, scrivi obbligatoriamente il JSON nel file:
+          data/summary.json
 
-          Dopo aver generato il file, verifica che sia JSON valido.
           Non modificare nessun altro file del repository.
+          Verifica che data/summary.json sia un JSON valido prima di terminare.
           PROMPT
           )" --allow-tool=write --allow-tool='shell(cat:*)' --allow-tool='shell(date:*)' --no-ask-user
 
@@ -96,6 +127,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/market.json data/summary.json data/ttf_history.csv
+          git add data/news.json data/branches.json data/market.json data/summary.json data/ttf_history.csv
           git diff --cached --quiet || git commit -m "Aggiorna dati cockpit"
           git push
