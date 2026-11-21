@@ -2,7 +2,8 @@
 
 Le liste editoriali vivono in data/brands.json, data/companies.json e
 data/sources.json. Lo script genera query mirate, senza includere lo sport.
-Il ranking avanzato verrà applicato in un passaggio successivo.
+Le news vengono filtrate e ordinate prima del salvataggio, così da non
+inquinare la sezione NEWS con articoli generici o poco utili.
 """
 
 import datetime as dt
@@ -32,17 +33,6 @@ BRANDS = read_json("brands.json")["brands"]
 COMPANIES = read_json("companies.json")["companies"]
 SOURCES = read_json("sources.json")["sources"]
 SOURCE_BY_DOMAIN = {item["domain"]: item for item in SOURCES}
-
-BRANCH_QUERIES = {
-    "UK": ["UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending prices inflation", "UK food market retailer strategy private label brand growth"],
-    "GER": ["Germany food FMCG grocery market brands competitors Aldi Lidl Rewe Edeka consumer spending prices inflation", "Germany food market retailer strategy private label brand growth"],
-    "FRA&BNL": ["France Benelux food FMCG grocery market brands competitors Carrefour Leclerc Delhaize consumer spending prices inflation", "France Belgium Netherlands food market retailer strategy private label brand growth"],
-    "POL": ["Poland food FMCG grocery market brands competitors Biedronka Lidl consumer spending prices inflation", "Poland food market retailer strategy private label brand growth"],
-    "SCAND": ["Nordic food FMCG grocery market brands competitors ICA Coop Salling consumer spending prices inflation", "Sweden Norway Denmark Finland food market retailer strategy private label brand growth"],
-    "USA": ["US food FMCG grocery market brands competitors Walmart Costco Kroger private label consumer spending prices inflation", "US food market retailer strategy brand growth consumer trends"],
-    "ANZ": ["Australia New Zealand food FMCG grocery market brands competitors Woolworths Coles Aldi consumer spending prices inflation", "Australia New Zealand food market retailer strategy private label brand growth"],
-}
-
 
 CATEGORIES = {
     "vertici_societari": {
@@ -179,17 +169,6 @@ def build_queries():
                 "market": "Italia" if category in {"industria_italiana", "brand_italiani"} else "Globale",
             })
 
-    branch_domains = site_clause(source_domains(["agenzia_stampa", "stampa_economica", "stampa_retail"], limit=6))
-    for branch, branch_queries in BRANCH_QUERIES.items():
-        for base in branch_queries:
-            queries.append({
-                "category": "filiali",
-                "branch": branch,
-                "query": base + branch_domains,
-                "when": "3d",
-                "market": branch,
-            })
-
     # Intercetta nomine, risultati e deal delle società con priorità alta.
     priority_companies = [item["name"] for item in COMPANIES if item.get("priority", 0) >= 4]
     priority_brands = [item["name"] for item in BRANDS if item.get("priority", 0) >= 4]
@@ -266,9 +245,77 @@ def get_feed(query_info):
 def deduplicate(items):
     unique = {}
     for item in items:
-        key = re.sub(r"[^a-z0-9]", "", item["title"].lower())[:160]
-        unique.setdefault(key, item)
-    return list(unique.values())
+        normalized = re.sub(r"[^a-z0-9 ]", " ", item["title"].lower())
+        normalized = re.sub(r"\s+", " ", normalized).strip()
+        tokens = set(normalized.split())
+        if not tokens:
+            continue
+
+        duplicate = False
+        for existing in unique.values():
+            other = set(existing.get("_title_tokens", []))
+            overlap = len(tokens & other) / max(1, min(len(tokens), len(other)))
+            if overlap >= 0.78:
+                duplicate = True
+                break
+
+        if not duplicate:
+            item["_title_tokens"] = sorted(tokens)
+            unique[normalized] = item
+
+    result = list(unique.values())
+    for item in result:
+        item.pop("_title_tokens", None)
+    return result
+
+
+RELEVANCE_TERMS = {
+    "vertici_societari": ["ceo", "cfo", "chief executive", "nomina", "dimissioni", "manager", "leadership"],
+    "industria_italiana": ["investimento", "produzione", "export", "fabbrica", "manifattura", "acquisizione", "ristrutturazione"],
+    "brand_italiani": ["brand", "marchio", "vendite", "crescita", "acquisizione", "investimento", "espansione"],
+    "food_fmcg": ["food", "fmcg", "alimentare", "bevande", "consumer goods", "marca", "private label", "acquisizione", "risultati"],
+    "retail_consumatori": ["grocery", "supermarket", "retail", "retailer", "consumi", "spesa", "private label", "prezzi", "promozioni"],
+    "materie_prime": ["pomodoro", "concentrato", "grano", "zucchero", "olio", "commodity", "raccolto", "siccità", "prezzi"],
+    "energia_logistica": ["gas", "energia", "elettricità", "trasporto", "freight", "shipping", "logistica", "petrolio", "supply chain"],
+    "macro_economia": ["inflazione", "tassi", "bce", "fed", "cambio", "dazi", "commercio", "pil", "economia"],
+    "regolamentazione": ["regolamento", "norma", "packaging", "epr", "sostenibilità", "dazi", "dogana", "sicurezza alimentare"],
+    "m_and_a": ["acquisizione", "fusione", "m&a", "private equity", "stake", "vendita", "deal", "strategic review"],
+    "mercati_internazionali": ["mercato", "retail", "inflazione", "consumi", "grocery", "food", "cambio", "dazi"],
+}
+
+IRRELEVANT_TERMS = [
+    "oroscopo", "lotteria", "cronaca nera", "calcio", "partita", "concerto",
+    "ricetta", "come cucinare", "offerta di lavoro", "necrologio", "meteo",
+]
+
+
+def relevance_score(item):
+    title = item.get("title", "").lower()
+    category = item.get("category", "")
+    if any(term in title for term in IRRELEVANT_TERMS):
+        return 0
+
+    score = 1
+    score += sum(1 for term in RELEVANCE_TERMS.get(category, []) if term in title)
+    if item.get("source_reliability"):
+        score += min(2, int(item["source_reliability"]))
+    if item.get("source_type") in {"istituzionale", "agenzia_stampa", "stampa_economica"}:
+        score += 1
+    return score
+
+
+def filter_and_rank(items):
+    ranked = []
+    for item in items:
+        score = relevance_score(item)
+        if score < 3:
+            continue
+        item["relevance"] = "alta" if score >= 7 else "media"
+        item["relevance_score"] = score
+        ranked.append(item)
+
+    ranked.sort(key=lambda item: (item.get("relevance_score", 0), item.get("pubDate", "")), reverse=True)
+    return ranked[:180]
 
 
 def main():
@@ -287,7 +334,7 @@ def main():
             except Exception as exc:
                 print(f"Feed non disponibile ({query_info['category']}): {exc}", flush=True)
 
-    unique = deduplicate(items)
+    unique = filter_and_rank(deduplicate(items))
     output_path = DATA / "news.json"
     if not unique:
         try:
