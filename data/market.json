@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-21T10:44:00.511822+00:00",
+  "updated_at": "2026-11-21T15:30:56.918859+00:00",
   "items": [
     {
       "name": "PUN Index GME",
-      "value": 198.37,
+      "value": 196.26,
       "unit": "€/MWh",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "source": "GME via Energy Index",
       "ytd_start": null,
       "ytd_start_date": null,
