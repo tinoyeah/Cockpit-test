@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T16:16:16.959729+00:00",
+  "updated_at": "2026-11-21T16:35:05.778528+00:00",
   "items": [
     {
       "name": "PUN Index GME",
@@ -13,37 +13,15 @@
       "week52_start_date": null
     },
     {
-      "name": "IG Index GME",
-      "value": null,
+      "name": "Dutch TTF Future",
+      "value": 88.451,
       "unit": "€/MWh",
-      "date": "",
-      "source": "GME",
-      "ytd_start": null,
-      "ytd_start_date": null,
-      "week52_start": null,
-      "week52_start_date": null
-    },
-    {
-      "name": "TTF spot day-ahead",
-      "value": null,
-      "unit": "€/MWh",
-      "date": "",
-      "source": "EEX",
-      "ytd_start": null,
-      "ytd_start_date": null,
-      "week52_start": null,
-      "week52_start_date": null
-    },
-    {
-      "name": "Ultima asta EUA",
-      "value": null,
-      "unit": "€/tCO₂",
-      "date": "",
-      "source": "EEX Primary Market Auction",
-      "ytd_start": null,
-      "ytd_start_date": null,
-      "week52_start": null,
-      "week52_start_date": null
+      "date": "2026-11-20",
+      "source": "ICE Endex Dutch TTF Natural Gas Futures",
+      "ytd_start": 29.004,
+      "ytd_start_date": "2026-01-02",
+      "week52_start": 29.747,
+      "week52_start_date": "2025-11-24"
     },
     {
       "name": "Zucchero",
