@@ -3,7 +3,7 @@ name: Aggiorna dati cockpit
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write
@@ -25,9 +25,6 @@ jobs:
       - name: Raccoglie le news
         run: python scripts/collect_news.py
 
-      - name: Raccoglie le news delle filiali
-        run: python scripts/collect_branches.py
-
       - name: Raccoglie cambi e prezzi
         run: python scripts/collect_market.py
 
@@ -44,104 +41,61 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           copilot -p "$(cat <<'PROMPT'
-          Sei un giornalista economico esperto di industria, aziende, mercati e scenari internazionali, con una solida sensibilità manageriale e finanziaria.
-          Leggi direttamente e interpreta esclusivamente questi file del repository:
+          Leggi esclusivamente questi file del repository:
           - data/news.json
           - data/market.json
-          
-          I dati possono includere, quando disponibili:
-          
-          - aziende, risultati, vertici e operazioni M&A;
-          - industria italiana e brand italiani;
-          - food, FMCG, retail e consum;
-          - mercati internazionali e filiali;
-          - materie prime, energia e logistica;
-          - cambi e prezzi di mercato;
-          - scenario macroeconomico e regolamentazione;
-          - sport
-          
-          Il tuo compito è scrivere un articolo di analisi della giornata, non un elenco o un semplice riepilogo delle notizie.
-          
-          Devi partire da ciò che appare più importante e costruire una lettura complessiva. Individua il filo conduttore che collega le diverse informazioni e spiega quale dinamica comune emerge mettendo in relazione, quando realmente coerente, aziende, mercati, consumatori, costi, supply chain, energia, materie prime, cambi e scenario macroeconomico.
-          
-          L’articolo deve aiutare il lettore a capire:
-          
-          - che cosa sta succedendo di veramente rilevante;
-          - quali eventi o dati sono collegati tra loro;
-          - quale dinamica più ampia si nasconde dietro le singole notizie;
-          - perché questo quadro è importante per aziende e mercati;
-          - quali possono essere le conseguenze più probabili;
-          - quali elementi meritano maggiore attenzione nei prossimi giorni.
-          
-          Non limitarti a citare le notizie una dopo l’altra. Se una notizia non contribuisce alla lettura complessiva, puoi ometterla. Dai priorità alla rilevanza e alla capacità di spiegare il quadro generale, non alla quantità di informazioni riportate.
-          Scrivi con lo stile di un buon articolo di giornale economico:
-          
-          - apertura forte, centrata sulla dinamica principale;
-          - tono asciutto, chiaro e autorevole;
-          - linguaggio naturale e concreto;
-          - frasi di lunghezza variabile;
-          - collegamenti espliciti tra i diversi temi;
-          - nessuna ripetizione;
-          - nessun tono da presentazione aziendale o da report automatico;
-          - nessuna sequenza meccanica di “prima notizia, seconda notizia, terza notizia”.
-          
-          Il testo deve essere scorrevole e leggibile in circa 3-4 minuti.
-          
-          Puoi dividerlo in pochi paragrafi brevi per migliorare la lettura. Puoi usare brevi intertitoli solo se aiutano davvero a seguire il ragionamento, ma non creare una struttura rigida e ripetitiva con sezioni standard come “cosa è successo”, “perché è importante” e “cosa monitorare”.
-          
-          L’articolo deve avere una progressione logica:
-          
-          1. presentare la dinamica centrale della giornata;
-          2. sviluppare i collegamenti tra le notizie più importanti;
-          3. spiegare le implicazioni per aziende, mercati e consumi;
-          4. chiudere indicando il principale punto di attenzione per il futuro.
-          
-          Integra le informazioni sportive solo se sono realmente rilevanti o se contribuiscono a comprendere il quadro della giornata. Non inserirle per riempire il testo e non forzare collegamenti con economia e business quando non esistono.
-          
-          Usa esclusivamente le informazioni presenti nei file.
-          Non inventare fatti, numeri, eventi, fonti o relazioni causali. Non attribuire ai dati significati che non possono sostenere. Distingui chiaramente tra fatti osservati e interpretazioni.
-          Quando il collegamento tra due elementi non è certo, usa formule prudenti come:
-          
-          - “il quadro suggerisce”;
-          - “sembra emergere”;
-          - “potrebbe indicare”;
-          - “può essere letto come”;
-          - “sarà importante verificare se”;
-          - “resta da capire se”.
-          
-          Non usare formule generiche o prive di contenuto. Ogni interpretazione deve essere collegata a informazioni effettivamente presenti nei dati.
-          
-          Restituisci esclusivamente JSON valido, senza markdown e senza blocchi di codice, con questa struttura:
+
+          Genera o sostituisci il file data/summary.json.
+
+          Il file deve essere JSON valido e avere esattamente questa struttura:
           {
-          "updated_at": "data e ora attuali in formato ISO 8601 UTC",
-          "headline": "una frase breve e incisiva che esprime la dinamica centrale della giornata",
-          "intro": "l'articolo completo, scritto in forma discorsiva e diviso in paragrafi tramite righe vuote",
-          "watchlist": [
-          "un solo elemento realmente importante da monitorare",
-          "eventuale secondo elemento realmente importante da monitorare"
-          ]
+            "updated_at": "ISO 8601 UTC",
+            "headline": "headline generale della giornata",
+            "intro": "introduzione di 3-5 frasi",
+            "sections": [
+              {
+                "title": "Aziende, vertici e M&A",
+                "items": [
+                  {
+                    "title": "titolo",
+                    "text": "cosa è successo e perché è importante",
+                    "market": "mercato o area",
+                    "link": "URL oppure stringa vuota"
+                  }
+                ]
+              }
+            ],
+            "watchlist": ["elemento da monitorare"]
           }
-          
-          Il campo “headline” deve essere chiaro e giornalistico, non generico.
-          Tutto il contenuto dell’articolo deve essere inserito nel campo “intro”. Il campo “intro” può contenere più paragrafi separati da una riga vuota, ma non deve contenere elenchi puntati.
-          Il campo “watchlist” deve contenere esclusivamente pochi elementi concreti e realmente rilevanti da monitorare nei prossimi giorni. Non inserire elementi generici. Se non emergono rischi o sviluppi specifici, restituisci una lista vuota.
-          
-          Dopo aver generato il contenuto, scrivi obbligatoriamente il JSON nel file:
-          
-          data/summary.json
-          
-          Non modificare nessun altro file del
-          Verifica che data/summary.json contenga JSON valido prima di terminare.
+
+          Le sezioni devono essere esattamente:
+          1. Aziende, vertici e M&A
+          2. Industria italiana e brand italiani
+          3. Food, FMCG e retail
+          4. Mercati e filiali internazionali
+          5. Materie prime, energia e logistica
+          6. Macro e regolamentazione
+          7. Sport
+
+          Usa esclusivamente le informazioni presenti nei due file.
+          Non inventare dati, eventi, numeri o collegamenti causali.
+          Puoi lasciare vuota una sezione se non ci sono informazioni rilevanti.
+          Limita ogni sezione a un massimo di 5 elementi.
+          Il briefing deve essere leggibile in circa 4-5 minuti.
+          Inserisci il link originale quando disponibile.
+
+          Dopo aver generato il file, verifica che sia JSON valido.
+          Non modificare nessun altro file del repository.
           PROMPT
           )" --allow-tool=write --allow-tool='shell(cat:*)' --allow-tool='shell(date:*)' --no-ask-user
 
       - name: Verifica summary.json
         run: python -m json.tool data/summary.json > /dev/null
 
-      - name: Pubblica news e sintesi
+      - name: Pubblica news, prezzi, storico TTF e sintesi
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/branches.json data/market.json data/summary.json
+          git add data/news.json data/market.json data/summary.json data/ttf_history.csv
           git diff --cached --quiet || git commit -m "Aggiorna dati cockpit"
           git push
