@@ -7,6 +7,7 @@ inquinare la sezione NEWS con articoli generici o poco utili.
 """
 
 import datetime as dt
+import email.utils
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -22,6 +23,7 @@ MAX_ITEMS_PER_FEED = 12
 REQUEST_TIMEOUT = 12
 MAX_WORKERS = 8
 MAX_DYNAMIC_QUERIES = 24
+MAX_NEWS_AGE_DAYS = 14
 
 
 def read_json(filename):
@@ -228,6 +230,9 @@ def get_feed(query_info):
         title = item.findtext("title", "").strip()
         link = item.findtext("link", "").strip()
         pub_date = item.findtext("pubDate", "").strip()
+        published_at = parse_pub_date(pub_date)
+        if published_at is None or (dt.datetime.now(dt.timezone.utc) - published_at).total_seconds() > MAX_NEWS_AGE_DAYS * 86400:
+            continue
         source_info = source_metadata(item.find("source"))
         if title and link:
             result.append({
@@ -240,6 +245,19 @@ def get_feed(query_info):
                 **source_info,
             })
     return result
+
+
+def parse_pub_date(value):
+    """Converte la data RSS in UTC; le date mancanti o non leggibili vengono escluse."""
+    if not value:
+        return None
+    try:
+        parsed = email.utils.parsedate_to_datetime(value)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=dt.timezone.utc)
+        return parsed.astimezone(dt.timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return None
 
 
 def deduplicate(items):
@@ -337,13 +355,7 @@ def main():
     unique = filter_and_rank(deduplicate(items))
     output_path = DATA / "news.json"
     if not unique:
-        try:
-            with output_path.open(encoding="utf-8") as file:
-                json.load(file)
-            print("Nessun feed disponibile: mantengo le news precedenti", flush=True)
-            return
-        except Exception:
-            pass
+        print("Nessuna news recente disponibile: salvo un archivio vuoto per non mostrare articoli vecchi", flush=True)
 
     output = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
