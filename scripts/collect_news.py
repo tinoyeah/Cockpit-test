@@ -46,66 +46,48 @@ CATEGORIES = {
         ],
         "source_types": ["stampa_verticale", "stampa_economica", "agenzia_stampa"],
     },
-    "industria_italiana": {
-        "when": "3d",
-        "base_queries": [
-            '"industria italiana" investimenti OR acquisizioni OR produzione',
-            '"manifattura italiana" export OR crescita OR crisi',
-            '"aziende italiane" riorganizzazione OR delocalizzazione OR investimento',
-        ],
-        "source_types": ["stampa_economica", "agenzia_stampa", "stampa_verticale"],
-    },
-    "brand_italiani": {
-        "when": "3d",
-        "base_queries": [
-            '"brand italiani" acquisizione OR crescita OR risultati',
-            '"marchi italiani" espansione OR acquisizione OR investimenti',
-            '"Italian brands" growth OR acquisition OR strategy',
-        ],
-        "source_types": ["stampa_verticale", "stampa_economica", "M&A_specialist"],
-    },
     "food_fmcg": {
         "when": "3d",
         "base_queries": [
-            'food FMCG company results OR acquisition OR strategy',
-            '"food industry" OR FMCG innovation investment',
-            '"consumer goods" company outlook OR restructuring',
+            '(food OR alimentare OR FMCG) (results OR earnings OR prices OR volumes OR margin OR outlook)',
+            '(food OR beverage OR FMCG) (investment OR acquisition OR restructuring OR capacity)',
+            '(food industry OR industria alimentare) (demand OR inflation OR private label OR brand)',
         ],
         "source_types": ["stampa_food", "stampa_verticale", "stampa_economica"],
     },
     "retail_consumatori": {
         "when": "3d",
         "base_queries": [
-            'grocery retail private label consumer spending',
-            'supermarket food prices retail strategy',
-            'consumer behavior FMCG Europe USA UK',
+            '(grocery OR supermarket OR retailer) (food prices OR volumes OR sales OR private label)',
+            '(retail OR consumi) (FMCG OR food OR grocery) (promotion OR pricing OR demand)',
+            '(consumer spending OR consumer confidence) (food OR grocery OR household)',
         ],
         "source_types": ["stampa_retail", "ricerca_mercato", "stampa_economica"],
     },
     "materie_prime": {
         "when": "3d",
         "base_queries": [
-            'tomato prices OR tomato paste market',
-            'sugar wheat coffee cocoa olive oil prices',
-            'food commodities crop outlook supply',
+            '(tomato OR pomodoro OR tomato paste OR concentrato) (prices OR crop OR supply OR harvest)',
+            '(wheat OR sugar OR olive oil OR corn) (food prices OR crop OR supply OR harvest)',
+            '(food commodities OR commodity) (prices OR outlook OR supply chain)',
         ],
         "source_types": ["istituzionale", "agenzia_stampa", "stampa_food"],
     },
     "energia_logistica": {
         "when": "3d",
         "base_queries": [
-            'European gas electricity prices industry',
-            'freight rates shipping logistics food supply chain',
-            'oil prices transport costs Europe',
+            '(gas OR electricity OR energy) (food industry OR manufacturing OR industrial prices)',
+            '(freight OR shipping OR logistics) (food OR FMCG OR supply chain)',
+            '(oil OR fuel OR transport costs) (food OR logistics OR Europe)',
         ],
         "source_types": ["istituzionale", "agenzia_stampa", "stampa_economica"],
     },
     "macro_economia": {
         "when": "2d",
         "base_queries": [
-            'Italy Eurozone inflation interest rates consumer spending',
-            'ECB economic outlook exchange rates tariffs',
-            'geopolitics trade restrictions economic outlook',
+            '(Italy OR Eurozone OR Europe) (inflation OR interest rates OR consumer spending)',
+            '(ECB OR Fed OR exchange rates OR currency) (outlook OR economy OR businesses)',
+            '(tariffs OR trade restrictions OR geopolitics) (food OR consumer goods OR imports)',
         ],
         "source_types": ["istituzionale", "agenzia_stampa", "stampa_economica"],
     },
@@ -118,23 +100,10 @@ CATEGORIES = {
         ],
         "source_types": ["istituzionale", "stampa_economica", "stampa_verticale"],
     },
-    "m_and_a": {
+    "aziende_competitor": {
         "when": "7d",
-        "base_queries": [
-            'Italy M&A acquisition sale stake private equity',
-            'European consumer food M&A deal rumor',
-            '"strategic review" OR "exploring a sale" company',
-        ],
-        "source_types": ["M&A_specialist", "stampa_verticale", "stampa_finanziaria"],
-    },
-    "mercati_internazionali": {
-        "when": "3d",
-        "base_queries": [
-            'UK Germany France USA Australia grocery food economy',
-            'international markets inflation retail consumer goods',
-            'foreign exchange market outlook food companies',
-        ],
-        "source_types": ["agenzia_stampa", "stampa_economica", "stampa_retail"],
+        "base_queries": [],
+        "source_types": ["stampa_food", "stampa_verticale", "stampa_economica"],
     },
 }
 
@@ -168,33 +137,24 @@ def build_queries():
                 "category": category,
                 "query": base + site_clause(domains),
                 "when": config["when"],
-                "market": "Italia" if category in {"industria_italiana", "brand_italiani"} else "Globale",
+                "market": "Globale",
             })
 
-    # Intercetta nomine, risultati e deal delle società con priorità alta.
-    priority_companies = [item["name"] for item in COMPANIES if item.get("priority", 0) >= 4]
-    priority_brands = [item["name"] for item in BRANDS if item.get("priority", 0) >= 4]
+    # Intercetta solo aziende alimentari, beverage e FMCG realmente utili come
+    # benchmark o concorrenti. Non vengono più usati gruppi generici di brand.
+    priority_companies = [
+        item["name"] for item in COMPANIES
+        if item.get("priority", 0) >= 4
+        and any(term in str(item.get("sector", "")).lower() for term in ("food", "fmcg", "beverage"))
+    ][:24]
 
     company_domains = site_clause(source_domains(
         ["stampa_verticale", "M&A_specialist", "stampa_economica"], limit=6
     ))
-    for group in chunks(priority_companies, 8):
-        names = " OR ".join(f'"{name}"' for name in group)
+    for name in priority_companies:
         queries.append({
-            "category": "vertici_societari",
-            "query": f"({names}) (CEO OR CFO OR nomina OR manager OR leadership){company_domains}",
-            "when": "14d",
-            "market": "Globale",
-        })
-        if len(queries) >= MAX_DYNAMIC_QUERIES + sum(len(c["base_queries"]) for c in CATEGORIES.values()):
-            break
-
-    brand_domains = site_clause(source_domains(["stampa_verticale", "stampa_food", "stampa_retail"], limit=6))
-    for group in chunks(priority_brands, 10):
-        names = " OR ".join(f'"{name}"' for name in group)
-        queries.append({
-            "category": "brand_italiani" if any(item["name"] in group and item.get("country") == "Italia" for item in BRANDS) else "food_fmcg",
-            "query": f"({names}) (results OR strategy OR acquisition OR investment){brand_domains}",
+            "category": "aziende_competitor",
+            "query": f'"{name}" (food OR alimentare OR FMCG OR beverage) (results OR sales OR prices OR strategy OR acquisition OR investment){company_domains}',
             "when": "14d",
             "market": "Globale",
         })
@@ -289,16 +249,23 @@ def deduplicate(items):
 
 RELEVANCE_TERMS = {
     "vertici_societari": ["ceo", "cfo", "chief executive", "nomina", "dimissioni", "manager", "leadership"],
-    "industria_italiana": ["investimento", "produzione", "export", "fabbrica", "manifattura", "acquisizione", "ristrutturazione"],
-    "brand_italiani": ["brand", "marchio", "vendite", "crescita", "acquisizione", "investimento", "espansione"],
-    "food_fmcg": ["food", "fmcg", "alimentare", "bevande", "consumer goods", "marca", "private label", "acquisizione", "risultati"],
+    "food_fmcg": ["food", "fmcg", "alimentare", "bevande", "consumer goods", "private label", "acquisizione", "risultati", "vendite", "margini"],
     "retail_consumatori": ["grocery", "supermarket", "retail", "retailer", "consumi", "spesa", "private label", "prezzi", "promozioni"],
     "materie_prime": ["pomodoro", "concentrato", "grano", "zucchero", "olio", "commodity", "raccolto", "siccità", "prezzi"],
     "energia_logistica": ["gas", "energia", "elettricità", "trasporto", "freight", "shipping", "logistica", "petrolio", "supply chain"],
     "macro_economia": ["inflazione", "tassi", "bce", "fed", "cambio", "dazi", "commercio", "pil", "economia"],
     "regolamentazione": ["regolamento", "norma", "packaging", "epr", "sostenibilità", "dazi", "dogana", "sicurezza alimentare"],
-    "m_and_a": ["acquisizione", "fusione", "m&a", "private equity", "stake", "vendita", "deal", "strategic review"],
-    "mercati_internazionali": ["mercato", "retail", "inflazione", "consumi", "grocery", "food", "cambio", "dazi"],
+    "aziende_competitor": ["food", "alimentare", "fmcg", "beverage", "results", "sales", "prices", "strategy", "acquisition", "investment", "vendite", "prezzi"],
+}
+
+REQUIRED_SIGNALS = {
+    "food_fmcg": ["food", "alimentare", "fmcg", "beverage", "consumer goods", "private label"],
+    "retail_consumatori": ["grocery", "supermarket", "retail", "retailer", "private label", "food", "consumi", "spesa"],
+    "materie_prime": ["tomato", "pomodoro", "tomato paste", "concentrato", "wheat", "grano", "sugar", "zucchero", "olive oil", "commodity"],
+    "energia_logistica": ["gas", "electricity", "energy", "freight", "shipping", "logistics", "oil", "fuel", "supply chain"],
+    "macro_economia": ["inflation", "inflazione", "interest rates", "tassi", "ecb", "fed", "exchange rates", "cambio", "tariffs", "dazi", "consumer spending"],
+    "regolamentazione": ["food", "packaging", "epr", "sustainability", "sostenibilità", "dazi", "customs", "sicurezza alimentare"],
+    "aziende_competitor": ["food", "alimentare", "fmcg", "beverage", "sales", "results", "prices", "strategy", "acquisition", "investment", "vendite", "prezzi"],
 }
 
 IRRELEVANT_TERMS = [
@@ -311,6 +278,10 @@ def relevance_score(item):
     title = item.get("title", "").lower()
     category = item.get("category", "")
     if any(term in title for term in IRRELEVANT_TERMS):
+        return 0
+
+    signals = REQUIRED_SIGNALS.get(category, [])
+    if signals and not any(term in title for term in signals):
         return 0
 
     score = 1
