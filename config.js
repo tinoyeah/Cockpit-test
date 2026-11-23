@@ -15,16 +15,13 @@ const CONFIG = {
   },
   themes: [
     { id: "vertici_societari", title: "Vertici societari", when: "7d", feeds: [] },
-    { id: "industria_italiana", title: "Industria italiana", when: "3d", feeds: [] },
-    { id: "brand_italiani", title: "Brand italiani", when: "3d", feeds: [] },
     { id: "food_fmcg", title: "Food e FMCG", when: "3d", feeds: [] },
     { id: "retail_consumatori", title: "Retail e consumatori", when: "3d", feeds: [] },
     { id: "materie_prime", title: "Materie prime", when: "3d", feeds: [] },
     { id: "energia_logistica", title: "Energia e logistica", when: "3d", feeds: [] },
     { id: "macro_economia", title: "Macro e geopolitica", when: "2d", feeds: [] },
     { id: "regolamentazione", title: "Regolamentazione", when: "7d", feeds: [] },
-    { id: "m_and_a", title: "M&A e private equity", when: "7d", feeds: [] },
-    { id: "mercati_internazionali", title: "Mercati internazionali", when: "3d", feeds: [] }
+    { id: "aziende_competitor", title: "Aziende e competitor", when: "7d", feeds: [] }
   ],
   branches: [
     { name: "UK", currencies: ["GBP"], terms: ["UK", "Britain", "British", "Tesco", "Sainsbury", "Aldi", "Lidl"], query: "UK food FMCG grocery market brands competitors Tesco Sainsbury's Aldi Lidl consumer spending economy inflation" },
