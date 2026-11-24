@@ -31,7 +31,7 @@ function renderResult(cur,res){const c=calc(cur);if(!c){res.className="res mu";r
 function applyFilter(){[...$("#themes").children].forEach(x=>x.hidden=THEME_SEL!=="all"&&x.dataset.id!==THEME_SEL)}
 function buildChips(){const box=$("#chips");[{id:"all",title:"Tutti"},...CONFIG.themes].forEach(t=>{const b=el("button",null,t.title);b.type="button";b.setAttribute("aria-pressed",String(t.id==="all"));b.onclick=()=>{THEME_SEL=t.id;[...box.children].forEach(x=>x.setAttribute("aria-pressed",String(x===b)));applyFilter()};box.append(b)})}
 async function loadNewsFile(){const r=await fetch("data/news.json?ts="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
-function localItems(data,category){return(data.items||[]).filter(x=>x.category===category||(category==="sport"&&String(x.category).startsWith("sport_"))).map(x=>({...x,pubDate:x.pubDate||x.date||""}))}
+function localItems(data,category){const cutoff=Date.now()-14*864e5;return(data.items||[]).filter(x=>x.category===category||(category==="sport"&&String(x.category).startsWith("sport_"))).map(x=>({...x,pubDate:x.pubDate||x.date||""})).filter(x=>{const t=Date.parse(x.pubDate);return Number.isFinite(t)&&t>=cutoff})}
 async function loadThemes(force){const root=$("#themes");root.textContent="";let data=null;try{data=await loadNewsFile()}catch(e){}const jobs=[];CONFIG.themes.forEach(theme=>{const sec=el("section");sec.dataset.id=theme.id;sec.append(el("h2",null,theme.title));const ul=el("ul");ul.append(el("li","mu","Carico…"));sec.append(ul);root.append(sec);const local=data&&localItems(data,theme.id);if(local&&local.length){ul.textContent="";articleList(ul,local,CONFIG.maxArticlesPerTheme);return}if(!theme.feeds.length){ul.replaceChildren(el("li","err","Nessuna news disponibile in questa categoria."));return}jobs.push(Promise.all(theme.feeds.map(f=>fetchFeed(f,theme.when,"it",force))).then(parts=>{ul.textContent="";articleList(ul,parts.flat(),CONFIG.maxArticlesPerTheme)}).catch(()=>{ul.replaceChildren(el("li","err","News non disponibili. Tocca Aggiorna."))}))});applyFilter();await Promise.all(jobs);if(data&&data.updated_at){$("#stamp").textContent="News aggiornate il "+new Date(data.updated_at).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}}
 function renderBranch(i){FSEL=i;const f=CONFIG.branches[i],b=$("#fbody");b.textContent="";const s1=el("section","branch-overview");s1.append(el("h2",null,f.name));f.currencies.forEach(cur=>{const c=calc(cur),line=el("p","res");if(!FX||!FX.s[cur]){line.className="res mu";line.textContent="Cambio "+cur+" non disponibile."}else{line.textContent="EUR/"+cur+" ultimo "+fm(FX.s[cur],dec(cur))+" · medio YTD "+fm(FX.a[cur],dec(cur))+(c?" · effetto sul budget "+sg(c.p,1)+"%":" · budget non inserito");line.className="res "+(c&&Math.abs(c.p)>=.05?(c.p<0?"dn":"up"):"mu")}s1.append(line)});if(!f.currencies.length)s1.append(el("p","res mu","Area euro: nessun effetto di conversione del cambio."));b.append(s1);const s2=el("section","branch-news");s2.append(el("h2",null,"Mercato, brand e competitor"));const ul=el("ul");ul.append(el("li","mu","Carico…"));s2.append(ul);b.append(s2);fetch("data/branches.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{const items=(data.items||[]).filter(x=>x.branch===f.name);ul.textContent="";articleList(ul,items,6)}).catch(()=>ul.replaceChildren(el("li","err","News filiale non disponibili. Esegui il workflow di aggiornamento.")));[...$("#fchips").children].forEach((x,j)=>x.setAttribute("aria-pressed",String(j===i)))}
 function buildBranches(){CONFIG.branches.forEach((f,i)=>{const b=el("button",null,f.name);b.type="button";b.setAttribute("aria-pressed","false");b.onclick=()=>renderBranch(i);$("#fchips").append(b)})}
@@ -58,9 +58,11 @@ function renderSummary(s){
     section.items.forEach(item=>{
       if(!item)return;
       const article=el("article","summary-item");
-      const title=item.link&&/^https?:\/\//.test(item.link)?el("a","summary-item-title",item.title||"Elemento senza titolo"):el("h4","summary-item-title",item.title||"Elemento senza titolo");
-      if(title.tagName==="A"){title.href=item.link;title.target="_blank";title.rel="noopener"}
-      article.append(title);
+      if(item.title){
+        const title=item.link&&/^https?:\/\//.test(item.link)?el("a","summary-item-title",item.title):el("h4","summary-item-title",item.title);
+        if(title.tagName==="A"){title.href=item.link;title.target="_blank";title.rel="noopener"}
+        article.append(title);
+      }
       if(item.text)article.append(el("p",null,item.text));
       if(item.market)article.append(el("p","mu summary-market","Area: "+item.market));
       list.append(article);
