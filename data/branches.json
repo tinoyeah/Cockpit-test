@@ -1,357 +1,815 @@
 {
-  "updated_at": "2026-11-24T13:18:33.922377+00:00",
-  "items": [
+  "updated_at": "2026-11-24T13:27:28.555540+00:00",
+  "branches": [
     {
-      "branch": "USA",
-      "title": "Earnings call transcript: J. M. Smucker beats Q2 2027 estimates, lifts outlook - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYVh1M3ZuYjM3T1p1SFhoUWVxZnRmYWM0YThFakpIaW9jOFdlRjVySk5zZkJ5U3NtRGdGMlNEOEx6NEdPcm5mZWFIY19VNVZfSmxLc1BxekE1aVVOYlRhSEF5aVNDa1Ytc0dHT2hMeTRfdFk0bGhBSVVvZnAyWm1pSWxZZjhMWE9PcU5FUWVPVFNFbElHbGNSS2FzUlJfVS14QU16R2QtYXhvZWlCMm5BLVJvSHBOQzhYY01rNUEwSGF2VzVGMHlpeExn?oc=5",
-      "pubDate": "2026-11-24T12:48:07+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Investing.com"
+      "code": "UK",
+      "name": "UK",
+      "keywords": [
+        "UK",
+        "United Kingdom",
+        "Britain",
+        "British",
+        "England"
+      ],
+      "items": [
+        {
+          "title": "EU and UK agree to cut food safety controls - Food Safety News",
+          "description": "EU and UK agree to cut food safety controls   Food Safety News",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQnBJdlpYWkxSMEdfVGRuc0hyc2xHRHdKa1U4Z0dNREp5bmEtR3JOdUdNeEl3VFNxRk9NU29lbzE0SnpkWVJhQjNzMy1mZjRkOXpWRjVydTEtTnMzRWFKaEdRUVlOcFRWNkNlQWxKeFZqeWhEQjE4VTNXOHRxbDJTeTRXN3FyTUJqalkw?oc=5",
+          "published_at": "Tue, 24 Nov 2026 05:06:10 GMT"
+        },
+        {
+          "title": "UK retail sales beat forecasts after government tells households to stock up - Reuters",
+          "description": "UK retail sales beat forecasts after government tells households to stock up   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjlYSnNMZ21QZDdfVWF4TmlvUzF0UUxWdG9LVTNRaUNrX0dUMGltWmJraDU2OThiMmpKRnFHMnZ4bGEtRE4xU0NhTlNuOWVKT0NLU0NOY2puU2lycE51THdkSHFURF9mSEk5SzVYanhPWVVnbWZmcDlBdkJCN19qOGpIYVlac1ZYemEtNk9MWTZ6UjU2UU5RR1Zn?oc=5",
+          "published_at": "Fri, 20 Nov 2026 10:02:37 GMT"
+        },
+        {
+          "title": "Cats vs. Cards Challenge returns to fight student food insecurity - UKNow",
+          "description": "Cats vs. Cards Challenge returns to fight student food insecurity   UKNow",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2c4VjR2emZGRjJCRDF5clpMUTJHaUFhdzBwTGhjSm1WeVUyQ1FILXBkUkV0b0lnTHExNTBmRWpOeVJ6MnFNQ1VWMGx0cmVqV3EteFd2d2lncXQ4V0p0cHNUcDRJX0l2d1ZWdEhrSWExVXE3STF6STVuR21UaWRIbVl2TmF5RGt0N0pkMkh4WDJkdTNfaERaU1hheEg?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:00:00 GMT"
+        },
+        {
+          "title": "Nvidia: CEO Saga (Probably) Ends With Jensen Huang’s Reinstatement - Morningstar",
+          "description": "Nvidia: CEO Saga (Probably) Ends With Jensen Huang’s Reinstatement   Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlc1SThtUmJzdnBuQW9UZ2lNWXdONjZscXluVjRDSVR6TmxQN1FhZnl2Z1ZvcGY2MW1GZjZQOGdQUGc5OXkwUEZ6YWdibnR2V1dncTZkZEJwTkdIYi1ZM3YySF9oS25oRXNOcjl1ZjdxUjdPSDVEN1pkUEMxVUkzazdIbHFmSWJUZ3cyYndMeXl1M0lEeEpHRUZxVGZZRERVUHVkVHE5MnEtUQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:08:11 GMT"
+        },
+        {
+          "title": "Barbour opens British holiday shop at Bloomingdale's New York with Tea & Sympathy - Fashion United",
+          "description": "Barbour opens British holiday shop at Bloomingdale's New York with Tea & Sympathy   Fashion United",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd2ZMdS1lRExFN2RfSWZkWnh2NUpzYUtJOTJ3bk1ILTNUTjVtUTZsWVNlV1VSdHQ3WmJFaGF4M3BFNzZOMk5pVDVIZXdKQlpYX1JKN1FHNEVOY2pzMEhhb2lGcjQwTFdxbkJCamh6TnhKUVpBeks4WkljRHM4bWVSckpZM1NXNWNtR3lFb21BY3RUSkpNRkpGQ1psOUY4M1FsaDdrekxqT2otZWQ1MUw4N0FJVFBUeWNJQVpxUnJiTDEyS3d2UmdfbklB?oc=5",
+          "published_at": "Tue, 24 Nov 2026 11:10:55 GMT"
+        },
+        {
+          "title": "EU and UK Conclude SPS Agreement Negotiations - Food Safety Magazine",
+          "description": "EU and UK Conclude SPS Agreement Negotiations   Food Safety Magazine",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWlFLczNKemYwZWRNcTFKX1F0Vk5Ldk5jU3ktMnVIeG95YVFhXy1nTGE1RHBMVWVaaVBZeDRFbW1QRF9fT292clFWMUVtYmNDSTF4bF9renMyX1FhV1Foc0UxR2pYdnZmT1BDeWc5dVozNHJlR3dsSnVETVEwcDM5cTZRWVhuaGxKTnI5YW9UMTFGUQ?oc=5",
+          "published_at": "Mon, 23 Nov 2026 21:56:45 GMT"
+        },
+        {
+          "title": "Devon food exporters praise new UK-EU 'reset' deal - BBC",
+          "description": "Devon food exporters praise new UK-EU 'reset' deal   BBC",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9feVpPYlFmR29yZ2twdmVPN3BGTEptUk1UQ182dW1ZYWZfamozcGN5QlQwZUpPa1NQWGFhZENoZUFNVmwyTWVFUmZKbG5KY3VXNm13UjhjRnFWU2M?oc=5",
+          "published_at": "Tue, 24 Nov 2026 12:02:24 GMT"
+        },
+        {
+          "title": "Meta launches Muse AI agent in UK with several retail partners - Retail Insight Network",
+          "description": "Meta launches Muse AI agent in UK with several retail partners   Retail Insight Network",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPS1pzQ290Zk91Q3RoZTBqb1BkM1FDaEI4Tl84UFg3dF9RcmZXZEVNY3l0RlE1SFF1YmFpejU2RlcyMWlibTlVV0JMS1MtM0VLb0JrTFhWaWdnRjBUdXUwNGZzZ1Q0bUFXQWZ3R2IyUGR4TkNHTFpPVEYzczRYUktYNmtCLS1WTDhJeVE?oc=5",
+          "published_at": "Tue, 24 Nov 2026 13:15:48 GMT"
+        },
+        {
+          "title": "Steve Jules to succeed Andrew Slater as MSIG UK CFO - Reinsurance News",
+          "description": "Steve Jules to succeed Andrew Slater as MSIG UK CFO   Reinsurance News",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnhyd0FSQzNSaEdqZ0JKSnNLSGlPV1dKamQxMmhscXI1SFQzWE1ySTVHNElEbXV3V291NGdFei1QSVpTLXdqN09tbjNMcFlUR0hVa254NnRCclNhYzlNdTlGb2tyQ1g1eWMxRzl3MFdLUXFaRkpUeHkySmJQMkJkQTZVV2J2ZEFy?oc=5",
+          "published_at": "Tue, 24 Nov 2026 11:04:20 GMT"
+        },
+        {
+          "title": "MPs urge Miliband to force UK overseas territories to publish public company registers - The Guardian",
+          "description": "MPs urge Miliband to force UK overseas territories to publish public company registers   The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDc2Z3NKUTRTZlo0elpfb1JCSXNydkZQdmlNWU1BTVJ4OW1sbjExbVFQbC1LODAyQTE0OGtSRUwzQ1RZQUFadk5Sd1IxeWt3c2lYejlMNVFWV2E0Y2p3MGNpQk1RVWpGaDJmQng4b1F4NUd1TDNoRG5fMzJNOVJWVm5GenNtZzF1Rzc3UDFiMHRhS05kcmFoNTIwODlGT09rcmhWM0hSVnp2Nk1DM2xPTnd0TWNPOWk1WDctNkNrMDFXNjdR?oc=5",
+          "published_at": "Mon, 23 Nov 2026 06:00:00 GMT"
+        },
+        {
+          "title": "Next Plc’s Supplier Hit by Cyberattack in Latest UK Retail Breach - Insurance Journal",
+          "description": "Next Plc’s Supplier Hit by Cyberattack in Latest UK Retail Breach   Insurance Journal",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE16NG9UeTVGMUZvRnllNzZ5X0RZWGtVQ2FpTW51MlZUalAwVm9TSVFKbWplc2ZwbzR0X3B6bGhCS0NfbG1aTjg1bmw1TE93S0NPZElLY1QydHBoUkQ3N0I1WUlBVFZQRXY4ZFhlTmdhbHBIaW82RTZEYzlWZ1FqZw?oc=5",
+          "published_at": "Mon, 23 Nov 2026 14:41:59 GMT"
+        },
+        {
+          "title": "Channel 4 Serves Up Sweeter Ad Break for 'The Great British Bake Off' Final with 5 Brand Take Over — LBB - LBB - Little Black Book",
+          "description": "Channel 4 Serves Up Sweeter Ad Break for 'The Great British Bake Off' Final with 5 Brand Take Over — LBB   LBB - Little Black Book",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlNscGgwU3drN3RHenhzalNYUk9oM1RxWU9vUTIwMGFwcUFaY296Z0dzQ0JWV0paWFNLTWNmWnFpc0FaWDJ1QjFKOEtXbVJkU3RIM19SdUZobmg1QVVycm52Mjd2YkRuQWtDUTRyRjg2MHRTTzZPMU42X2djeGFXZ1dmTHFHTEdhRXBHT0VIRUVFUXVLY3Ffa2ozSGFDUmZoWGxvYXNVQW5URlpCbzFNMnFYRHpVMk9Gd1MtblM1cFo?oc=5",
+          "published_at": "Tue, 24 Nov 2026 12:43:34 GMT"
+        },
+        {
+          "title": "Green Volt’s turbine deal and port investment announcement is a major step forward for UK’s floating offshore wind industry - RenewableUK",
+          "description": "Green Volt’s turbine deal and port investment announcement is a major step forward for UK’s floating offshore wind industry   RenewableUK",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSE5JUnVYMFpCNmJpUmJnTDFUNjFUVGpobUd4R3pjREpucGNZTzY0Q3NsZ2hFNmtzZUpQQ0NaQl9hdEF6WjhlcjlCQmM1RHNXdDA0eExDb1A3V0lMd0hfdURtR2hEQndMYTliTXkwM1ZfcmFnVS1xUFlUTVNwU2s2eEdkNkNBQjRLaDZDQ2Yxb05HTUVmZk1KREJUN01WMjFESHphRU9rZnpGNVB4ckZTWDNxVFdKU0p0NlBwTzFpMXZrQlBvYV9UaTBwbEJvZS16LThTLVotN19vRHRsUHNrc3JHSHlOMTd0NTFwcGZpS1B4U3BnVjFqZzNkM3RRRUVFckFMRGZLUGZuNVhFbnJmM19fNHE?oc=5",
+          "published_at": "Tue, 24 Nov 2026 11:36:46 GMT"
+        },
+        {
+          "title": "UK's Next flags cyber breach at online supplier, says no customer data compromised - Reuters",
+          "description": "UK's Next flags cyber breach at online supplier, says no customer data compromised   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTNseWZyOVhUckRBOGpXWnlrejNKY1MwSG85UmpiLUJ5ODZnZUt3SHFJTkNXS3BIai1SM1dfNExaMnliQTVDRlNQX09LQVcxTGk1c2JqYjNGZUxYRDJpUGJIUWt3Nkg3X3NYdC0zY2t3ODI5Zzd3bHJkaW9SOHIyeGo2OVpCN2h6LTQ1eF9DUDR1Z0hWSXJ6RkExV2M4eVp3MTdqSUtWb1JPdXV6eU55ak9feHdDaldDdGZxMDFsZU41STUwWTJuWW9B?oc=5",
+          "published_at": "Mon, 23 Nov 2026 22:44:09 GMT"
+        },
+        {
+          "title": "Stocks Soar as Nvidia Reinstates Huang as CEO - Morningstar",
+          "description": "Stocks Soar as Nvidia Reinstates Huang as CEO   Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMUo5UzgtTEZBRTk1Zm9FM0g2bjBJU3l0OTAzUFA2X2xJUlpTZklKQW12cXV5dGFXYXJrWW94dlVWYWZ3WDk0ejhXcWhZbm9tRk5zdk9OQ1hzSkxqdXdDSThWS1RSUU9INVVqTnBuZlNDUWRaRE1mMW8zUU5pbk9IMXp6WDZZS0JKbW1SSw?oc=5",
+          "published_at": "Mon, 23 Nov 2026 16:17:46 GMT"
+        },
+        {
+          "title": "UK operation wards off risk of cyber-attack on supermarket fridges and freezers - The Guardian",
+          "description": "UK operation wards off risk of cyber-attack on supermarket fridges and freezers   The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWi12UlR3bnRNNmFpRnozVXhXbW5KR3dpOHdDczdGQzJaVGFheUlPNjNuVkJKTE9HRW9xbWp6LWtacUp0cVBpRklFNWxOOTZxUV95Q3ZKSmh0eGFUSW53WVBlR1JtTFAwbUZWeTBxUVlCdEJGWmFLaEVMUHpEWF80MWJVaU1VYWVTWFVLY2g0UlB4SG83eHRmcXhuUllxT2NXR2hBenRha2c1R1Q1R3hwNW1PMG9JXzRRR0JRMGE4V2d4UGZad0xj?oc=5",
+          "published_at": "Fri, 20 Nov 2026 17:08:00 GMT"
+        },
+        {
+          "title": "Britain, EU clinch food and youth deals ahead of 'brainstorm' on future ties - Reuters",
+          "description": "Britain, EU clinch food and youth deals ahead of 'brainstorm' on future ties   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUxSQlE3YTlodUx3ZVRaSnlCLVJtZVc5bUtURl8yaEQzZVk4bWdXdFlHdDgwTE1IOFFrZ3pvOTFvQ0s4Y2trSU9PWE4tUnZFQjMyWmZLeVY0aU9IaUFBWVdIVFlRaVZmdXRheEdmVHYyUU9JUnBMQVVhVzNwN2JGdDI5ZlJSVzdNb2tZV0dfaUpoVHJaRnFfcA?oc=5",
+          "published_at": "Fri, 20 Nov 2026 19:09:33 GMT"
+        },
+        {
+          "title": "Household rush to stockpile emergency supplies sends British retail sales soaring - The Guardian",
+          "description": "Household rush to stockpile emergency supplies sends British retail sales soaring   The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelY5aGlpMmM2Smo4UVNzallZUExaTHVOOG9mamczdFVQSGZuSGtXdlBRM1R5NFNsOGluRTdERTRMY3RoUUh6cnc3ZERSZUxJSERraXJCVEctcTJNTlJVUDZucjdTZlRHeUJram1UdlRiVG02Z0U0SDlvSzZRUGFWQjE3RGNpcWp0djd6RmVEVlVUbHU5VWM4U1VmQkQ1engtZUhMYXlXUUc1ZHhTeHJvLUVDUUk?oc=5",
+          "published_at": "Fri, 20 Nov 2026 08:36:00 GMT"
+        },
+        {
+          "title": "Weight-loss drugs' hit to UK grocery spending tops £1 billion, Worldpanel says - Reuters",
+          "description": "Weight-loss drugs' hit to UK grocery spending tops £1 billion, Worldpanel says   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdl9SUHdFaGc4a3dfUWc1bXRoS2NWWHF5cDhIUmFuZVYzamxZOFdLUTE3T0ZKaUdhX2QxVWxBSm5xdENxM0FNbmJpQ3BqcHl5RGtyLVlxekx1aWZUWElBbk5CUGpJamNKclBsQzdtcmNPRTdKUkY1cWtDLWtseUlISXZzQWdVVHBOTzQ3RlBQaHJuSXZZdGNEVjN6QlUyWUtyZUllRHY0MjVReGFXNWpZalN3eHEtRXBwVVp2MnVRS19rYlAzOThvWDRpcUI2M2YwUWhyaS1CbURyR2FX?oc=5",
+          "published_at": "Thu, 19 Nov 2026 00:04:42 GMT"
+        },
+        {
+          "title": "Retail ranks among least-insured sectors as ransomware attacks peak - Insurance Business",
+          "description": "Retail ranks among least-insured sectors as ransomware attacks peak   Insurance Business",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY1hSVXJPOE93aGZCV2Q3QnRVeUFXNFpXRmxTWmVqamFjbmFxZ2xnSFRwcTVCZ1ZsVlBBLWxFTi1IMi1FdDlCRWtEYVFlT3pNZllCWXE0NkhaQmI1eElIeG9fcVE4N0hXWjlWcndGM2VvMGNVNnRUT293bmtsbkpVRDhvR0tEcmxWeFdyNlMtRHhtSEI1N002WERETzJ2ako5ZkRKVURmb0xHenZIZDUxNF9FenpETWpsb3hPRUg1OXQyN3J6QldDbg?oc=5",
+          "published_at": "Tue, 24 Nov 2026 08:02:33 GMT"
+        }
+      ]
     },
     {
-      "branch": "UK",
-      "title": "Activated Charcoal Supplement Market Size, Forecasts Report 2026-2035 - Global Market Insights Inc.",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMzd5NVBJN1J5eHFsTGhYZDRkYVdGc0Q0dTFLWHZhck1nUzQxMTJwdEtBYWFkOTRWeFVTM0V5cWFFejNPeF9DbWdaanV0TlBQc1lwamQxX1kzekRfSW14Mjh2dGhrU01uZGhrZE0yWUF0aXN1V2xsNnhnOVVhUnVpQmNMcHg3X0hX?oc=5",
-      "pubDate": "2026-11-24T12:26:58+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Global Market Insights Inc."
+      "code": "FRA&BNL",
+      "name": "France & Benelux",
+      "keywords": [
+        "France",
+        "French",
+        "Belgium",
+        "Belgian",
+        "Netherlands",
+        "Dutch",
+        "Luxembourg",
+        "Benelux",
+        "Paris",
+        "Brussels"
+      ],
+      "items": [
+        {
+          "title": "French Banks: Country Risk Versus Company Fundamentals - Seeking Alpha",
+          "description": "French Banks: Country Risk Versus Company Fundamentals   Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYmpXajg0emJ6Nlh1VjNKTFBmem44WTh3em9NOVVtY21sUmFtaS1GWHBQaTRrMzNaODNGTGF3dW91S0h0UnJpMmlEWFBhUmRRUlFaYVZJX011S2R3WHFmMzJoUHE2YUF0YmhkUkpHQktFZXZRdG5Uck1HRHJjUEtHZlJScHlUOHBQenZPR3lsZ29obXhtMWppTTVn?oc=5",
+          "published_at": "Tue, 24 Nov 2026 00:05:00 GMT"
+        },
+        {
+          "title": "I Tested 4 Ways to Remove Burnt-On Food From a Dutch Oven—One Got It Spotless With Almost No Scrubbing - Serious Eats",
+          "description": "I Tested 4 Ways to Remove Burnt-On Food From a Dutch Oven—One Got It Spotless With Almost No Scrubbing   Serious Eats",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80Q1cyamlOTkx2d09hQ0cxR1FjWGZ1MVBMRnUxTWpLWmRRczFHb19MaVFEdm1JRi1jLWpkNVNoOWxyNWJIRnFOTDVhYy1iTjdHT0RCWGpuel8xel9Kb3dab1BCemIyaEdiTnRqNEt4X2tTS1JPalpGb2tkMGc?oc=5",
+          "published_at": "Fri, 20 Nov 2026 18:41:36 GMT"
+        },
+        {
+          "title": "Giving lithium-ion batteries a second life: VoltR prepares to scale up remanufacturing - European Climate, Infrastructure and Environment Executive Agency",
+          "description": "Giving lithium-ion batteries a second life: VoltR prepares to scale up remanufacturing   European Climate, Infrastructure and Environment Executive Agency",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSE5Bem10Q0pFNjdWOGdlUmQyTXprRzdDMGV0U0xrTUlETEFqSzRzdU1sODRVbncyLVM1M0ExWjlTeEVCeWhxSjRGREtuTmk5dlVYTlFyR2VBTXVNRWZkeFRzUDhpZTlsSWhqOWsyTmczaGlick85aUFRYVFqUWpLV2NTak9nNEd1RllucG5QOVUxRWttSjdTMHpDb1cyejB6Qkt2UlBReWM2dU9OTjA4TEEwTzE4ZEd5ZHZNclZQQ0dpLUI4b1NQTS0zUnNVeXBX?oc=5",
+          "published_at": "Mon, 23 Nov 2026 10:06:18 GMT"
+        },
+        {
+          "title": "Musicians' org. threatens lawsuit against Dutch company selling AI-generated music - NL Times",
+          "description": "Musicians' org. threatens lawsuit against Dutch company selling AI-generated music   NL Times",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVzdVb0RFUFhtRTFJWDlwd19YQXBMZ3RmcmtHem9tT0FzSEJEWE9ReVEyUkdDeWp5UWgyUUVuMFJMTVlsUkxpazE3UEdKZzA5UEgxc3o0QTJRWVpPN1ZPckgxMnVVVXpDY1BqeFpZajFFOXRUdXl4NE9FRXh4RWhPR0NmSHhrT1lhb3JJVDBXdld6cEJnNFFrdmw4S05LaUxENTlwaA?oc=5",
+          "published_at": "Tue, 24 Nov 2026 08:05:41 GMT"
+        },
+        {
+          "title": "Paradise Reimagines Korean Street Food in Paris - 조선일보",
+          "description": "Paradise Reimagines Korean Street Food in Paris   조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdnNNZWI1dU9ET2lobERoZVkybE9QN2ZpY0F1NVR0azhUbktwTlVfU01oYUJ5TGNVdVA4bnBHX0RKcngwWVI5am1oUUU4SHN1UlVlWjF2dHhQTTAxeERQZEdZVFYteGViWTBZTzVqRU8zeXlKUGdJeTd2UktET2tsTmNsTlF1bm84?oc=5",
+          "published_at": "Tue, 24 Nov 2026 08:43:06 GMT"
+        },
+        {
+          "title": "France's retail business confidence weakens further in Nov 2026: INSEE - Fibre2Fashion",
+          "description": "France's retail business confidence weakens further in Nov 2026: INSEE   Fibre2Fashion",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWkE0NUtxV1VnS1FGTUwyMFhmb0wtZGpsUGs0VVU1N3dkam5EQ0pqdDJoc3Y2WFdBN28zTlNjNmR6QmQzTkt3bFU2WmlnZ3c3LWVsUmhqdEsxb3JkQnVKY1loRzNWZ09vYm9ORGpHdU04anJMRXRSbnZBeUNUcjlRVWM0REVDZnV2T3I1RlBwbkJEMjAyT245TXNLMUZIcHE4aEk0Y21zaEdzUFZnb1VLMktOSWFpY2ZMdTNqQVVKV2tGTVZReG5aSkRUS2o0RnFRWUh5MmJfWFp2RjA?oc=5",
+          "published_at": "Tue, 24 Nov 2026 05:13:24 GMT"
+        },
+        {
+          "title": "K-food — South Korea’s Luxury Hotels Captivate Paris at LA LISTE 2027 - The Korea Daily",
+          "description": "K-food — South Korea’s Luxury Hotels Captivate Paris at LA LISTE 2027   The Korea Daily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xOWRTb1huME9xMENiSUE4ckc1dWwxdjZCS0szc2lNbFlDVE9zN3hzdWZUeUo1cUJQekFLZXV1VjEwR0hLNlU5b1EteGhBQzYzQmJLYnNacnU3Y3FxcWw1OVAwMFVMSHBXYjF0dU9GUQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 06:17:38 GMT"
+        },
+        {
+          "title": "XPENG Moves Public NGP Rides Into Its Paris Retail Store - Unite.AI",
+          "description": "XPENG Moves Public NGP Rides Into Its Paris Retail Store   Unite.AI",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWZXbTFHMGlpekhDbGZUWmhJZTRsVGY2dXd0dkw5RVdreC1DYXAzVGxjZkthMkdiQXRyQ0ZEMmJYVlNodmlMU1Z4aGdVS2VFaVhwLS1XbjYxaUF3VDRKT21OZUowSjYtQmJHcExid1NOZ2NCT1p0d2htZlhxUFcxN1IwVXA?oc=5",
+          "published_at": "Mon, 23 Nov 2026 01:24:03 GMT"
+        },
+        {
+          "title": "Ukrainian Company Farsight Vision to Adapt Combat Technologies for the Netherlands - Мілітарний",
+          "description": "Ukrainian Company Farsight Vision to Adapt Combat Technologies for the Netherlands   Мілітарний",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU190TWdGa3FkdWVFLW5jNVN6VmtXSG1raVVoR2toVlN6eFVXYUtlVmpoRFVOYzl4X0FrSlBCMnNuWTItZUZNbWFkSWVZQ1JPMTliWjRjQXhNRlFEMkNmTmY0dFZJMU4xYk1oSnUtRVJVaktfc2lmYTM1VkhiOXNnNUVZbGlZbDBtNFJfb1hISGo3bmVDX0YxMmJuTQ?oc=5",
+          "published_at": "Mon, 23 Nov 2026 17:22:04 GMT"
+        },
+        {
+          "title": "The IYKYK French Brand That Revolutionized Nail Jewelry - Town & Country Magazine",
+          "description": "The IYKYK French Brand That Revolutionized Nail Jewelry   Town & Country Magazine",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNHU3d3NjWmRyb2xMbXFhZ3BMdHVrd2FlMFZYa1VjcUQ0YjlUYVNnS1lmemxDZ2xINlMzWE5SUGd3OXpId2tfeDJ6RWhMUm9TWENlRjFfV0dxTkVhU3hOdnowal9XOGsyZTVfUHppUTFZa09VZlBQRXhVMGxyUENBQS1FXzhKbkdIYm9wM3FZNHdnU0x6MGlj?oc=5",
+          "published_at": "Sat, 21 Nov 2026 12:09:44 GMT"
+        },
+        {
+          "title": "France attributes grocery hacks to Iran-backed threat actors - Cybersecurity Dive",
+          "description": "France attributes grocery hacks to Iran-backed threat actors   Cybersecurity Dive",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnRFN3Q3eWt4Tm9qZEQ1WFJrak5qUWFvcEV2anlha2RiWlNtU3FPMThUNlE2Z1RYMmtBMTBDQUZtcnAwN3Y4U3JkU0s3YnV5MUVXOWdxRjc2d0NIbjAwTms3a0FJV19MVHFfZENmaW9Cc0FqRXR6OUlCTTBVNFNMNGI0V1lJUUFjN19qNEp0dVdqVzJQalVwblNseE1vRDRmWjRoZGNHSDZ2QW8?oc=5",
+          "published_at": "Tue, 10 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Russia Asks if Netherlands Is Joining Ukraine War After Dutch Company's Missiles Used in Bridge Attack - The Moscow Times",
+          "description": "Russia Asks if Netherlands Is Joining Ukraine War After Dutch Company's Missiles Used in Bridge Attack   The Moscow Times",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdFJ2TmpWd2JteFRMSWxwTW5FdVlPdTlUTGZrbEQ1azEtSHlMbW81ZURHS1JsbjMwaHByTkk1b2Q2SDNwXzhNYkItZFV0Q1FsXzk5dU9vSFBXUzNwMVFQejhMbWgwOUNJdXJRVGZSbnJEU1VIUEVJRzhUaDhwX2EwR1pQMXdGTDNzbzNudS1FYk9CSXpndjloaXo0NVFBMjhVa28yZlVPMk1OSTBncG9WS01yZDhVaEg2eEp6WkE2aVg3SktyakxtWWdwODdqMklpQkFLSU5UaGhFcEZEWi1hZmxWWlA?oc=5",
+          "published_at": "Wed, 18 Nov 2026 11:56:10 GMT"
+        },
+        {
+          "title": "Iran behind France grocery store refrigerator and freezer hacks, prosecutor says - CBS News",
+          "description": "Iran behind France grocery store refrigerator and freezer hacks, prosecutor says   CBS News",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeHdPWWw4UlFoVUI4UlRvWEZvSjI2d2FUUmVTSVJlOVdiRGI4YW5SNTBEZi1HamlnUGtjQWpvSGVQTzd2bGVXM0YtU0J1clNCNjcwRkNuR0VaQkxlaWI4aEQ3TFFtVjNJY2E4M1pXRWtNc3JqUnhiSnE4NUF6aEhVeGFnUWNPR294MVk5cUJUaw?oc=5",
+          "published_at": "Tue, 10 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "I Tried French Fries From 11 Fast Food Chains—And One Was Clearly The Best - Delish",
+          "description": "I Tried French Fries From 11 Fast Food Chains—And One Was Clearly The Best   Delish",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWVRWdDJsMVVvcS1UbEdQeWZkcVM4Z1lzTVBNQVB2UHM0ZHlSNVZhX0dCN1JwVERPXzFEMTk3dENUOEg2eXIwUmlBV1gyV215R1hROTl5ZVA5bmZ2TWEwMUVvOWdLWEFnOFYzYWdmOGFnMmV1aWVlSVlVeGg3X3dvMXpaSQ?oc=5",
+          "published_at": "Mon, 02 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Iran denies it was behind cyber fridge attacks targeting France - NPR",
+          "description": "Iran denies it was behind cyber fridge attacks targeting France   NPR",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeUplTVAyd1RlSTdLeEpNTmVTVjAtM0t4anNTMDg4ZEFTWHB5WndSVmV6WnRoWW1rT2JzaDFkZDA3ckJiUkQ5MGZSaFZERE92M1FPUlVnVVpFUnZhOEszME5DWl8yNW9rZGpBVDJxRVdQd3dLZzhSQmlnRUxybl9qZnlUOV94ZjVnT3UwSw?oc=5",
+          "published_at": "Mon, 09 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks - TechCrunch",
+          "description": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks   TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDQ4Yk5RYTJvRFRzeE5OMnFXZWFSSFAzTzBubkpiU2Juc2lZYkRzY2RJUTZTM200aFdKOVh0VHlEY0NPN1drWnVnWnZjVmc3dGZUTXk5N2tXcjk5NThlbUhibElqek1OWkpueTZnbWdnWDNTRkt2X2psQmhzS2l2S0t2cmp5UWhid3hKczVJY0ZrSVIzQmF0VndVU2VteUZDSVN1S05OS2FGNjM0TDRDQ1oyS0xGQmludHhyc0p3?oc=5",
+          "published_at": "Mon, 09 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
+          "description": "New cyberattack on supermarket fridges sweeps across Europe   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
+          "published_at": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "K-food — Seoul Hotels Showcase Korean Cuisine at Paris La Liste 2027 - The Korea Daily",
+          "description": "K-food — Seoul Hotels Showcase Korean Cuisine at Paris La Liste 2027   The Korea Daily",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aYVNoc0VQWUtsMHVGMDlONU9CUFcyTnRwYjFhX0NrUVlnZVhJVjZKVVRQel9WVnlRdlk3bFU5TTd1ME1SMjZOZVR6MVd0VW5EX3Vjb2pVNjRQY3JPYUhEN0lKWElBd0xZbUlWdFpncFk4cWF4?oc=5",
+          "published_at": "Tue, 24 Nov 2026 05:40:45 GMT"
+        },
+        {
+          "title": "Dutch Company Hope Industries Develops Patronus Interceptors Capable of Reaching 800 Km/h and Covering 80 Km - Мілітарний",
+          "description": "Dutch Company Hope Industries Develops Patronus Interceptors Capable of Reaching 800 Km/h and Covering 80 Km   Мілітарний",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTUd4MHBSMVZqWlF2dTdDS21VOTFLM2QxS2VoMlNSdS1qMml1dmpKbVVnRUZwY2l6U1VVdURrNm84S2toZ2VJdXhFUUtIMFIyMkgwUVdVUjYtNXNoVVFSajlJSUR2MEJuV1hGNVRDbDFyYWc1S0tMOHRtclk4R3huWg?oc=5",
+          "published_at": "Sat, 21 Nov 2026 15:57:37 GMT"
+        },
+        {
+          "title": "More grocery stores in Europe report fridge and freezer temperature spikes as apparent cyberattacks continue - CBS News",
+          "description": "More grocery stores in Europe report fridge and freezer temperature spikes as apparent cyberattacks continue   CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbXVvNUc2MkEzcXZRLWtpVW1sOG45cHd4ZEZidVI5d2hLT0MwamdQX1RlNmlZbHF6YTdQaTI1S2NtUW1XZlhsdmlITWtQck41RThsX2VZbFl6OUR4OVlXanNaWUJnVmtFbmpiTGdZZEJ0X0ppaVhRbWNNbmlDSFJRUFNWWWR1TmtWVXhfOUZxZjNFand1QnIwUjNRVUwwQzk1S1E?oc=5",
+          "published_at": "Mon, 02 Nov 2026 08:00:00 GMT"
+        }
+      ]
     },
     {
-      "branch": "USA",
-      "title": "LOCL: Local Bounti Corporation filed SEC Form 8-K: Results of... - Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbnV6VzBXNmxTZUR0ZURhMERsbXdHRlBPZ2VWYjJxcWZIOWtyLUpfLVoyb3hHNUNCd2pQa2FZYW1ZVFdoR1EzRG94eVFnbGlEQXc1Sm10RzAxVkdrZTMzaFRENzRUTVBoTy1CRmN6dlMxODE2anpuMW1CUDA0X1Vqcmc5S2lvcFVGUFNUeUt4MmVCLWpGZHhoSTNRbjFITXZ5ajdHOTZ1UHhlS1hG?oc=5",
-      "pubDate": "2026-11-24T07:52:27+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Quantisnow"
+      "code": "SCAND",
+      "name": "Scandinavia",
+      "keywords": [
+        "Scandinavia",
+        "Scandinavian",
+        "Nordics",
+        "Nordic",
+        "Sweden",
+        "Swedish",
+        "Denmark",
+        "Danish",
+        "Norway",
+        "Norwegian",
+        "Finland",
+        "Finnish"
+      ],
+      "items": [
+        {
+          "title": "Swietelsky acquires Danish rail company VIKING-Rail - RailFreight.com",
+          "description": "Swietelsky acquires Danish rail company VIKING-Rail   RailFreight.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcUl4d0h2OVRMWGl5WXdYdW1QT3ZnN0w4RWxuaVZUcHFDTFNobEJkeUR4cVliNTRVMWhlc2prUXpxUkpDQjBqX1BrN0xiQ1pMcThjYXZRVjIzUVBMbHZNZE5vazRvZldKeW5QMkVTcDVoeUNxcHMwaEFNTzNEcGQ4eEpDb2FPa3ZaZExzUTd6RUlRNlFlN2ZtVjk0aUl2emVNUGc?oc=5",
+          "published_at": "Tue, 24 Nov 2026 07:45:34 GMT"
+        },
+        {
+          "title": "Second Norwegian Energy Company Breached in 2 Days - Dark Reading",
+          "description": "Second Norwegian Energy Company Breached in 2 Days   Dark Reading",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0lhcFVYSXhxbFNwTjVScHBEN1d4WUxDTDBVejd4R2d5NjJueDV6aTg4Wk9xaGNKa2xVd1ZELXNFQndOSGxycmpnaDhObU9KYWNmNjlHZzVZWXJodkx6Z1VfSURPcU0ta3ZpekhxTmtla19FS1ZnVm9WdUFubjRxbjFQWFp6Wk1fTVJjMVBXZ3h6V3NqcG4tQ0tCcw?oc=5",
+          "published_at": "Thu, 19 Nov 2026 21:57:28 GMT"
+        },
+        {
+          "title": "Brand Radar: Soft Goat – the Swedish brand taking its cashmere knitwear beyond Scandinavia - Fashion United",
+          "description": "Brand Radar: Soft Goat – the Swedish brand taking its cashmere knitwear beyond Scandinavia   Fashion United",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWxxcXA1cFVWRGFlWTMtZ3F5Q2F0V2QyakNDUmRVOEtnUHpBalJDQ1Ftem9uQ3VIczRfSmVqUWxHVnZDS2VHaUJYMElnUXNtRTVSUlpOVFlEZ2x4clRnNmx4b0RCNE15aG5OdWJXYW45aXF3YUt2VHJ2eHZqVmJDQ3ZkS1d3UEszTGx5YThuLTBQUF9xbHQwZVpCR3MwZGY4VFJMa0hoWU1YSWo2dUZYazVqUEhSb2huWVJZYmFHRzNQZ2ZQZF9MQTh1am5JMWR0V2RPaEdvMA?oc=5",
+          "published_at": "Fri, 20 Nov 2026 11:08:34 GMT"
+        },
+        {
+          "title": "Swedish R&D company targets food spoilage with labeling technology - Packaging Insights",
+          "description": "Swedish R&D company targets food spoilage with labeling technology   Packaging Insights",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcWd5Um5pbVlLVks4TFhKX0ZMQkJEUjVHV1JiNHV5NGpWajhRczlCMXFhVkpZTldjNmtwR3BsZXBQaldTY05ibFdJLUd0RURZRVNVNHNJRVkybG9EZmFzZFFDRG5LMnhiZ3h5QVlsZFUxZi1HV3N5bWwzMFJUYzVWcWdDYkV1b3BiSG9pcEZaRWRjenlibVRuc1pn?oc=5",
+          "published_at": "Mon, 23 Nov 2026 10:32:42 GMT"
+        },
+        {
+          "title": "Norway Biggest Brand Movers 2026 - YouGov",
+          "description": "Norway Biggest Brand Movers 2026   YouGov",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00UlYwSG15ZElpd25XMGNOMWVBc1ZEUDhNT3poM1hmWUtSNUI5R0E3T2RUdzFFTU5vVW1aZDVqS2w3aU81THFMdXRHOHFjMmw4WHhTZTdfRjIwY3RSaEcwS1NKTjhOUWR4Z0EzRVE5S0ltMzRj?oc=5",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services - The Record from Recorded Future News",
+          "description": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services   The Record from Recorded Future News",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBNUE4eGkwZTV6ei1CRlZYaG5pcmQwb1hEVmV5SjBPOUpzc2VxMFpXbFRmX19RTm15VjhLSUE1Rm5pcHJDWFJaWC1SaHFmWTlCaC1CbUhzQWJMUmJoOG10Wm9maDhtZHhY?oc=5",
+          "published_at": "Wed, 18 Nov 2026 13:36:26 GMT"
+        },
+        {
+          "title": "Company Registration Denmark: 2026 Guide for Investors - Global Advisory Experts",
+          "description": "Company Registration Denmark: 2026 Guide for Investors   Global Advisory Experts",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY2VRNU43bEY5Q0Q3RjlteGdCVXVxb05xUUlWVjItR1JFcUVkV0Fhbjl5S2x0V1Z4VTFYQjc4MGVMSVdGeEZQbURuV2RxdWNmOWdTTkdUVEVCMDNBREtoNFBlZHNCQ0I4R3NvaXlONHRaYjJlV1duMEdmQzNyRUt3YzRseUUwNWplcUtBdXpRSE9QTXdr?oc=5",
+          "published_at": "Mon, 23 Nov 2026 08:57:44 GMT"
+        },
+        {
+          "title": "Carlsberg Vietnam named Nordic Company of the Year - Scandasia",
+          "description": "Carlsberg Vietnam named Nordic Company of the Year   Scandasia",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lbWVoX3JoYkxyV2ZZY2otbzFxRjltS1Rwd0cyTkRHZW1IZzJBNXZYMGVzV19IeW9QMS1KcFk4ZGZNYmJRU3M2bFNLbDloV091dGdjc09JdWduYVFyejJPcE50d1d4cEVud3ZEWFkyeGZTU3ZTT3V4a3pkZm1lUQ?oc=5",
+          "published_at": "Sun, 22 Nov 2026 09:36:27 GMT"
+        },
+        {
+          "title": "How Norway flipped Trump’s name-calling into destination marketing - Fast Company",
+          "description": "How Norway flipped Trump’s name-calling into destination marketing   Fast Company",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdEcxUTBCZkktNVNiVE9scHVZSUJydkhUT05Za3gxbTZzd1dDa1o5SW1yd0NPRTNJSVlLRzlQMENGQi1mdkRSbmNvcEtzeEVmQ2ZiZ2Rfei1NY1BxRDlqaGFPd2pOVWVCdjljbWhLLXVURXdFbEJOVENtUjNyVkFpeWdoTXNpaEdiMGNIMk12NnhneU56dEx3SFloM203UUMzcXhsNw?oc=5",
+          "published_at": "Thu, 05 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "ConocoPhillips announces agreement to sell Norway business and Teesside asset to Vår Energi - Business Wire",
+          "description": "ConocoPhillips announces agreement to sell Norway business and Teesside asset to Vår Energi   Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdFRvRmRPMjhBNDd3c2NDRzdiZk1BNVJESjJwQk5kNF8wbml0ZjI0V09CSmVtY1VQNDF4Wk1zbU91OC1RcmN6ck1DTHV6d1RQal9nYnFpbC1uVmN0ZnhCaUs1WmJ4SzMwV1BqcjNBYlllMlpxcTM4bG5rZVJxV3pmc1JXalgxb0JRWUd5TDQ1a3E3NVcyNEJpZk9XOTFveXMzYmlQSnBsTFhlRmFxV0hsNFBxRlBzekNxNk1oR19qSDB1R3FiQzVyeUxlZU53NjdsSjhmc25URl8xbkZ0YWdaMA?oc=5",
+          "published_at": "Mon, 23 Nov 2026 06:30:00 GMT"
+        },
+        {
+          "title": "Sweden Biggest Brand Movers 2026 - YouGov",
+          "description": "Sweden Biggest Brand Movers 2026   YouGov",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45MWVINzJzWVdSaGdLSDhpSEpmdGJmYW9RdnpMazFuYURkZmZJdHNuZ0JHY1IxX3lJRE1jUlZDVEVtd2dqNTlUSjdwLW4tZ2ExYWlDX3RIdzZiNlpsZk5kcUNtUkNjdUxhWVBvQkR6UlE2WDBp?oc=5",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Tankeom is the new Scandinavian design brand exploring the deeper meaning of objects - Wallpaper*",
+          "description": "Tankeom is the new Scandinavian design brand exploring the deeper meaning of objects   Wallpaper*",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY0p3S19BbjlmNGstY3ZuVnUxX0dJeUpuSnZ6eGNPbXF1Y1hxcWdPdnlKUm5Jd1ZFdGpnNUkzRks3dWI5TllQN2Q2YmRGU0VPWTRLMU81Qk52UXBWTU56b1ZLczNHUDRWdVBPOWw1UnF4dkJLdThYVDNJQUJpRzkwT2cwY2NEeWk1QXlGVHhNUEZRc3dJWG5ycHVpM3dFNWZIZVB6RGNOc0JsN3pESk1NbnllcF9wSmE2RERSRkgtbGlyQ0RSWkY2Nw?oc=5",
+          "published_at": "Tue, 17 Nov 2026 14:00:00 GMT"
+        },
+        {
+          "title": "MadaLuxe Group Acquires DUXIANA North American Business as Iconic Swedish Brand Celebrates 100 Years - BedTimes Magazine",
+          "description": "MadaLuxe Group Acquires DUXIANA North American Business as Iconic Swedish Brand Celebrates 100 Years   BedTimes Magazine",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNUZjMFNLeUh6SFhXTmNoRExZR0toQ1Y3WFFUVzN4N0trT01KUUQ3Y2h0d296YXJ6bmliM1JmWEZBdGhSczY3VmIyMEJNR2E4QUNoQWZ2UlpVODRQQUszRGNnTmYxeG0tRFoxbGltcThGOGNwMmNRZkFKWjF2UG9UcVNqWHNwSnAwNHVmdFVJSGZqMWF1S3RMbGltNkp2Y2NqWngwSjZOcWIwMXZSX1dKNmJpcHkxWllOSWp6SjNOZzJmeVhoTzhidVRRTllhR25ndzUyUg?oc=5",
+          "published_at": "Thu, 05 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Finland establishes unmanned systems company within Coastal Brigade - Nordic Defence Sector",
+          "description": "Finland establishes unmanned systems company within Coastal Brigade   Nordic Defence Sector",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMkV3Z0ZtYjJQZ3RfcERJTEYyaGVhMGpZSjZKX3ZLdVl3eEVjeWpoSXltZU5Ta1YzX252OVBLUzh3ZHlPakY5bmdwd09idzdZN3NpSlVfRmY2N2s3WXVPSFpzeGsyREFYY1Etb0tnVmlhNy1BUnhhU3o4aVE0VUMtRHBjQ192b2s1VDN6cUk5U25pTVIyQlBqeHlwWE9PUExm?oc=5",
+          "published_at": "Sun, 08 Nov 2026 17:12:22 GMT"
+        },
+        {
+          "title": "Norwegian Company Boosting Range for Ukrainian Artillery - National Defense Magazine",
+          "description": "Norwegian Company Boosting Range for Ukrainian Artillery   National Defense Magazine",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGhTaDVJQlBXUUdxV1ZpNTgtUHFmemVZenhrRmpFdm5ndnZ4YUkzOHB6QjR0TThseXZOcVczeTg3LTdsTHpCX091OEhjZDVYQzk0ckxQV2xyaWlWcGxnY3lLRUQ1dGp4akFJdUtUQUdaLUhfX2M5ekQ3dDVzalhXUjR6LTBxYS1RaXRkMHdtRndGNFhUT2ZuR0V0Q3JKT1phaVVoZTA5eWNGUDZFZGFKcTNwbm5NcHM?oc=5",
+          "published_at": "Tue, 27 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Sweden Hires U.S. Private Company to Patrol the Baltic Sea - The Baltic Sentinel",
+          "description": "Sweden Hires U.S. Private Company to Patrol the Baltic Sea   The Baltic Sentinel",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdjdBYkxrb3YwQ2xUSjBtQjlqZnE0VlRzSFN1WUhOcnA3Z2lPNTVzWE1FWXpuQW15eHJveDBSS3oxYUxQQXQzeEZGVVZjZ252QldNN2NsSFRDeGl0aEhwRm5GakY5SHRpZ3oydl9LaU9YaHhfTnIxMkhCTndrbUJtU0NXVDg0WjV1MnlhRG9DT0tMUzVac0E?oc=5",
+          "published_at": "Sun, 01 Nov 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Danish Holding Company in 2026: A Practical Guide for Foreign Investors - Global Advisory Experts",
+          "description": "Danish Holding Company in 2026: A Practical Guide for Foreign Investors   Global Advisory Experts",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWVhwMUdNRFJxcjBIZm4tUkM3UWdxQXVrWHBFZTdwZ191LU9GYkhRRVlMUWhVdXhnREpTY3BpQXM0dG9OWFZDWkFNeUxpRmNrWDhpalVteWtHazhsaTlGQkJEYm9ud21BZ1ZKUDBhRGhzS0pONmw5UXp3VVFCN2l4bkc3QmluZw?oc=5",
+          "published_at": "Sat, 21 Nov 2026 13:27:02 GMT"
+        },
+        {
+          "title": "Swedish company and university sign five-year healthcare agreement in Vietnam - Scandasia",
+          "description": "Swedish company and university sign five-year healthcare agreement in Vietnam   Scandasia",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOXdhMVpHd1ZXNjFqdFFNeWZfR1hDNmFzSkluVXJ0RE40Q0l5SG1HdTRvNlFjU2dRY2lwTnRZazB6OWxJOFBxRWt1SF9xUWpPbm05X1R1cFdCMmIxREVsc0lKZl95SDMtN001Vmx6c0hvWHpidXJudnludlE5bmhSVjRQWlU3V3ZYUVhWTkpUdzFMakdqTzE4al9TUXRrTklGNmc?oc=5",
+          "published_at": "Wed, 18 Nov 2026 04:21:39 GMT"
+        },
+        {
+          "title": "Denmark Biggest Brand Movers 2026 - YouGov",
+          "description": "Denmark Biggest Brand Movers 2026   YouGov",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qa05TSTZEM3dWOVNISG9ndTZjZVhDOUlxYXFGOU0tTm1JWHh0THJOODllcS1Pb1FNbmNybHMxWmtXY2REaWtOdC1TdmFhVnl1TDFVbFNoZEVKLU9fb0VvZm1Fcng2ZW9KSVptNGxiVXdFcWtOclE?oc=5",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Finland Biggest Brand Movers 2026 - YouGov",
+          "description": "Finland Biggest Brand Movers 2026   YouGov",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TVDZaNmtIRkxMd1J3OWdSQ2tiQ2Eyd0YtUnlWS184QjZqNXlKWFR6TW9wcWdBS1dhbmhOSi1NbWI4cllGZi1LcWU4eE9uVHFqdHUzejFPWmx2X3RLVUx3aVRLbzlLcFc4MkJhczRrRDNaZUxWUnc?oc=5",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT"
+        }
+      ]
     },
     {
-      "branch": "USA",
-      "title": "EDT Names Hemant Chauhan as CCO to Strengthen Sales and Retail Operations - Indian Retailer",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMldvNkxOZ2dPOEVzTUg5ZmV3eDF0WEhMRzJDNVhfdWVnMHRWd2tKM29DZks0MGhyTm9MdDIzZUdkWXB1UzNweEhMbWZ3UDM3dUpmc1hYN1dKOWZVdG9FREhTbFRmbklUOUlJWkIxbVlVTENTRlY2YXhsVHZDM3hTZ2RTdUtTbTBMbnUtYVdlTTdVeTBMU2wxaEZXZDFiYlllS09SaTVR?oc=5",
-      "pubDate": "2026-11-24T06:59:13+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Indian Retailer"
+      "code": "DACH",
+      "name": "Germany, Austria & Switzerland",
+      "keywords": [
+        "Germany",
+        "German",
+        "Austria",
+        "Austrian",
+        "Switzerland",
+        "Swiss"
+      ],
+      "items": [
+        {
+          "title": "Switzerland Sanctions Myanmar’s National Oil and Gas Company - https://thesentry.org/",
+          "description": "Switzerland Sanctions Myanmar’s National Oil and Gas Company   https://thesentry.org/",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN2owcXp6VVZIN2NnSDlXWU1TMGZiQW5uSWI2WmJTUUh6al9OdkNvb1NGZjFMR2pYSGRKMmRCb0M1Yk1pa3BEYkxSUjF4ZExrbTBWak0zV2p4cTQ3d2N5SVN1YVREOEdudnl2MVU5WHQ2QVFEWHU0a2cyUnZZNWRPVm9RODBNMkRVMm9xRWdUc08?oc=5",
+          "published_at": "Mon, 23 Nov 2026 21:30:01 GMT"
+        },
+        {
+          "title": "German Minister Criticizes Trump’s Intervention in Nvidia CEO Case - Global Banking & Finance Review",
+          "description": "German Minister Criticizes Trump’s Intervention in Nvidia CEO Case   Global Banking & Finance Review",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWkNNN2JhVHdSRUtvN29OM1VSTE51bnQtSzBTc0VfOFpVVWhiLW9XOW9RLUlqQUNwR0NiLXBxRE1udlpTenprRHdtSjdVcERSQWRDWjFsZW1TV082MEx4TzdHNVVKc0psUDgxYlVrbWphODd5M1l6NVltbGVQVmUxLU9YMmxhOTNqaDJmRHdVVzVQczFOS3c?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:52:34 GMT"
+        },
+        {
+          "title": "Rawlings sells majority stake to Swiss company Partners Group - KMOV",
+          "description": "Rawlings sells majority stake to Swiss company Partners Group   KMOV",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTk9RRU1NZHFod1VnY0JjU1J1LTVONEdmMS0ybTBBOG5WTDFocEJKdExEOUVMUDNZWl9XYnk4OUtQcmNveU5iX25Ha2NyVWxTMjRtcjVoN2tCRWd4MDF6MWIxN0dzRUhJSU5OMXRXb1dUZ1J6NFBNVEN3RkNDWExhbHFjeXZlVmFVQzFtVnVKYmg2amhDTW5OWjhBc3IyMU3SAbMBQVVfeXFMTkhzMUR1Q1RqSXRLT1ItRllsNEs4RUR2OGJlTHhiSzJmYlNTTmxTUVJxVG9kN2pCN2dEMU5McDBFMkxLbzQ2cmpiTGV5alpjNnJmM3J3U21EN2p2a3B3RVlNVjNOeWdZRlNjVGswQS1GNXFHY3NOMXk3M0pnOUo4dXJ4RTVwUEpMTHhLQ2JkVDI2Q3FTR00zM1J2NE5GWFdfTDVVTElIeUxxbDN2bVAxcktPUzg?oc=5",
+          "published_at": "Fri, 20 Nov 2026 21:38:00 GMT"
+        },
+        {
+          "title": "Austrian skin care company opens Roanoke headquarters - Virginia Business",
+          "description": "Austrian skin care company opens Roanoke headquarters   Virginia Business",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMUhhZ1VSLXpsTlpmal9EV19TTVlFQzljWW0wNGJBeVZhb3JiVndpbjBLV1VrX0owMEVET2JjVmZ1V3JWM1RCaDY1NHI3dVJvclNjQl9KVkxEaU91Q01DaUtTTlhac0ZIZUlUSTZscWpaRnU1VXZMY1BIQ1pTVmdVbmRlMFIwY1BHMXJR?oc=5",
+          "published_at": "Wed, 18 Nov 2026 18:22:03 GMT"
+        },
+        {
+          "title": "German submarine CEO says Canadian business will benefit from tighter European ties - Toronto Star",
+          "description": "German submarine CEO says Canadian business will benefit from tighter European ties   Toronto Star",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOX2RVRkd4cG5DaEtzb3g2aEczX2ljbWN0bkhHNG9vMVlJRGxZLWdyMTFfRFFPUk1vcjRDWjJ5SGxqRjd5Z0p0UW8wUl9tdGxPbGpFT1RMbU81bGI2ckRMVG9lMFhlMk41QUJ4Y0o0M2RJX2VNTE9qc2w1MVcwNk41V1FhOFE0YVVzOFd3bnBmc2VLU2xYVjYzbnVERTVJYm83VDFqNFcxeHFTUW5DR2w5OTVZUG5fdVMwc0JveWx4ZHVlZG52U2x0MzltdE9oTnkyUjVoNGVIZXVEemNSQV9pbGZPVDJCQU1nZHg5NFR5UG9yc1BTRExWVjdPaHpmRmFoUzBZOUVaZHFwZ3plZXc?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:00:00 GMT"
+        },
+        {
+          "title": "What Congrex Switzerland’s New CEO Brings From the Tech Industry - FTN news",
+          "description": "What Congrex Switzerland’s New CEO Brings From the Tech Industry   FTN news",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNelB2bHA1aWNfbFVZc0N0eFloNWZ5M0N1b2FHNVBMQnZWNEtvc2N3LUNTSWtmRXFEVTVEQm1lelRwZTQ5a3JUcURRWk1acGliS1h4QjFOVkdXXzZFWFJWM0NzeVFadWVIVFhQaGlPa01NWDFCVzc2MWpZVS1aaWZHLWRWR0Q?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:40:53 GMT"
+        },
+        {
+          "title": "Cheap gadgets, lost jobs? JD.com's takeover rattles German electronics retail - Ynetnews",
+          "description": "Cheap gadgets, lost jobs? JD.com's takeover rattles German electronics retail   Ynetnews",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QOE44STFTcjZsNnNBZ200ZFJ0SUNxT1hRdWhINFZSX0pIdHZvUEtqeXVjQTJfdTZ5OVlHckZtQklqME5SaC1zWGxSMUVkOGJrR21yWjBCdm91MHVkS2RNYXFR?oc=5",
+          "published_at": "Sat, 21 Nov 2026 18:47:51 GMT"
+        },
+        {
+          "title": "German Foreign minister ‘shocked’ by Trump intervention to reinstate Nvidia CEO - The Sun Malaysia",
+          "description": "German Foreign minister ‘shocked’ by Trump intervention to reinstate Nvidia CEO   The Sun Malaysia",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN0pvT0ExdGM4QnBReFplYzZkVDk4UHpaTktPblRPQXJuTXg2WGFnaWRvaFgycU04YTVTWjNiZzVuYnYxTXNVVmQtWWpPc1haa0RRYjVvdHc0WDcwYjdDY3BhRmo5Mnk3TjN4UzZaQmpQUUtheXJDdUR2dW8wa2x5bUJCd05Lb3dSR3B1WU9qNTdKNmxqV0I5SE1fZU5QS211Zmc?oc=5",
+          "published_at": "Tue, 24 Nov 2026 11:02:46 GMT"
+        },
+        {
+          "title": "ABB acquires German cooling company Ziehl-Abegg for $2.2 billion - Manufacturing Today India",
+          "description": "ABB acquires German cooling company Ziehl-Abegg for $2.2 billion   Manufacturing Today India",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNam9ad3ZkQlRlLXNsMkRfQ090MFo5ZFVrQjBsVG9acnlHdUpGbHBjcV9YWURGenhuMjluM25KbkJ0UmxiYmo3UkI0NjlsR3dxbHo2aUFON0FlT2tZX0Y3Y0c1RkVRMWYxLWxmWVZVcnJibDlpS2NEOW5kVk5Xd25lSVVqbWFNbFZTYWM1R3JuYWZkb2RCVzBqdXl4ZW0wLWtHTVBYWEF3?oc=5",
+          "published_at": "Tue, 24 Nov 2026 05:22:52 GMT"
+        },
+        {
+          "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks - Al Jazeera",
+          "description": "EU urges action as Germany, Romania and UK report supermarket cyberattacks   Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRC1DQWVUUFdlVGozYUdORVpwMHJNaXdDSlJKaUxlYVBpUm9UbGZCNjZQS1FKRV9haWNNTVdfQXBnUjFUelZJeERuc2hnNWVhM19pRkJZSkEtTHBsQ1VwdVpXQi0tMHc4UG5uZ0NuVWttRFp6eUE5S3ZFRFFsMTdGZmw3REhDMXNDVEs5emExUlBzX2d0ZkV6bWN1VTFOczd6M0ZDSFNRcVlWRzgzVzdBaFFiX0XSAboBQVVfeXFMUHNzS3g4cjFmenhPWHY1dzhBWWM5U3pCLWRMdEI1MFhzYms5aDFkT05tMUZwZm9DRTluSWtDUHByWjVRM2R5eUZKWE16X01wT0VURkgtNDBpTlUxM1VzWU5peWh2ZVZPVER5MXAzV0FHRU03NEQzYWd6VTg5WUJHSkZ3RzM0OHlQa21ESW01MUhBaFlOWlBGMV83dXZ3QzQtNkQtUGFYSWdnNWU5elhSNXdrNzBXU05ZbWpR?oc=5",
+          "published_at": "Wed, 04 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "German DIY Retail Sales Show Signs of Recovery - https://news.brgbuildingsolutions.com/",
+          "description": "German DIY Retail Sales Show Signs of Recovery   https://news.brgbuildingsolutions.com/",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMkdpSXRlb195aFZnSzk1dDBMUlR1QVdDZ24ycWlGUUF0MEVNTVlTX1ByNTVEdjdWQTVObnJDRjRWanJfMF9QTXBlWnk4TDNSSW9mVXRHakprbVdhM2ZXSm9vWGNtb2xyaVdfdEt6b012azd0LW9pMm5BOU9mdjZ4Tk81cHM3LUhEM2pmaTF6eUxEZnM?oc=5",
+          "published_at": "Mon, 23 Nov 2026 17:35:13 GMT"
+        },
+        {
+          "title": "German retail sales falls unexpectedly in September - Reuters",
+          "description": "German retail sales falls unexpectedly in September   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMEdPckhpS1FYbkFnTWlvZEkzbXdVSzNQbGlMQ1hIamtTbEs5ODhJaVctX3VVQTd1YmxRUlA2a1pUX1VpeXNEQ1BiUDVIVXpIM0FNUFRjYlBLeC1BSENUMmlJTTFWa1YxZlF3MnZlT3k5eE1uaWZ3d2lLNl9xa2tWeUIyRTZkYWRBR1JULWNCNElqSjhxZmsxTEdNMHRMSnpraGdJYW1FRzVzcGl3TUE?oc=5",
+          "published_at": "Sun, 01 Nov 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Pet food bank to open in Switzerland County this weekend - The 812",
+          "description": "Pet food bank to open in Switzerland County this weekend   The 812",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ284MEx0YTRrTXVpdVNPT0Z5bUVUeXlRQ1hWUlFSMGV1dE9fTnFvZTdmc1pUX09meExvS1BuclA5a1JtUFBmVXpyRFhrWlZabnZGWGZVV2pSQUUwc0kxTUU4WjdHNUNDN2Y5cWdFTGx1SV9RczlmUWZ2RGJwREdXbFk1bW1Ta2ZvLXB0VFFn?oc=5",
+          "published_at": "Mon, 16 Nov 2026 21:29:12 GMT"
+        },
+        {
+          "title": "\"It's a Whole Blob!\" Reacting to Wild German Food Ahead of Lions-Patriots! | The Valenti Show - Audacy",
+          "description": "\"It's a Whole Blob!\" Reacting to Wild German Food Ahead of Lions-Patriots! | The Valenti Show   Audacy",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ2Y0U0I2ajZpbTNJUURtWEkxYUdsQ0Z3bWp3NTNseWc3c3c0TGlLM19IeVBCbnFVYko3emdUTDF3eGd6blluMFB5NE1iaDBDM211NUo1MUVnTDJId1dobTZLM3BtQ053dEVJRVl0cXJkYnpiOHVIQ1prckFXR2RaUnVxUnJCNnZ0bkktd2lKUmNHN2RsYlF3TW9mMWc3cUpRR2dWQVRvUmFrOTF3UVFVZ1ZRa0xEV3RqUmxDcnhDZ2NORWZ0Z0NfNUhsQmVHWEotTFB3?oc=5",
+          "published_at": "Fri, 13 Nov 2026 20:22:53 GMT"
+        },
+        {
+          "title": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply - Euronews.com",
+          "description": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply   Euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZjFBOUtZM2RVRWJSTVlSYnNwZGd6U3Z5R3R0WkRfY25FcXpoZ2JxX2RMNGZzTkgzcGt5OFZUd2FaYnVaTWhTbjRWWF9zTUlpSXpWTHNvTTRpaTBYdE5FVDV6VUxVSUIxT3Vmcm9QRjFQM1lTcXR2RGdkR3E2RmlSdlRpcGEtYkZKUjFNN0paSi1DWjlVcUlBS3BSLUN6Y0dBWk1sV2xoUU9ZMFVKYXhnemE4eHRUWXVSSkt1endjMWFXWlFj?oc=5",
+          "published_at": "Wed, 11 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Rawlings sells majority stake to Swiss company Partners Group - KMOV",
+          "description": "Rawlings sells majority stake to Swiss company Partners Group   KMOV",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHNsbl96TDRGaU9kUVJfOG1jVTZKNGtkNlVWeHRxWVRYeFNLNFJkc0RKWmZNU1ZiWHNHeTlfMWQ1LXl2MllTT1pNVEF5Q0plcV85NTFtNzRfT2xlUlAxaFdpaVljRVJURkJiVWY1bFREZVYxdDE2WEFVZTBtTkt5aWZXSEo2bnhmOGRGUFVlVHMzelRWdFJVYXZRWDZzRFV4Q05Bb2tVMA?oc=5",
+          "published_at": "Sat, 21 Nov 2026 08:40:13 GMT"
+        },
+        {
+          "title": "Wurstfest 2026 brings 10 days of German food, music and fun to New Braunfels - KEYE",
+          "description": "Wurstfest 2026 brings 10 days of German food, music and fun to New Braunfels   KEYE",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOXc2RE1raTROSHRNTGZscFFvWWdFWUhrWXJaems3amhwLV9tZ0pnQUUxaGtyd25naGI2NWpXVWh3aURjSXc3WjJoM2xaSW9wZzhZVnM0bEVvcVIyb1NydEc0S294NTBGcjdDLXFhZzc5TGJfX3BYYzU5eFBaeGJpTV9rYTRzY0h6bjhRMGs3Vmt4b19hU0Z4bTJpdGNSZWtBcm5PXzJXQkJmcjA0a01hSlN2TWpOSk5uZ3RXbTNDVEZ4UFluUDR5UUFZaw?oc=5",
+          "published_at": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "JD.com wins EU approval for acquisition of Germany's Ceconomy - Reuters",
+          "description": "JD.com wins EU approval for acquisition of Germany's Ceconomy   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWGgxLUp6cElmMWJIUmRRUndreE00cUhJTWc1M1VULVZraElsc3ZWckhPWEs5ZDFGUnJJZkNDNHMyY19zZlhZMWVydjRRSV94ZTdBQ0VCSkVpRE83NWRBa1V1dkwzU2dtVEdpaFUwRWN5bFpRQ2VnYUYwQWVVaUp0dXJ3OHVmcDA2WEtYdVZyT2FUQzJzSEppNlZjNVE?oc=5",
+          "published_at": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "German retail industry sees higher real growth this year - Reuters",
+          "description": "German retail industry sees higher real growth this year   Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYVhzWEZUdEM2c3VWYl95VjlaWTBZZWZaNzlUR0tpSlJPb3ZvczVzMVBMeHVuUzR2enhGYVo1QVBfc01yTWZjejI3YXd5cG8wMlVtLTQ0MThCNXhEcjdDWW1wSEcxX0VCcm1tLTRNV1pWNDItQ1hCYnB2dXJUQ1RPQktQSFhaeFBzSVB5ay1GSmxfbDloWVhwcDYwRWRrY1lJMmxMVzR6Z0RSMWFRNHpJeWx2eDRWX3Nx?oc=5",
+          "published_at": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "German Retail Sales Unexpectedly Fall 2% in September 2023 Report - Global Banking & Finance Review",
+          "description": "German Retail Sales Unexpectedly Fall 2% in September 2023 Report   Global Banking & Finance Review",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSlFoVlJ1MXpjNVg3RkYwMlA1SmpIQkM0UUQyRHIxbUpDMmJzZy1fN2xvZmM2RlhZMDVnMndwX1ZkckpiQ2VnZ1l2OGV5RHlfNjI0U2hlOE5VOWNBVUVKamZFNVd2TzRiVGwyWDNqcGRHenpUd2RaaFJaa0N0V0xMa1VTdEo0R2dmaDd1aUo0dVkwakU?oc=5",
+          "published_at": "Mon, 02 Nov 2026 08:00:00 GMT"
+        }
+      ]
     },
     {
-      "branch": "GER",
-      "title": "Moldova Supermarket Chains 2026: 10 Retail Groups - Grocery Trade News",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kVlZadTB2TTdMX3VrNXNTM3pSY1ppOHdUSGNnYmlMWkFtWDlsczkwNkZDTlZXNHlDSnlBVFduMVRtM1BUT3pxVUxPLVNveFJyYW1OSEd1ckpHTEN1TUt2WVRCWUpDSl9WSmRPcg?oc=5",
-      "pubDate": "2026-11-24T06:01:15+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Grocery Trade News"
+      "code": "USA&CAN",
+      "name": "USA & Canada",
+      "keywords": [
+        "USA",
+        "United States",
+        "American",
+        "Canada",
+        "Canadian"
+      ],
+      "items": [
+        {
+          "title": "News | Costco goes big in Canada as retail construction slows - CoStar",
+          "description": "News | Costco goes big in Canada as retail construction slows   CoStar",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPazhSTXY3dGR5UEw2aklVU18wZFJ0Y3BlNGxOcVJXTERUMzRPQnAtMnhfaGRFY21tTHlOeER2TGZZb0ZzSWhBVmE3N3RucEh2X2J1SFhLdE9mU2xhTEpRVVBsZ29oaHAwWkx1VmppZVhlUEZHTXJLbTdyMG1SM1JPdHotaEFJaXV6ZThjYWFJV1ZSUU5RWFdsOXRzOA?oc=5",
+          "published_at": "Mon, 23 Nov 2026 21:54:41 GMT"
+        },
+        {
+          "title": "USDA Puts Ranchers First with BRAND Approval, Securing American Beef Herd Retention - USDA (.gov)",
+          "description": "USDA Puts Ranchers First with BRAND Approval, Securing American Beef Herd Retention   USDA (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUW5oaG5JRDlYLXExRVNlUDB6QkQ5UWlpc09PQ3NJVGl1UjlvNnhuZjlvV3pUNGRVcVZ0U0l6bFlEaFRHRXBDWW1ubHVhbl85eXI0THNfcFh3TUQ5NjgxczE2VHljOUN5RVQ5Vkk4cG85UUNRc1A3RVc1RlUtN1pyWVRmRWtudGhvU1M2TkpoYml1TW9Zck9kSHlxenZ0aFZUZ19KaW9zVXc5REhEQlFVZlM1UGtpUEFwVkltLU9DUEwwVkF3bl85T096VHBkS2VINVRQekJmUQ?oc=5",
+          "published_at": "Fri, 20 Nov 2026 20:00:00 GMT"
+        },
+        {
+          "title": "EasyPost to Go Public Via American Drive Acquisition Co SPAC - Yahoo Finance",
+          "description": "EasyPost to Go Public Via American Drive Acquisition Co SPAC   Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYUVfUFBaV0dPbGNNSjdMZHhxZ3lmMEdlcG1hUm9pQnFUUVlyN0ZsWXBZUDR2MWFTdkRVOEdsV216ZFdJcTZkaWw5OUVVLUxTVEJJc1JzSllOSHZNYlBCajJZeVF4bDZiUWt4U1RPNEw2SWU1b2lKSVJvc3phV1ZTVVJGU0VRN2hvMUdFbFBuRmwzMEpwREl3S2R6Y0pzTXRD?oc=5",
+          "published_at": "Mon, 23 Nov 2026 17:07:11 GMT"
+        },
+        {
+          "title": "SIB Corp. expands Canadian broker network as acquisition market cools - Insurance Business",
+          "description": "SIB Corp. expands Canadian broker network as acquisition market cools   Insurance Business",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSnF4SU1kdVM1SFhkc1VGZUpKS0tlZlEwaFBIRUg1SmczLW1BMWZNTWZzQVVBWWZYSmxkcmMwemtVLWdXYUQ2Y2kySm1xV05kMzc4cGJMNDg4bENaZ08ybjc4dnFuNmE2bWtWUEdfYWpOLWlDQUJkR0ZMNmRPUzVWY09hd3Y2MHZWc2hMdjZyQmRzaXhfT3NoMW5TaHZMSzdMRVktbTJVU0NIM3I3engwMXpCX1lNaHZDa0V5X0lYZ3NTX2dXN3Q5Y2pWVnRGbkRyZW1QNGZiZEhXYjNDQm9VZQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 12:28:57 GMT"
+        },
+        {
+          "title": "Quebecor CEO Péladeau Voices Optimism After Talks With Telus - Bloomberg.com",
+          "description": "Quebecor CEO Péladeau Voices Optimism After Talks With Telus   Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa0YzeXZLUXU2eUhtRWZWdHdqVmZzTlRpaUljdzdsZWhNVU9uLWZSaVJOMWQ4X3M5V1Z0ZFRsMFBCU0hPQU5PNElFTDFrSU1Gdzd3bHlUNlBUUWdpWHlGT0hzSVlKZU5PbTB5ekV1aVNDUWZNd2lwd3pnQnM2dUNZQ1R3SXZJMjEwZHdfNzRUWEFSeGpKZ19OQTJxUTRUUEtNdld3R0xuYW9YN29yNkdfTG93?oc=5",
+          "published_at": "Mon, 23 Nov 2026 23:48:14 GMT"
+        },
+        {
+          "title": "Jensen Huang's return as Nvidia CEO: Cheers, concerns and a market rally - USA Today",
+          "description": "Jensen Huang's return as Nvidia CEO: Cheers, concerns and a market rally   USA Today",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbzJ0MDhOVnoxbnE1RE5EazFCZlFaM3Y0QzJhd21yZTMtcjByWVdqYVBoTEVFU2dqUDMwNjhYVDEwZ1BWT1RqejNHXzhLX0M1bzlYV3d1aTNMTnBoMHhNNm1DR0RJSE13TUlfR3BOTnhYXzBPLXlwcEpsRG9xUi1WSFBuYkg3VjRNWkRkYml5a2F3WEI2bC1QNE5Paw?oc=5",
+          "published_at": "Mon, 23 Nov 2026 22:04:00 GMT"
+        },
+        {
+          "title": "Ferragamo USA Takes Direct Control of Puerto Rico Retail Operations - The Impression",
+          "description": "Ferragamo USA Takes Direct Control of Puerto Rico Retail Operations   The Impression",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM19rTlhhSEFNS19zS3ZjYW5yNUJTbFpxTGpRNU9za2RpQjg4WHFuazF6eHJrSm5yLXh0anVPa2Y0RURmU1RJbUg0Sm1CSnRRN21QcTlOQ2pPcXFHd3hpUEFTQUE2X2t3WE5NdXdkTGt4UmpwNWZ4NlYzdFNkdUsyVE1rRUF6Vmt6WFR0THY2SUpRSW5YdHJheWlR?oc=5",
+          "published_at": "Mon, 23 Nov 2026 20:42:10 GMT"
+        },
+        {
+          "title": "Trump Says the American Economy ‘Needs’ Disgraced CEO Jensen Huang’s Leadership - People.com",
+          "description": "Trump Says the American Economy ‘Needs’ Disgraced CEO Jensen Huang’s Leadership   People.com",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaVhHVGE2cXNNa2hjRThZWHdXalFyZFhGLVBDUUkxSC1xSXpnSEtZejVGdVd6bEstZllWRkM4NlFBUEVxX1FXWi1uUGV4UjY0MXNiRVpRLV9sNE5FdklqWG5LVkdaWWw0dDhyRU9Kb0JXYmtqYWhnSC0yUlVTN2VIbUZDS2JrMG4wdlhJQ1NIQTdrOW04QkVDTUFHVTBia2tUQ2xtYVZoSjgybnBidS1TWUdJbjhwWGVBeFhnM0xOU2ozT3VHdzhoRURnaEJhalV1aGtmT213cEk2Yk9xTHQ4Qy14X19yNjVLN1JmWg?oc=5",
+          "published_at": "Mon, 23 Nov 2026 16:20:42 GMT"
+        },
+        {
+          "title": "Thanksgiving grocery prices — Korean American Markets See 10% Surge - The Korea Daily",
+          "description": "Thanksgiving grocery prices — Korean American Markets See 10% Surge   The Korea Daily",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWUZaZEpZUGRZMkNCQXBEZGpBRVAwSEpxRUVXdUVwSGd4MTVhOVQ1WHZqWjZuQkozdlN2UlZPVjl3eWR6WlVsNzNmaml3RlFON0h1ME5kYjlyUUdzcmZmVERGZzlDRkVENWE2dnVmRUota0F1RG5oeHBiMnNaT1duV3NCNmY?oc=5",
+          "published_at": "Tue, 24 Nov 2026 04:12:44 GMT"
+        },
+        {
+          "title": "Ferragamo USA Acquires Direct Control of Puerto Rico Retail Operations - WWD",
+          "description": "Ferragamo USA Acquires Direct Control of Puerto Rico Retail Operations   WWD",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUzdMekNlWkJIZkZLcUxPNVRYQndkcnNtZ1lNR1lrYWc1cHFkRk9qSnhINlVCUndjWWpaa1BWbHlnM1RxdVBaZTRsZUhURWVmMml4TEx0VThNOGwxSlpqUDBDcHNSV2RfR3QycHIxdFJ5TGdYN3dfNzh2WDE5VkRBLVFzNmM5MlNxeGVsc2JnbThMdXhoY3dHckltOG45anNNbnF2d24wemZhQzhNR1dUYXZnaTQ?oc=5",
+          "published_at": "Mon, 23 Nov 2026 05:02:58 GMT"
+        },
+        {
+          "title": "Middlefield CEO sees decades-high opportunity in Canadian equities - Proactive financial news",
+          "description": "Middlefield CEO sees decades-high opportunity in Canadian equities   Proactive financial news",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVnV5bTJvcVgwcW9CU0JtWXBLTk5vVXl0NnNJUnRsRzRyUnJPZHFyWTZFMkMwLTRIUktZVXZuTDhobVVkSGdGZmxXUlBTWEtFMWllQWF0aW1qcG9LRmdDT1ctYTZlNFFuY3J1WlNtX3F0WmJwb1B1QU8zSWhlSGlaQ3VUTW9sdXo1N3BPNzhDTUUzcVl2cUFfR3FvT0U0eExTaG8wcHZYQjU5S0tjMVlLclZDbkRWeE5BbmtSTnYtQVEzVFp2Tkk3Ug?oc=5",
+          "published_at": "Mon, 23 Nov 2026 17:25:00 GMT"
+        },
+        {
+          "title": "The Best American Burger Chain Isn't Shake Shack Or Five Guys - www.foodrepublic.com",
+          "description": "The Best American Burger Chain Isn't Shake Shack Or Five Guys   www.foodrepublic.com",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOWJzU2U0VWtDckQyS3JrYlJxUFJRSFEtV2FlRWxjZ09SYkU5SEpzbTFYNXJiY3hueXM2Um8tWGhRdzJVUGJvbm5JU291ajNNMGd5NURUbXdZOGY5SHJBR2NsWE9vaDE0bE82UkJvOXJnNTNBT281OUZQalJ1Ty1melU5TmRkR2N4XzhmQmp6VWtkZ1I1?oc=5",
+          "published_at": "Sun, 22 Nov 2026 17:17:00 GMT"
+        },
+        {
+          "title": "Country music megastars have teamed up to keep iconic American outdoors brand alive - PennLive.com",
+          "description": "Country music megastars have teamed up to keep iconic American outdoors brand alive   PennLive.com",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVVl0WkdfMjRMZ0ppMWJ6OF90ZmN2dWxhWkNxOWxBYmlDekhxLUQzMFJFVmJEYVVKQWpaTERWZ0dLYVVyX3F2UzExYXJTdjJUN1JFUXozTmM2SzF3bEQzemQtNGgtS1gtRGxMZ0IxbFJhaV9qcHRtRVV3NkhURDRWR05ySTZwSHlKaEIxMDlqMWh4S05fQ2Q4X2hLSmRTM2wxMmFtMjNzNzduQ3BCTDRBRGpfTHdINjgtMDNDTFZjWFhIX3Z2Y0V0UHc3dE5kMTNY0gHkAUFVX3lxTE94R2JYOTZqeEM0LUd2NFgxNFRoQ2xjSElpdDRTY3BWdlJNQXJCdkhWUXRsMDNMSmhyalMzdVRvQUgwVWNNVmVpRzdwV3Yzd0lLWWRJUlhOZS10OHQyb2NJSGFENTBCaHBlTThwdEFsTmQyVlczLVU1NDBoTU5EeUhyeVk5VF9jdVdWc2lTZ3VhQUJ2Q0VPZEp2ZzEzcXVRRmNrb2EzcEQzallIZkFvOXIxeWpCaGhoMUJ6S0dNMnF1aDJHbDNrYXNaektadzRQeXZCV3E5ajhXNTBQSmFpUms2V1h4eA?oc=5",
+          "published_at": "Sun, 22 Nov 2026 10:00:00 GMT"
+        },
+        {
+          "title": "Monthly Retail Trade - Sales Report - Census.gov",
+          "description": "Monthly Retail Trade - Sales Report   Census.gov",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTZ0xCM0k1TjhISk1PSHVjZmNkRkluTlhWVXFXTzRXWEY5ek02S0ZKT3NBbzgtNVVPdmN5ZDc1ZzQ5QzBjd0lOUW50RmxRVnlfUnc?oc=5",
+          "published_at": "Tue, 17 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "German submarine CEO says Canadian business will benefit from tighter European ties - Toronto Star",
+          "description": "German submarine CEO says Canadian business will benefit from tighter European ties   Toronto Star",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOX2RVRkd4cG5DaEtzb3g2aEczX2ljbWN0bkhHNG9vMVlJRGxZLWdyMTFfRFFPUk1vcjRDWjJ5SGxqRjd5Z0p0UW8wUl9tdGxPbGpFT1RMbU81bGI2ckRMVG9lMFhlMk41QUJ4Y0o0M2RJX2VNTE9qc2w1MVcwNk41V1FhOFE0YVVzOFd3bnBmc2VLU2xYVjYzbnVERTVJYm83VDFqNFcxeHFTUW5DR2w5OTVZUG5fdVMwc0JveWx4ZHVlZG52U2x0MzltdE9oTnkyUjVoNGVIZXVEemNSQV9pbGZPVDJCQU1nZHg5NFR5UG9yc1BTRExWVjdPaHpmRmFoUzBZOUVaZHFwZ3plZXc?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:00:00 GMT"
+        },
+        {
+          "title": "Nvidia reinstate Jensen Huang as CEO following alleged affairs, as US government support renders 'please give me my job back, go USA' a highly persuasive plea - Rock Paper Shotgun",
+          "description": "Nvidia reinstate Jensen Huang as CEO following alleged affairs, as US government support renders 'please give me my job back, go USA' a highly persuasive plea   Rock Paper Shotgun",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQdEpQRDhFNzRJckQycWUxa09qVkU4bE9mcGZrR2Z4bFhTWFViR1FqWnJCQXRzaVJNVlB5VDZya3RZVUVzTnJoYnE4TW5pZFJ5OFNPa3RRYlpKVWRaN3JMUXdZY2FQUHdDMUJsa2dJYmFSZXgtUUpaMElfX1FjWE9xREZEWFFYY2VlclRnMEdLSk93WDBPeFc4cFg0Nkw3MHhBQV9jc0FCbmc2ZFhieDVqRVRXTjIxcXh6TDQzZXhHY3lSVGhDSUZIZHNoSlFldm5iOXpnenJpY0Y5cUx0LTJYTUUtcFN3MzFONGpKSlVobkI4dGNNRXBQY2Mwa0lnVk1TazM4Q3lJLXJOUjhXZkZLWVJWc3R2Zw?oc=5",
+          "published_at": "Mon, 23 Nov 2026 15:10:20 GMT"
+        },
+        {
+          "title": "CEO says Canada benefits from working with Europe - Yahoo News Canada",
+          "description": "CEO says Canada benefits from working with Europe   Yahoo News Canada",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LYUw4SWxrZUtvdXdCNEoxcVZ4VnNDY1E1eU5GR1Y2Y3JfOWtNU3hWRm55UTJuRnJFaDhiQVNVVEg2UmtMN2hrbDJZV1VRN3dCaEFUQWM4cmkzRUZBdDREbzJ1SEZseDZhYU52Z1dQb3JNdk5KbTdtLU1tOWcwUQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 09:00:06 GMT"
+        },
+        {
+          "title": "Trump says he 'convinced' Nvidia to bring back Jensen Huang - USA Today",
+          "description": "Trump says he 'convinced' Nvidia to bring back Jensen Huang   USA Today",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQVR0MVdrZ0hkbzNjUjJsRWNhQTA2R0JnMWNINGJCOFF1cEp1NVMycTRjOHBmZXgyRnV0YS1veUlPSmpicHdhMlJqcUdnVE1EQzdjenpJTlZXSUVyelZKM3lBSVBCNWV4ZFVVbHZXLTE5cUdIYzQ3ZU1SLU8yX3B1YzJlMk43cHJYXzRfN0JfUy1sVmdWdGpEYW9qa2ZkZ3BWY04zUmIxR0JUT25pc0FvcDRpNA?oc=5",
+          "published_at": "Mon, 23 Nov 2026 20:51:00 GMT"
+        },
+        {
+          "title": "Millions face loss of food aid under new USDA plan - USA Today",
+          "description": "Millions face loss of food aid under new USDA plan   USA Today",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHVBREpMcW5ycWIyN0s0NEZSVnRWaEt3QXhPTmdpYVhUOHJJM1g0dkJpRHZiQkVFNGs0RVF5alpwTURYSG5UMWpRRTItLVdLYmlPNWtPcjNLandxM2pVZ1RfZEltRm5yaTJuVUd6cmplcjR2dnBBdGpsdEE4dkNoREtnVEhURVZjMnVmZlV6cE9URHhaUTRTTTU0dUJBNllMRXNzVFJyZ2wyNXNBa2g5TV9WUmM?oc=5",
+          "published_at": "Mon, 23 Nov 2026 10:06:00 GMT"
+        },
+        {
+          "title": "Jim Beam to pause production at flagship Kentucky distillery in major shift for iconic American whiskey brand - Fox News",
+          "description": "Jim Beam to pause production at flagship Kentucky distillery in major shift for iconic American whiskey brand   Fox News",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFBBeHBZSUJTemlEWnVTTG9Ham5QS3p0M1F6MXF1X19sUW1la1hnVWNHTWZtY3IxUzNuZXlhZC1jdDFSV0lKVFBvYWFOVVdSQjFUdVctdFVQV3BrbThnMHY3bHFzV2R6ZDZmMnhxQ0tiSGVtRTVaeXhfMlpkY0J5UTJycHl4SXhhZ1FGdUxtWWJiS3FzUDRZaUduSzFGQU5GaDduS0hqZFNLTmFvV2FrbEt4LTVOUm9NcFV5RExtM3E2ekJyZXVhVWhTUdIB0AFBVV95cUxPMEljOUxtX1o0SElUa1dWci12Vm1DQjhUZ3NYRm5QbTlxX0x0dzlraXVra0FHWTJUeWlTUE9SVDNNeWExY0syMllvM0FsSm4yc1ZoUGNWWHpUV1FzVGtJTXQzNllCREtXTndPSVlheGxvWVNsMC00emlwb3JfOU1TZU41aVdGd0ZYTW5zYV9MeU9hZlBOVXQtd0RPT2xVSVBEQzNTMTlFUmw3NU52UWhmMHl3WWZ4UGxmaUNXTmU5aGNvZlZ6WTBoT1l2UWlOUWhn?oc=5",
+          "published_at": "Sun, 22 Nov 2026 19:26:28 GMT"
+        }
+      ]
     },
     {
-      "branch": "GER",
-      "title": "Bath Salts Market Size, Forecasts Report 2026-2035 - Global Market Insights Inc.",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TZ0d0TmFzWDlQZl9hZDNxSkVGWTdybzFuTlVPLXZPanlBcEVNZW1mWUMyWVNTd0VQUHZxdktDcDJuZXVUSmZvX28xdFAzZy1FWGRGMTZ6eWdjV3dZWk1aQk9xQ243N1U0QW50dUlEcw?oc=5",
-      "pubDate": "2026-11-24T04:01:15+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Global Market Insights Inc."
-    },
-    {
-      "branch": "USA",
-      "title": "More From Retail Insider - Retail Insider",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4ZGFiQ0UteGNUdDZnbUNJNlNMM2dpRWJWZ2l2SmdLeGRHOTBlaWVoaWdac3pPMmxKZkxrd3BmMzhYMDRYQ3dZ?oc=5",
-      "pubDate": "2026-11-24T03:59:03+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Retail Insider"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Woolworths (ASX:WOW) Lower Prices Look to Lift Its Grocery Sales Trend - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWTZscmpHTGRyRDFFbmhvcC1ycnUzbGVsVlVGaV9RbVpUZk5GakRHaEVWR3lCYmhqODJ4T3R2bVJCb0EwZklXN1p3QWZDQnN1Qkh1WDFkeWRHY1dKdmY4Zms5VjBuM3RMV0t6Zk14U3VtSlg4ejBYY0dCbEVHdWxEVEVBSWFPN2owb2FwSTZoeW40Nm1HX1pXTlZaS1RPaFA0dG5wdFhrRDlzNkhpcHRTNw?oc=5",
-      "pubDate": "2026-11-23T23:47:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Kalkine Media"
-    },
-    {
-      "branch": "USA",
-      "title": "Local Bounti Reports Third Quarter 2026 Financial Results and Highlights Pending Acquisition of Revol Greens' Certified Organic Greenhouse Facilities in Texas and Minnesota - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOUHRYdXM1MmxBTGlScGhaa0tENWRRaEpPSWUzRjBLZjFDa1VyNFBXZ2dmS3ViYl9SdTZQTHhlTHJGMUdsdnBuS3VVRDhjRGo3dGpibnYyeUpCZzRpbG03U1lDVEs5WEpyZE55ZU1kOHVJcGFiakhidk5TZ3lNaDBwRkFxeFk0OEVyT2NoY2RkWTJMR29nSFBKQ0VJSGFtdEN1Y2VJYVRualUtVEU5YWFfeE50MjVlbmhYN0NxbHN3ZVVEVzBkcG82SmE2OVRCXzlidGlpc0RJUmR0OXEwcXlHQ1pOWWRPTm50bEgtVlJmQ3N3YVBEdld6RGN2UmFmdW5PVVNrdEs3Q0hYWTVqd1JJWjF1Si1nbW82R3RFR19HdjNkUU90ZG0zZ1Nnc3licmFlU2RRcVA0eGV1a0tfQW5ReE5uaEdZbElvRTdV?oc=5",
-      "pubDate": "2026-11-23T21:05:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "PR Newswire"
-    },
-    {
-      "branch": "UK",
-      "title": "Non-Stim Pre-Workout Market Forecast to 2035: Pump-Focused Demand and Clean-Label Formulations Drive Growth - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUjJRUGNUS2JtdmZGMnl4VE1hOURDS1lONEdnRGtNNGU1eXVtYUZ1NnZtaU5sUTEzQ3N5MDVzWEs5NFZJekRXU0xBYkdDM1lXQTRoazZJMVpVekRnUFRyRmdVOWV5d1dsd2hRNXFIUkNEbUdDa3I0bE8wX3BmRVBCVWdZd0txSmg0NWt1WmtycG5McjFRYjQ2V3ItOGRwekJTWmcxLTJ6ZkNxSTJLVmpLNm5WTm5fdlotLUVQVGpsOC1EYTYwMTBORW9oUUFLMnV2QkE?oc=5",
-      "pubDate": "2026-11-23T20:46:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "USA",
-      "title": "Freshpet Outpaces Flat Dog Food Market as Margins and Cash Flow Improve - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYnlVNkRfNW1neVI1V3piS2NWeXdwQkdzSkFfc1JVeFZaZmxabzVnMDNRQlkzdUQzM1o5dkJ1OUdNMElKUjFFRk1FalZGOThKOGJHM1BnSEJSaU5qNTNjRm5EWUFNcEJrWDZjZF8xLV9KUHZDTVRyQ2JKY091N2MxMXZ5RmFoM3pnWnRfcWpTZGdlTFpEMWNxUHRRQ3UwR1ZuQXNuQU03MmFoUDYxZjNTUjRZaFdPN3d1V3JDcnVVZy1aR05zSDY1d01VN3Y?oc=5",
-      "pubDate": "2026-11-23T20:12:12+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "TradingView"
-    },
-    {
-      "branch": "POL",
-      "title": "Spaghetti Market Growth to 2035 Driven by Premiumization and Convenience - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc3BfZXFjZm5VZ0ZrTmRoY2k4enlBejBVMlZ3c0VDTUZaLTdGbDZ1clNidGJwdEJkYV95UUg2eWJkOEhkYkhYWGtjamVrcGFxNUo5T0hvN09pMTdRd0t5T0ZyQThybno4RkE2aFNrSi1KUVlCeGpteTN4bUJuVTB2bzBXaUlxQnRGc3h4SHNOMF9EQ19BczloRnIzUFNwZVdLdk5jZUZud3RlZzV1ZXJ6UmsxbENGWXhOcXc?oc=5",
-      "pubDate": "2026-11-23T18:21:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Spaghetti Market Growth to 2035 Driven by Premiumization and Convenience - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc3BfZXFjZm5VZ0ZrTmRoY2k4enlBejBVMlZ3c0VDTUZaLTdGbDZ1clNidGJwdEJkYV95UUg2eWJkOEhkYkhYWGtjamVrcGFxNUo5T0hvN09pMTdRd0t5T0ZyQThybno4RkE2aFNrSi1KUVlCeGpteTN4bUJuVTB2bzBXaUlxQnRGc3h4SHNOMF9EQ19BczloRnIzUFNwZVdLdk5jZUZud3RlZzV1ZXJ6UmsxbENGWXhOcXc?oc=5",
-      "pubDate": "2026-11-23T18:21:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "Spaghetti Market Growth to 2035 Driven by Premiumization and Convenience - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc3BfZXFjZm5VZ0ZrTmRoY2k4enlBejBVMlZ3c0VDTUZaLTdGbDZ1clNidGJwdEJkYV95UUg2eWJkOEhkYkhYWGtjamVrcGFxNUo5T0hvN09pMTdRd0t5T0ZyQThybno4RkE2aFNrSi1KUVlCeGpteTN4bUJuVTB2bzBXaUlxQnRGc3h4SHNOMF9EQ19BczloRnIzUFNwZVdLdk5jZUZud3RlZzV1ZXJ6UmsxbENGWXhOcXc?oc=5",
-      "pubDate": "2026-11-23T18:21:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "Chips Variety Pack Bulk Market To 2035: Club and E-Commerce Channels Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM1ZpVGtBSjVpQVBfOFRkd1Bldkw1aVMwczZiY1RLV29hN2Q3TzZnTzBKOWRzUXJPVU5ZSXc5NDg3U1E3SzM1NzN5UVRua1VjNWpVaEhpUGZQRmtxN3FMdU9QM1hDeWtwR0JzdjROUjRKYVF5bFhVUXRKVThpQW50RF9UTUJJN0xoX1VubjFSdFFQYVZGSE9JcnJOVFhrbXRkZkpDTUNXeF9Day1KMUMzWGptd3M0V3gtLWo3cldB?oc=5",
-      "pubDate": "2026-11-23T18:06:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Automatic Fish Food Market To 2035: Smart Aquarium Adoption Drives Forward Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcmgta2tOd3FUeUJMMnlZN09IeFotQ2ZvSzFoRlBUR0VUWXMya3lwOG9mM2dqVWlKcmVHNTB5Y0s1UjhZSHc1VUlOaE16Vld0SDExeDRtQnZaRV9fS19rVHl3bWVYZXUzTUthcTVDUEtOajN5cS0yZnBzUUw0UXlVaDZTbzlpRVJ4eGhDSEdEOXI3X1RMQ3djYzFiaWYzM05qMXpfMmhqb1BSODBrN3ljaVEzcUp6OTFTZzhWbXVLTDJWWEVBUHowdXEzOWo0OWlHQWNGMTFmSnJwcWN4?oc=5",
-      "pubDate": "2026-11-23T17:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Automatic Fish Food Market To 2035: Smart Aquarium Adoption Drives Forward Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcmgta2tOd3FUeUJMMnlZN09IeFotQ2ZvSzFoRlBUR0VUWXMya3lwOG9mM2dqVWlKcmVHNTB5Y0s1UjhZSHc1VUlOaE16Vld0SDExeDRtQnZaRV9fS19rVHl3bWVYZXUzTUthcTVDUEtOajN5cS0yZnBzUUw0UXlVaDZTbzlpRVJ4eGhDSEdEOXI3X1RMQ3djYzFiaWYzM05qMXpfMmhqb1BSODBrN3ljaVEzcUp6OTFTZzhWbXVLTDJWWEVBUHowdXEzOWo0OWlHQWNGMTFmSnJwcWN4?oc=5",
-      "pubDate": "2026-11-23T17:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "Automatic Fish Food Market To 2035: Smart Aquarium Adoption Drives Forward Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcmgta2tOd3FUeUJMMnlZN09IeFotQ2ZvSzFoRlBUR0VUWXMya3lwOG9mM2dqVWlKcmVHNTB5Y0s1UjhZSHc1VUlOaE16Vld0SDExeDRtQnZaRV9fS19rVHl3bWVYZXUzTUthcTVDUEtOajN5cS0yZnBzUUw0UXlVaDZTbzlpRVJ4eGhDSEdEOXI3X1RMQ3djYzFiaWYzM05qMXpfMmhqb1BSODBrN3ljaVEzcUp6OTFTZzhWbXVLTDJWWEVBUHowdXEzOWo0OWlHQWNGMTFmSnJwcWN4?oc=5",
-      "pubDate": "2026-11-23T17:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Air Dried Chicken Dog Food Market To 2035: Premiumization and Health Focus Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVm9vM3VTVU1jbW9kdTFpNDgwYVBGNDZHT1REbTlMejJzSWVmeG45NnhHV2xzZk05bHp4Yy1rVXhYeVp1WEpRdEo3TU5XbzBNNjdxZGlqUXlXQnZwWTlackM0ck9hZEg0ZjB4TWlybFpmaFBSWUxHeXg5b3dLUEF5TkE0SWYzRE03ZHVYNFN6WTBQWGNTVWtPTFQ5Q2t6M2FkME56VHlzS3h2VkNfQ001MFVzS3BqOWEybzNRd29sM3Bxc25HQ3Jtejd3?oc=5",
-      "pubDate": "2026-11-23T16:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "Air Dried Chicken Dog Food Market To 2035: Premiumization and Health Focus Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVm9vM3VTVU1jbW9kdTFpNDgwYVBGNDZHT1REbTlMejJzSWVmeG45NnhHV2xzZk05bHp4Yy1rVXhYeVp1WEpRdEo3TU5XbzBNNjdxZGlqUXlXQnZwWTlackM0ck9hZEg0ZjB4TWlybFpmaFBSWUxHeXg5b3dLUEF5TkE0SWYzRE03ZHVYNFN6WTBQWGNTVWtPTFQ5Q2t6M2FkME56VHlzS3h2VkNfQ001MFVzS3BqOWEybzNRd29sM3Bxc25HQ3Jtejd3?oc=5",
-      "pubDate": "2026-11-23T16:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Air Dried Chicken Dog Food Market To 2035: Premiumization and Health Focus Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVm9vM3VTVU1jbW9kdTFpNDgwYVBGNDZHT1REbTlMejJzSWVmeG45NnhHV2xzZk05bHp4Yy1rVXhYeVp1WEpRdEo3TU5XbzBNNjdxZGlqUXlXQnZwWTlackM0ck9hZEg0ZjB4TWlybFpmaFBSWUxHeXg5b3dLUEF5TkE0SWYzRE03ZHVYNFN6WTBQWGNTVWtPTFQ5Q2t6M2FkME56VHlzS3h2VkNfQ001MFVzS3BqOWEybzNRd29sM3Bxc25HQ3Jtejd3?oc=5",
-      "pubDate": "2026-11-23T16:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "USA",
-      "title": "Edible Arrangements Poll: 84% Say Celebrating Still Matters - Everything-PR",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SYmJfWUJUUi0wVHRnV01HMUpJbmRMekFxVnktS2JocTNWS0JkbkhkV25rSHBMd29DSW4tdFhqVTV1UzVxZzRmSm5EYnRMdlliTElnMTVCUTFBTjljWERzOVhKQ2oyMjlNUnYxWXllOFM?oc=5",
-      "pubDate": "2026-11-23T15:30:01+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Everything-PR"
-    },
-    {
-      "branch": "USA",
-      "title": "Page 2 - Retail Insider",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4TlZfUmpQdGxtdWxHcHViY0JRZUlZTWZnQ2tSMGUzcGM4YWQ4WTU5cnE5bHFwS2daNUY0cVB6MEY4X01xYk8yRzRPNFY5OTIwVUh5ckx4S0xwaENWVHlKeG5OVGRjYnVuemlZWjlrRU4?oc=5",
-      "pubDate": "2026-11-23T12:20:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Retail Insider"
-    },
-    {
-      "branch": "UK",
-      "title": "Mark Ritson: Mid-priced brands are in hot water. Ask De Cecco - The Drum",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaE5DQ3N2X2t0ZTRlMzlkMTFDR2FOX0RLU1lONHZxSzhEaGc5TDFpSHh6bnRhek4yYTlQQ2hXd2hvX3VWS2E0S3hxb3R1NnJiYXlIdUFiSXBSdG1pTWZnaVBRRHdVQ2NmT2wyRWdqYTdBaUlvcklrQ25UemhkRWc2dTF2U2ZJQndGNi1KX0g1c2dHcUNhUmkzZDFNZlp5T3FkZjJseHZLSmpMWWM5MS1zSDFJWThTT2dNa1lKR3FBVG5IU28?oc=5",
-      "pubDate": "2026-11-23T11:13:10+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "The Drum"
-    },
-    {
-      "branch": "USA",
-      "title": "Surge in Ross, TJ Maxx and Marshalls Sales Raises Questions About Consumer Spending and the U.S. Economy - Florida Daily",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTFPVmdxU3hBalhCdmwzdG9rZTF2bDlLNHpOSVR5S3dGOHpmQWVObkc4VFhpVzFrbTRSZHF1a3h1d0RQeFZmZTY1TldJazBTSzZkYUppa3ZvX29DVzdLaE5hbDhlZ1EwUHpRT0FOTHNxLUZwWXlySTAzYlVXYktGekRpcG0xR05pT2pGSjNhNHE2dXlOME1rWWgtRlJvVlNlSzl1MmYtWVl1TnVKYTZsaTFaODFVY0ZsdVlsZmc3Z0wtcmNsaTNr?oc=5",
-      "pubDate": "2026-11-23T02:26:13+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Florida Daily"
-    },
-    {
-      "branch": "UK",
-      "title": "Dairy and Soy Drinks and Milk Alternatives Market Forecast to 2035, Driven by Rising Lactose Intolerance and Plant-Based Demand - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTzlsRUtDem9NWFFXTFg0Smo3WHkxVFdzcUVWMDN4aFBoNjVuQVZEYndGTS1TdlAtVzZuREpkcjRGZ0FXOG5TNmMxTHZTVzBpdDZrMkFZOEp3cDFHYkt5aFE4UXA4SnVrWDcwWkZiaFVSR1NqeU15REoyWjgxbHFVVHVlQ1RhWTZUY2JleXI4aERrWml1VjhnRWZEdHZwRUFROFhEX2hNN3N5dThUY1BpTWw5T1FXYmtwN2F4cllXMHk2TlhBdVpfZUpfR01oazRYUTRCbUgxSmsxbkE3UUs4LUVaNWJlU1d0ck5meQ?oc=5",
-      "pubDate": "2026-11-23T00:31:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Herbs & Natural Solutions Market Forecast to 2035, Driven by Premium Wellness Demand and Clean-Label Sourcing - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYzctaE1ueEhPUkQ2eUdVODRCVDl5TU11ZlF0dWhPRlRuVEU4TTl4czBMaFptdWh6Y2VhVmQxMTUwNFhnN3lZalByRzJWRTZqZ0xKSlljLV9LRDlhZEdNbktWOHRYYnVfRmhlSkZabnZkOElIYmdqSmpLazFkeWVlQVlJUkpiMmFTdmpXdEFwa3BFQVk3RGFMbnYtc1p6N3d5aDlxaGd6TWNpN1N2cEhQWHpWQkZGQmNjakRmcUNXdVpGQXVNMHBmX1JoUXRjZGNZU0E?oc=5",
-      "pubDate": "2026-11-22T23:56:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Elixinol Wellness (ASX:EXL) Hemp Brands Gain Ground on the Shelves - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbkRPOUhnemJpallnaDFuc1VwRHVERnVYaVlUR2RYSDFxZUh3X0I2VHNKMXJWTHk1Z1VhNnV4M2dYbEhqQmxtY05JWGFmQm12cF92OW1PNjRNQ2lUNm02dFNCQnlaNjVUS0k1TnZYQTFLb3BZeWFOdkJWZV9IdkhzMVp3OEd4ZmlCM3FtbmxjUHNfanljd3VvdTZvc0ZrMmxtUFRNSWl1elY1aGM?oc=5",
-      "pubDate": "2026-11-22T23:47:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Kalkine Media"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Domino's Pizza Enterprises (ASX:DMP) Shares in Focus: Why Does the ASX 200 Consumer Stock's New Group Marketing Lead Matter Now? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdW93NFdRSEVMRkxsRmNObGc2cWFCbUo3YkpZZEI4dVlvWDZxMmpHejlJTC1JODJhQ04xV2dKSEZ0NHl6Z2ttcG5rMWVrNVBwREdvRlZocU5jd21Uck9zQmpEb29lOWFwZ0Nkby0wdmh1VEJTZlpzLU5NVDlMRTlOLVFKb09wZmhYa1NMLTRHdWJhdE1ZcmVFNHk3UXp6QnVVYWttaXVYQXM1bjV0Z0dxY0E5alNlTFdfQnhBM2FiTHpnOWpnSEk4Xy1yOWNmYmFhQUlqVjd4Vk5GaTRtelJvTXYxVEV3R3ZBbzg0X1ljNUF2R0oxS1VuQQ?oc=5",
-      "pubDate": "2026-11-22T23:43:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Kalkine Media"
-    },
-    {
-      "branch": "POL",
-      "title": "Fruit Cups Market Forecast to 2035: Premium and Functional Demand Drives Growth Beyond the Commoditized Core - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWnNWSkc5c0RoU2lwT2R2bm5jTy1MTzVzRzBaaXJwMnRrS1gxM3lwVXF6T3RCUUhldmU0NWxoc2lQUkZHR3dtbTQ4bzBFMWVLMnc4VFNRR1FqSEVSX1d4MjR2X0FJZ2MtaEN0MGl4cmdvUG5zNkxBM2hOR1NiZ0YydExTb3ZsREt2N3ljZC1ZOG9VdTVYOTFTdkhYNHc1amt2TDFvdGc2S3FKcklCSHVydk8xTWYtV1BROGlSY0h0NTVPRF9SYUVQbmpSN0pVeFgyQXhV?oc=5",
-      "pubDate": "2026-11-22T23:41:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Woolworths (ASX:WOW) Shares in Focus: Why Is the ASX 20 Supermarket Giant's Bigger Sales Ambition Drawing Attention? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOekJmRGVPZW1LRGtKWGxZc3VDNUFhTVRFQXhmLUZiZkFCcFFNbjVmdXBFZkZ1bU1KWUNEUkNUeWNMZ1Q3eFJOWmRkM2UtdWJWUzltaV9sZTBkWWtYYVQtTzRWcVpNS0YwV0tJSWRJWFdsQURIUXdCdUJjZE1YLUxOZkR6cmRZcUh0bW1QQklwUWZlMFZzcUpueHpSODNVa2VMTGRJVXVaQ0c0Zi1ZZkdNX3RPMUFzTzJpWlA2eDlSMFJCQ0NmQjRZY1g5WmgyMmhYR3IybWtQZ3RJYjJVeG8tY2hIdWZNOGczelE?oc=5",
-      "pubDate": "2026-11-22T23:41:00+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Kalkine Media"
-    },
-    {
-      "branch": "GER",
-      "title": "Vegetable Peeler with Stand Market To 2035: Premiumization and Home Cooking Lift Demand - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOS05VzJfbUFDUEhHbVhEQV9meWUwZHRjMi00NDh5ZzBadFdxVmFiUXktZTBmQlpoQm9Vb0oxVmJDNldjdXJxenVsR3d5Q1Z6VWNjNzlIZGlWbXlkMzhmUktFWkItRjllUnBYVzVvZHh1MlY1VS1odWlVa2d0MmtWZkFrdXNRS2l4dE83MlJRTG9RclFqQ0hoZVZZeUpxdlpHN2dzRHVBLUVUZFlRc1NtLVlXZ2xYSV9Eb0dSNnRpZm9URzFjelBMTHc3eWc2TlN5YmpqTzln?oc=5",
-      "pubDate": "2026-11-22T21:46:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Utensil Organizer Set Market Forecast to 2035: Premiumization and Replacement Demand Drive Value Growth - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOG5TVWlhQWRhNU4xZ1RkSWtjLW5uTjBKaUZ6RVBQMzZFdUpFMWhFRTUyTC1NUlpMNjNoSXBBZERtYnprdXo4YkNlYV9WQ1VOTElyX0t3ZGxMV2w0MEdvMFk2bnB1NTRrUW5HQ2NieGduc2otUFV0N1BYM29tWGVaRlFseXZyVUZ4UVk5UllfM2N6MUVjdGxqa1NXZnBpWG9BVy1uUERSeVlVR3RLeU1saWVGOGdWUmMyVl9La1UxaUFRMXJIZ1dFeWpjMG4?oc=5",
-      "pubDate": "2026-11-22T20:41:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Heavy Duty Toilet Paper Market To 2035: Commercial Hygiene and Premiumization Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa3FlQ0IxS1doQ2tkV1B4bEViWTBqZ0ZzeHdZcXptVWhHRkExWDVIb00yU3g1WjM1WTIwRGJ1ak9yN2s4SFY3Y3NrUkRidHotd2pNdHpyOWhuUVdOdU5WNE5GV0I3eUhiekM0VFBjQm5ORnpJN0FRMDk5UGJjUW1tQmR6czBoc3JDakpFS1ZVSTVxOHh6ZVE5RjhvTkFnT0d0Mkl1VWhWSUFXZTN2VlcxbHd1czZpM1hvOHJjc2tUeDBpb1JBZlVSUThWbTk?oc=5",
-      "pubDate": "2026-11-22T20:01:06+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Heavy Duty Toilet Paper Market To 2035: Commercial Hygiene and Premiumization Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa3FlQ0IxS1doQ2tkV1B4bEViWTBqZ0ZzeHdZcXptVWhHRkExWDVIb00yU3g1WjM1WTIwRGJ1ak9yN2s4SFY3Y3NrUkRidHotd2pNdHpyOWhuUVdOdU5WNE5GV0I3eUhiekM0VFBjQm5ORnpJN0FRMDk5UGJjUW1tQmR6czBoc3JDakpFS1ZVSTVxOHh6ZVE5RjhvTkFnT0d0Mkl1VWhWSUFXZTN2VlcxbHd1czZpM1hvOHJjc2tUeDBpb1JBZlVSUThWbTk?oc=5",
-      "pubDate": "2026-11-22T20:01:06+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "3 UK Consumer Staples Stocks Investors Are Watching As Energy Bills Hit £2,166 - Simply Wall St",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOWRDMkhsY1hpYmtJUG1BanFQYnRXd2w2Y1lHTDM5OVhQb2pOR3J0YnMwa1NZSWl3S2VZVEtJemZhaDllTGFXTk9rWjROT1JpR0QtTGo4Qm53VkRNR0VCWDZIMWhUbG1vOV9SMWRfNFpiN05aOUdCby1FRERVYTcyT05rb0IwaVlncVhNS01TekFLeno2U0haVURmbzNiUUk1QzRrdTNLOWtZc0VVTmZHLWFuR3d4aTV0X04zUW16ZGlHcm5Ya2psZ1pvaG85dmfSAc8BQVVfeXFMTzlkQzJIbGNYaWJrSVBtQWpxUGJ0V3dsNmNZR0wzOTlYUG9qTkdydGJzMGtTWUlpd0tlWVRLSXpmYWg5ZUxhV05Pa1o0Tk9SaUdELUxqOEJud1ZETUdFQlg2SDFoVGxtbzlfUjFkXzRaYjdOWjlHQm8tRUREVWE3Mk9Oa29CMGlZZ3FYTUtNU3pBS3p6NlNIWlVEZm8zYlFJNUM0a3UzSzlrWXNFVU5mRy1hbkd3eGk1dF9OM1FtemRpR3JuWGtqbGdab2hvOXZn?oc=5",
-      "pubDate": "2026-11-22T17:10:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "Simply Wall St"
-    },
-    {
-      "branch": "POL",
-      "title": "Clay Cat Litter Market To 2035: Premium Odor-Control Demand Drives Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0lXckNIWWZWMGlfOGxVZkUyTmEwZllLMnkwNEhzeTQzVEJoOGxpeG4wWmlxSF9KbVV6RHEtNk5CMWtQSEVjT3J5Q3YtQ0lDbVpGalQ0ckI2VEt5Z3FwR29HR2ZoOTRRblZtQnRZQ2d6Yzg2MTJHUTJzSXg0NTR4bnNRSWdpaExGaFdvdEdGLVFBUV82eVF3SmNDSWlpQWxTcTR5ay04TnV4MlZpZHA2aA?oc=5",
-      "pubDate": "2026-11-22T10:36:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Phospholipids Market To 2035: Premiumization and Science-Backed Claims Drive Value Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSVc1VDB3VjVRby13ejNUTVZQdHN6bnBPNVZrTjY0eWJ1emJKRFJncnllQy11dGg1NE5OYU03em1UcDBncXNJWVdyeHZMNmtoNEI5M3JTX2dPX1F1UkdJb3lxWENRUnVkSmRrN19Dei0yMXRDbkJEUENLdXFKTnVnb00zWWk1M0F3R2dpVElCUkpzM1RXb3lWdTVTaEFnUVltekxQT3JXNXB2UE1id3Z4bXJPRUVzSG5TV1NiYl9naG9FT0QzdEE?oc=5",
-      "pubDate": "2026-11-22T10:26:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Crackers Market To 2035: Premiumization and Convenience Demand Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0tQR0QxdkhLaGcyUmtxbXZLeUQxTDJuMF9HNWNOTkZndTFyRnVFeXEzVmxkeDBuUF9NckU1eVlNa3R6TTlsNU9jUFB6UmczQm5aYk9UX2lZOWhacWd1QVotTjRacUJWeEk1RFF0QXZUd2hKVThRMzJJeEhrSlF6RDNoNHpBR0FDaWV5d1hPQXRlbjZ0V0E0cEpnZVR3OWp0STFfODR3MUMtOVFrbGUyeFRzWQ?oc=5",
-      "pubDate": "2026-11-22T04:41:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Crackers Market To 2035: Premiumization and Convenience Demand Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0tQR0QxdkhLaGcyUmtxbXZLeUQxTDJuMF9HNWNOTkZndTFyRnVFeXEzVmxkeDBuUF9NckU1eVlNa3R6TTlsNU9jUFB6UmczQm5aYk9UX2lZOWhacWd1QVotTjRacUJWeEk1RFF0QXZUd2hKVThRMzJJeEhrSlF6RDNoNHpBR0FDaWV5d1hPQXRlbjZ0V0E0cEpnZVR3OWp0STFfODR3MUMtOVFrbGUyeFRzWQ?oc=5",
-      "pubDate": "2026-11-22T04:41:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "UK",
-      "title": "Gentle Face Cleanser Set Market To 2035: Premiumization and Private Label Reshape Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVS1iYUhNc2YyT0t0VnViXzZaQkk1VFB1LVZYSEhQUlNCSjVqMHUycnRFS2NydUNxNmN2OTlvN3hDSWg1a2pRM1QxcnN5b01VQlpMdDJhQlp6NVFIcURtQVEyaXBkc3hON3R1cHdDR3U1dmlELS1ZQkRpS0Z2VHdhYWwta3BQelVtNml2RkJkNF9UcmJma2Z5U1VjNDJZSU1PWnVaalBJc0hnQ1ZmOGhTUUVWX05XUmJIcU4xekttSDFCV3k0YU5VTHBvNFZ0TDRfb3c?oc=5",
-      "pubDate": "2026-11-22T00:36:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "GER",
-      "title": "Frying Pan Bundle Market To 2035: Premiumization and Induction Demand Fuel Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaXJmdjhTRExyWlhUUVZ1SGx1MXFsXzFmMDk5dm5LVDh5Z01JVUhhbWJQN0p2UnFBV3g5ckhLcTN3WnAtWEdsWDFheGtIWWlhdWJIalZxeXNEMTVUdkdZMHkxdzJ2M3JwTkFocmRXMHh4RXlJUDlITE4zYndyZV9qc2k4Z0Z1ZGR4UGFRc1VvQ3ZldzNTNkhWbkxfeW50YmdDeGNfczg0ZnBTYVlnbFYxX2NVZlhFOXhhSkcwS3JBdC10SG9KMkJJZGJRZFRFQQ?oc=5",
-      "pubDate": "2026-11-21T23:31:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "POL",
-      "title": "Condiments & Spreads Market To 2035: Premiumization and Convenience Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTVJWUWw2QTQ0cm1GWHFWZHlLUUcyN1Vla01waFpIOWhKRllCNFluMVV3ekVjM1RNY2JmU0FBVGhqamdjMUhaSXQ5YmNuQ0JCSHpleUc4Y1JwSHFrQk5keVZuc2czZ21aSkZfN2FzQjY2aWNBekloczR5NDRHWUFZbWNka29FTGg4clJQNDBZUkxTVl85VHQzdHVEcThjdzJQZTVqaTE3X1kyTHo2LTlHeGZWOGcxa3ZQNE1VVQ?oc=5",
-      "pubDate": "2026-11-21T14:21:04+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
-    },
-    {
-      "branch": "ANZ",
-      "title": "Milk & Creamers Market To 2035: Premiumization and Plant-Based Demand Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRm02NnExSk9xSmhTcUVZYjduanQ3VW42VkNEdHZYX1ZvZlFBQ0V5MTVzUFhTRWpSX0FQQm4wbUJ4a3lDdnY1ekhjMXdpWnQtbERZWlIzSlE0TGpZQzhRaHhDWVpkZ215dGZTeTY1em9vWkpKWDhvWFRLRWwxeVpjNHY1MHdNblBOZUFuNUduQUhtUzBrZm5hU3BnbUs2Q3BpR3NCV0tub1N0RUl1VEN1UVZjaGFhdw?oc=5",
-      "pubDate": "2026-11-21T14:16:05+00:00",
-      "topic": "Mercato, consumatori, retailer, brand e competitor",
-      "source": "IndexBox"
+      "code": "OCEANIA",
+      "name": "Oceania",
+      "keywords": [
+        "Australia",
+        "Australian",
+        "New Zealand",
+        "Oceania"
+      ],
+      "items": [
+        {
+          "title": "Fresh Investment Signals Long-Term Confidence in Australia’s LNG Sector - Gas Compression Magazine",
+          "description": "Fresh Investment Signals Long-Term Confidence in Australia’s LNG Sector   Gas Compression Magazine",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYjhuLXM1ckoxYzVFbmZzWi1RbFkzTHJaTlV4bWZwVTkySlY2QmJ3VFphSmw1NU5ISzBzSGhrM2VjaE9JbHIxeUtPaXpiRlo1NEJOUUJpSmZ2V2lPbGxMcXBCVmJXQjFKSExaSzUtam84T2ZZT2ZqYm1OUThEcV81cEVFVG5lUDBES1o4MkJjOEJXMHlNVWlNb2VkWF9UczN6Mld0cXpJSVFrNklJb3dVRzY5SlVueFc0?oc=5",
+          "published_at": "Tue, 24 Nov 2026 07:05:30 GMT"
+        },
+        {
+          "title": "Asahi taps Australian brand to cultivate Japan's premium gin market - Nikkei Asia",
+          "description": "Asahi taps Australian brand to cultivate Japan's premium gin market   Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZTJsX1ZVRVN4Y0NsR0Rkd21sRGxZaURtNkI5VDRfNjVaZHZLeWxIRzRvek1meElicmF3OVJYNURHWmV1ZGxNaHJYd1dYdGdPcUVwWWxNWTlndGs2c21WRUxCWndHZVJMaUg0NUNiS3cyQ08zdWJGSXlPSEc4REVJeFJRbXZPTzc2ek9ySS1WQVBaWl9DSV9qOHg1d0tHdkJDMnk0YXJVLUlja05GWml1NlFYLXc?oc=5",
+          "published_at": "Tue, 24 Nov 2026 08:46:00 GMT"
+        },
+        {
+          "title": "OKX Australia opens equity and commodity perpetual futures to retail traders - Cryptonews.net",
+          "description": "OKX Australia opens equity and commodity perpetual futures to retail traders   Cryptonews.net",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SU1R4VFBhRjhBU0NXeEZRbmtacHl3VUM0cmRoV1JHVHA2TEpxSEtkZ1ZjcWhzcG5NRGlOS2VvZE91TnB3T01xSGtiZXZQa0pkVzg3OWhIQQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 01:23:49 GMT"
+        },
+        {
+          "title": "Survey Finds Most Australian Nutrition Professionals Receive Food Industry Promotional Materials - Bioengineer.org",
+          "description": "Survey Finds Most Australian Nutrition Professionals Receive Food Industry Promotional Materials   Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYk9VWFEwSllOUG9vODg3T3doREFiV0ZNdWZqU1UzT1hTT1ZwYlFuVnF2ejNqTnlvamczVlQ2QlF3anV1QjRDQzNLVFdINHl5OXVfbWJscmRkSnVwdkRudk5hVVJvWEpVRl9NOVJFdXFuX0dmVTh1RVJBUFRIYkpvVXJIdU9KYzktUmdjNFpYLU1HQzYtdlpxUGZuazNZeHNDQTdCdld4aXVjYlBUQ3k1Q090WlBpZ0s4NGgtZzNR?oc=5",
+          "published_at": "Mon, 23 Nov 2026 17:48:40 GMT"
+        },
+        {
+          "title": "New Zealand Retail Sales Surge Shifts Market Outlook - The Globe and Mail",
+          "description": "New Zealand Retail Sales Surge Shifts Market Outlook   The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb0ZUZmdKdE9lVFpiQXBVaW1uS0F0bmZ5UXZOSF9fZmEzWndLTE9IME9ySkNkSXBpN3ZkTzlmd0FHQWxuYjQ3LVQzRVlOQy16WEFIN29vQktwYXBEdnpkUGFTeXRCUzdCUTZMTjdOUHptU0cxb1VQVW5fV1VjRWFXc2pTOTVNSkZvR0dBYmRySUZXNFVBSjdCU0RlVVdEWXpPc21RSjZsR09fejNVNjNsSm1PZ0dZRXVXemd0Ti03VVYyaHZnZWp0cmhqV1RxQQ?oc=5",
+          "published_at": "Mon, 23 Nov 2026 21:57:46 GMT"
+        },
+        {
+          "title": "OKX Australia opens 24/7 equity and commodity trading to retail users - Crypto News",
+          "description": "OKX Australia opens 24/7 equity and commodity trading to retail users   Crypto News",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU3lSdDVNWDFXRkJZclZsVmdHM2NqRFdmYWI2Tkw3OG9iQkk5TmhUakpjSHd3RVpsUGpUVFlYLWpiWWYzTDVqZnJyVktZSU53dFBiN3JKNTNCaEltTS1OektDOXo3ZGZXelU0OTltWENYVy1TOEhfYVQwSDBrOW9jVUNjYlBST3BsMmNqamRFeHFZMDdQ?oc=5",
+          "published_at": "Tue, 24 Nov 2026 06:16:00 GMT"
+        },
+        {
+          "title": "Moomoo steps up Australian expansion with Sydney Roosters deal, second retail store - Yahoo Finance",
+          "description": "Moomoo steps up Australian expansion with Sydney Roosters deal, second retail store   Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPXzZQcUlRZzU0MGZ2X1ZjcFZjdHM4eGMyQnJmZUhuZHFOc1ZENERaREZhSS01c1VCSEFaMXhTSFJPYVZja3dDbHJSTnNwdjhZQnp4dTJncjlSc1ZWZzJTaVB3NEQ5YzdZWFZBNGdldjM2X28wamJuSXdtb1VraWRTUmFxUFg1SGY2elI5MC1vbm1mVTJEekdHOUJZb2NLajNFbDdkdzI3eHM?oc=5",
+          "published_at": "Fri, 20 Nov 2026 04:38:00 GMT"
+        },
+        {
+          "title": "New Zealand's Kingfish interim net profit jumps on investment gains - TradingView",
+          "description": "New Zealand's Kingfish interim net profit jumps on investment gains   TradingView",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNei1EZHFtc2tRZ2pBbzFKc3lHU3M2Y25RajhaWm5NcURLZmkxaTJPVEhMcGdqd1VoYXk2OE1tcHI2eHlEQ1pHYVRDVUNaVDJyS3Z3YWxMOVlpNDhSR2V0RjBUa3VpYXZGTjBLbVlIeUhZTWJ1WnZhZzBYMjZmSFRnYUs2LUhRWWdiU0UtREFtbXdGMHJhLXUwNElOckZ5VmpoUmdTMHEya3U0QzVadHZLNExXaDRka3pob0kyLTdsdW1KcXQtaXNybU10NnVVMVd0clVB?oc=5",
+          "published_at": "Tue, 24 Nov 2026 01:29:00 GMT"
+        },
+        {
+          "title": "Australian AI committee backs data centre investment and local compute - Telecompaper",
+          "description": "Australian AI committee backs data centre investment and local compute   Telecompaper",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0NDd1I5LWQ1aFJ4N19qeTV0QTBkbnZyc1FLSmlHNkhXSXhoSjJoYzlOV3ZGcDQ3OWRlS3lhRk5JUEJOWHFfYng5UmRHYkJjTHkwWjZkWGp0UU1oNXJNUWRtQUlJbV9iUHZEYXI1VlZvMy1tNEpsMU1jRy1VWjdfejRWMTVYczhkZTdHYUptWmtPU2JGZGlpZDdIOGxRdnlWSHZXTlJ6cU13U2NNV0UxdFVmcw?oc=5",
+          "published_at": "Tue, 24 Nov 2026 06:21:57 GMT"
+        },
+        {
+          "title": "Wise unveils major brand campaign in Australia as it targets financial needs at home and abroad - Campaign Brief",
+          "description": "Wise unveils major brand campaign in Australia as it targets financial needs at home and abroad   Campaign Brief",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTm82RFIxb1ExSkpJTTZwTTJCbjAyUmtzVURreXl3ZW5oZVp1MlNwTTFKQzE4anBJZWlHUzFGZkMwcXpDUFFlNF9IQTJNSFhqS2YwYzZEZm1KN19CRTVLeWNNeW8tdDF2UVVoNkl2dXprNnhKWXFIYmpFYXN5aklaMW1VSGl5aGNWYU5wR3g5QVN3N1hxdHJyNEFub3Z6MkM3dF9mNDBVXzlEUU1rcTBCVEFjYnZIeU1mMl9pVW9waw?oc=5",
+          "published_at": "Tue, 24 Nov 2026 01:44:39 GMT"
+        },
+        {
+          "title": "New Zealand Dollar gains traction above 0.5450 on strong Retail Sales data - FXStreet",
+          "description": "New Zealand Dollar gains traction above 0.5450 on strong Retail Sales data   FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGRZaGJvenlXbFlZcFlTc2p2ZUNqVUxnVm5MTTVDNDZVbFBHbFNuWnFHX1djcUlpdU5TZk1PSkN6QlRUd09BXzhOakFlblA2eFpqaVN2SUtfeTJ1RUxYdk5HVm5hVGN2MHpZSmJxMW00X3pRX3BVN1pFTzVtMHFvSDJZWEJ2dlV0Wm5KMWNWUzhJeVUtY0VWNkRqeDRLMEVlWjd1QlRBTm92dExLdkFCNTZSUHZIUkE?oc=5",
+          "published_at": "Sun, 22 Nov 2026 23:51:53 GMT"
+        },
+        {
+          "title": "New Zealand Retail Sales Put Up Their Biggest Gain Since 2021 - Finimize",
+          "description": "New Zealand Retail Sales Put Up Their Biggest Gain Since 2021   Finimize",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2taN19LenJBUUtOVmNJNUd0N2ZaRERZUFFnYmRoaERQYnA3NmFFdTNRODdmVUhwZHhMVlQwdEV6S29VZG5tcEh4Uy1hU0pjeGpCdVFnUENkckRNMDBUMHJqVUtxSUt5dk5qRF9KS1c4MVl1VFZDcnBzaWhkOVpSeTI3MTBObmo1NGV4aFpGb3kwUGsy?oc=5",
+          "published_at": "Sun, 22 Nov 2026 23:49:37 GMT"
+        },
+        {
+          "title": "New Zealand retail volumes jump 2.2% in Q3, more than four times the expected pace - investingLive",
+          "description": "New Zealand retail volumes jump 2.2% in Q3, more than four times the expected pace   investingLive",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSWtnMWplN2pfTUdBUnlJbmpqNU85TFp0b293WWg5b0RpTHZaa3ZyRFZwcG45WVZKdFNEcllCT0VLRDNQUWl0ZFl5dUZNbDdMSWZ2V1J1U2F5M0xZN1FleDgyU3Rha1B3RlpqNkFyaThySkdpSGJRblI0N1hkczFNVzZpTFlZRy1HX3pmZTBlQWxtSFhNVzFidUN5MzZzbXNMLTN0UkdMUzlBamhvNmN1NXlR?oc=5",
+          "published_at": "Sun, 22 Nov 2026 21:54:37 GMT"
+        },
+        {
+          "title": "FbF Australia Relaunches Premium Skincare Brand, Otilie — LBB - LBB - Little Black Book",
+          "description": "FbF Australia Relaunches Premium Skincare Brand, Otilie — LBB   LBB - Little Black Book",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uRjRiM2VlLXhXQ05CS0pHVVJwcHNPT045eDBhYlV2U2lhS0dNeXhvU0M1NVY4RVh5TVJ3aF9nYjFCbjJ5Y2tEZjdxMXZRYTM5S2NLWlFTTWtCczI4aFZqQzBHekk?oc=5",
+          "published_at": "Sun, 22 Nov 2026 23:17:52 GMT"
+        },
+        {
+          "title": "AV Group acquires Lucapa Diamond Company and its Australian assets - Jeweller Magazine",
+          "description": "AV Group acquires Lucapa Diamond Company and its Australian assets   Jeweller Magazine",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjNzZF83X3lhRUJubDJzc3BtQnZ2a0hpdzNjRnNwVDBJR1NEQUphV1VrVC0xdy1LakNIS1g2c005MkwwNHRYWFRjX3hnMUxGbnB0MEhVcERrYk80eVNNQ0pzZnlQUjc0ZE5CVUdaYUdDWkRLbkZkdXV0T0hodTFYVVNoQUpFbUs5WVd6c0h6czZyVkdMekJ3cHR2MGNRWFItbFNEVE9sbkgxbF9HOGlaX2tpOA?oc=5",
+          "published_at": "Tue, 24 Nov 2026 00:21:30 GMT"
+        },
+        {
+          "title": "Australia Biggest Brand Movers 2026 - YouGov",
+          "description": "Australia Biggest Brand Movers 2026   YouGov",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTNnBSN254Y0FwLVVSaklsS1NKU3RCN3EzU0ljUDU5U2d1UGZpRks2SjZBWWR5Nko2R240MTIwSEZDMVY4eVo2Z245bzBhTXJ2OUthQ0RxWUZuRXVEY0dkVWhlSk5BeExpR3NOZE5oTVNON1RoOENpTw?oc=5",
+          "published_at": "Mon, 16 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Australian Foundation Investment Company (ASX:AFI): What Did the FY26 Result and Special Dividend Show? - Kalkine",
+          "description": "Australian Foundation Investment Company (ASX:AFI): What Did the FY26 Result and Special Dividend Show?   Kalkine",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTEJQVHVrZE9UQTBqb1RMREJkaGNwYVJLbGpCd25IQ1lsbkNRcFN4WEhiWWNsalRLNjRQeWZsdVJacWhuWXA3UUthVXd5V1NwZjhNZk5FcFMtN1Z2WjJHakRiOWNmRE85QXNwTzN6a2hfS05ORjh3WU8xMUo2T2owSWM0OHNXNDZCbjFTMEo0OEJPakpDVm56aXJBcER1cy10WF9SRUtzSGZSSzFaUUdmdE1zTHVoTjRYX2F5ZUM3aUZ0Y2JuOUpTZEpmTVNPQWFkcHgxektnZkkwUEE?oc=5",
+          "published_at": "Tue, 24 Nov 2026 11:48:00 GMT"
+        },
+        {
+          "title": "New Zealand retail sales up 2.2% in Q3 - Breakingthenews.net",
+          "description": "New Zealand retail sales up 2.2% in Q3   Breakingthenews.net",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdC1TcFVIVlZFekFiMERSSGpqazJqeEdZZW9wbW5tM1pKZmF6SDJBTGN6S2FuQ2tMbXZjNE01VnZRX3ZsNU5ibXFnWXdjS2pQMUZTb25pcVRNUDVCdDBkcUozQ0tqR2JmeUVERS12cFpETmQ4T3RwZWZQN0dwajctMnB4cWcwYU9ueWc?oc=5",
+          "published_at": "Sun, 22 Nov 2026 21:51:00 GMT"
+        },
+        {
+          "title": "Severe Australian Floods Reveal Deep Governance Gaps in Regional Food Security - Bioengineer.org",
+          "description": "Severe Australian Floods Reveal Deep Governance Gaps in Regional Food Security   Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONURFSk5wS3ZNM2hXRFlGY2VoeHcyRWNpY1NjQVFDeW91aTdOc2kzaFNRazQyYVFXd1FQSG5hTkFxVlZnQnpBemZjRGh5M1FteTRDYUZVa3pTRnEzb1ZQWlpibnNDYy0ySkNhdDJ2LVU3bUU5aVROa3ZrdWNOWjNmbXhXVDRDaFZYRnJ5aGJnMzBUMm0zb1J5M2p4czdnalU3Qnh6eWZB?oc=5",
+          "published_at": "Mon, 23 Nov 2026 21:46:42 GMT"
+        },
+        {
+          "title": "New Zealand Retail Sales jump 2.2% QoQ in Q3, vs 0.5% expected - FXStreet",
+          "description": "New Zealand Retail Sales jump 2.2% QoQ in Q3, vs 0.5% expected   FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTGtGaTVyb2twbTNVcElUUHJfa1doeFdGREljX2hRTnV6Y0p6eU5yYzMwbHBJZ09waXQzbWVEZGVzWUg5RUNIMDBmekR5Ync2NjdocFVUdllsYWszVnFqeW5zY04zelgtUHR2ZEVEWnAwT2VuMHNHOFd5ZVdoVHlIQkF1WkNxRGZiTDVMNkhkcjNxVDZyWFlSYVotdWF6STBZX3c?oc=5",
+          "published_at": "Sun, 22 Nov 2026 22:35:30 GMT"
+        }
+      ]
     }
   ]
 }

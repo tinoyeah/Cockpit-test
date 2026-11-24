@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-11-24T13:18:45.291Z",
-  "headline": "Il rischio energia torna al centro, mentre le materie prime alimentari inviano segnali contrastanti.",
-  "intro": "La dinamica più rilevante è la nuova tensione sul gas, in un quadro di prezzi delle commodity tutt’altro che uniforme. Per un gruppo food/FMCG, questo richiede di distinguere l’esposizione energetica dai costi dei singoli input: i dati segnalano pressioni e possibili compensazioni, ma non misurano il loro impatto sui margini o sui prezzi al consumatore.",
+  "updated_at": "2026-11-24T13:27:42.307Z",
+  "headline": "Energia sotto pressione, mentre i costi delle materie prime si muovono in direzioni diverse",
+  "intro": "Il segnale più rilevante per un gruppo food/FMCG è la tensione sul costo dell’energia, in un quadro in cui le materie prime non mostrano un andamento uniforme. Questo rende meno efficace una lettura aggregata dell’inflazione degli input: la pressione può variare sensibilmente tra prodotti e mercati.",
   "sections": [
     {
-      "title": "L’energia è il rischio operativo più immediato",
+      "title": "L’energia torna al centro del rischio sui costi",
       "items": [
         {
           "title": "",
-          "text": "Le notizie riportano il gas a 91,35 euro/MWh in apertura il 24 novembre, dopo aver superato 93 euro il giorno precedente, quando il freddo era indicato come una minaccia per le scorte. Nel file di mercato il PUN è a 249,72 euro/MWh il 24 novembre, mentre il TTF è a 88,451 euro/MWh al 20 novembre e risulta nettamente sopra i valori di inizio anno. Date e riferimenti non sono perfettamente allineati, quindi non consentono un confronto puntuale tra tutte le quotazioni; insieme, però, suggeriscono un contesto energetico da seguire con attenzione.\n\nPer le attività FMCG l’implicazione potenziale riguarda soprattutto le componenti di costo legate a energia e trasformazione. Quanto effettivamente si trasferisca ai costi aziendali dipende da contratti, coperture e profilo produttivo, informazioni assenti dai file: non è quindi possibile quantificare l’effetto sui margini né dedurre un pass-through sui listini.",
+          "text": "I fatti: le notizie riportano il gas in aumento, fino a oltre 93 euro/MWh il 23 novembre e a 91,35 euro/MWh nell’apertura del 24, con il freddo e il possibile impatto sulle scorte citati come fattori di rischio. Il mercato registra inoltre un TTF a 88,451 €/MWh il 20 novembre e un PUN elettrico di 249,72 €/MWh il 24 novembre. Le date e i riferimenti di mercato non sono identici, ma indicano livelli energetici da seguire con attenzione.\n\nL’interpretazione manageriale è che la volatilità dell’energia potrebbe riaprire pressione sui costi di produzione e logistica, senza che i dati permettano di quantificarne l’impatto specifico sul gruppo. È prudente verificare esposizioni, coperture e tempi di trasferimento dei costi, evitando di assumere che la variazione si rifletta subito o uniformemente sui prezzi di vendita.",
           "market": "",
           "link": ""
         }
       ]
     },
     {
-      "title": "Le commodity non si muovono in blocco",
+      "title": "Materie prime: pressione selettiva, non un’unica inflazione",
       "items": [
         {
           "title": "",
-          "text": "Le quotazioni al 24 novembre mostrano lo zucchero e il grano sopra i rispettivi livelli di inizio anno, mentre caffè e cacao sono sotto; rame e alluminio risultano anch’essi inferiori ai valori iniziali annuali. Il quadro non indica un sollievo generalizzato: segnala piuttosto pressioni diverse tra input e possibili compensazioni da verificare sugli acquisti effettivi.\n\nPer il controllo di gruppo, la lettura utile è per categoria e per filiera, tenendo conto che le quotazioni di mercato non equivalgono ai costi di approvvigionamento né informano su scorte, tempi contrattuali o incidenza sul costo del venduto. Nei file non ci sono dati su consumi, promozioni o prezzi retail che permettano di valutare la tenuta della domanda o la capacità di trasferire i rincari.",
+          "text": "Le quotazioni mostrano andamenti divergenti rispetto all’inizio dell’anno: zucchero e grano sono più alti, mentre caffè e cacao sono più bassi; anche rame e alluminio risultano inferiori ai rispettivi valori di inizio 2026. Non sono disponibili in questi file prezzi per il pomodoro industriale. Il quadro, quindi, non sostiene una conclusione di rincaro generalizzato delle materie prime.\n\nPer margini e pricing conta la composizione effettiva del portafoglio acquisti: i ribassi di alcune commodity non compensano automaticamente aumenti su altre, né l’energia, e la quotazione non equivale necessariamente al costo di approvvigionamento realizzato. La lettura utile per il controlling è per categoria, area e finestra contrattuale, mantenendo distinte le variazioni di mercato dalle ricadute effettive sul conto economico.",
           "market": "",
           "link": ""
         }
       ]
     },
     {
-      "title": "Il monitoraggio deve restare selettivo",
+      "title": "La priorità è proteggere la flessibilità operativa",
       "items": [
         {
           "title": "",
-          "text": "L’inflazione nell’area euro è indicata al 4% su base annua a ottobre, con un aumento mensile dello 0,5%. È un ulteriore elemento di contesto sui prezzi, ma il dato non permette di stabilire come stiano reagendo i consumatori né quale sia la pressione specifica sui costi o sui listini del settore food.\n\nTra i segnali societari, Bolton (Rio Mare) acquisisce Foodlab ed entra nel salmone affumicato, mentre Bureau Veritas rileva Topo Solutions per rafforzare l’offerta di intelligence sulla supply chain basata sull’AI. Sono mosse di portafoglio e capacità, ma le informazioni disponibili non consentono di stimarne sinergie o ritorni. Nel breve, la priorità manageriale è quindi distinguere i rischi di costo già osservabili dagli esiti commerciali e operativi ancora da verificare.",
+          "text": "Nel complesso emerge un rischio concentrato sull’energia, affiancato da costi agricoli con segnali misti. I file non offrono evidenze sufficienti per concludere che domanda, consumi o potere negoziale del retail stiano cambiando; di conseguenza, eventuali decisioni di prezzo andrebbero calibrate sui dati interni di volumi, mix e promozioni, non dedotte dalle sole quotazioni.\n\nNel breve termine, un approccio selettivo su acquisti e monitoraggio dei margini appare più coerente dei correttivi generalizzati. Sarà importante osservare se la tensione del gas persiste e se si riflette nei prezzi energetici effettivamente sostenuti, insieme all’evoluzione di grano e zucchero.",
           "market": "",
           "link": ""
         }
@@ -38,8 +38,7 @@
     }
   ],
   "watchlist": [
-    "Evoluzione del gas e delle scorte, verificando l’impatto effettivo su contratti e siti produttivi.",
-    "Andamento di zucchero e grano rispetto a caffè e cacao, da confrontare con i costi reali di acquisto.",
-    "Prime evidenze sull’integrazione di Foodlab in Bolton/Rio Mare e di Topo Solutions in Bureau Veritas."
+    "Evoluzione di gas e PUN, distinguendo le quotazioni di mercato dai costi energetici effettivamente sostenuti.",
+    "Prezzi di grano e zucchero e loro impatto sulle categorie esposte, insieme ai segnali di costo sulle altre materie prime."
   ]
 }
