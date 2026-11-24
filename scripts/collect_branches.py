@@ -1,116 +1,129 @@
-"""Raccoglie news recenti e pertinenti per le filiali internazionali."""
-
 import datetime as dt
+import html
 import json
 import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
-ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "data" / "branches.json"
-MAX_AGE_DAYS = 4
-MAX_ITEMS_PER_QUERY = 10
 
 BRANCHES = {
-    "UK": [
-        "UK food FMCG grocery retailer brands competitors Tesco Sainsbury's Aldi Lidl prices inflation",
-        "UK grocery market consumer spending private label food brand strategy",
-    ],
-    "GER": [
-        "Germany food FMCG grocery retailer brands competitors Aldi Lidl Rewe Edeka prices inflation",
-        "Germany grocery market consumer spending private label food brand strategy",
-    ],
-    "FRA&BNL": [
-        "France Benelux food FMCG grocery retailer brands competitors Carrefour Leclerc Delhaize prices inflation",
-        "France Belgium Netherlands grocery market consumer spending private label food brand strategy",
-    ],
-    "POL": [
-        "Poland food FMCG grocery retailer brands competitors Biedronka Lidl prices inflation",
-        "Poland grocery market consumer spending private label food brand strategy",
-    ],
-    "SCAND": [
-        "Nordic Sweden Norway Denmark Finland food FMCG grocery retailer brands competitors ICA Coop Salling prices inflation",
-        "Nordic grocery market consumer spending private label food brand strategy",
-    ],
-    "USA": [
-        "US food FMCG grocery retailer brands competitors Walmart Costco Kroger private label prices inflation",
-        "US grocery market consumer spending food brand strategy retailer results",
-    ],
-    "ANZ": [
-        "Australia New Zealand food FMCG grocery retailer brands competitors Woolworths Coles Aldi prices inflation",
-        "Australia New Zealand grocery market consumer spending private label food brand strategy",
-    ],
+    "UK": {
+        "label": "UK",
+        "keywords": ["UK", "United Kingdom", "Britain", "British", "England"],
+    },
+    "FRA&BNL": {
+        "label": "France & Benelux",
+        "keywords": [
+            "France", "French", "Belgium", "Belgian", "Netherlands",
+            "Dutch", "Luxembourg", "Benelux", "Paris", "Brussels",
+        ],
+    },
+    "SCAND": {
+        "label": "Scandinavia",
+        "keywords": [
+            "Scandinavia", "Scandinavian", "Nordics", "Nordic",
+            "Sweden", "Swedish", "Denmark", "Danish", "Norway",
+            "Norwegian", "Finland", "Finnish",
+        ],
+    },
+    "DACH": {
+        "label": "Germany, Austria & Switzerland",
+        "keywords": ["Germany", "German", "Austria", "Austrian", "Switzerland", "Swiss"],
+    },
+    "USA&CAN": {
+        "label": "USA & Canada",
+        "keywords": ["USA", "United States", "American", "Canada", "Canadian"],
+    },
+    "OCEANIA": {
+        "label": "Oceania",
+        "keywords": ["Australia", "Australian", "New Zealand", "Oceania"],
+    },
 }
 
-
-def parse_date(value):
-    try:
-        return dt.datetime.strptime(value, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=dt.timezone.utc)
-    except ValueError:
-        return None
-
-
-def clean_key(title):
-    return re.sub(r"[^a-z0-9]", "", title.lower())[:180]
+SEARCH_TERMS = [
+    "company", "brand", "FMCG", "food", "retail", "grocery",
+    "supermarket", "CEO", "CFO", "acquisition", "investment",
+    "results", "distribution", "pricing", "consumer",
+]
 
 
-def get_feed(branch, query):
-    full_query = f"{query} when:3d"
-    url = "https://news.google.com/rss/search?q=" + urllib.parse.quote(full_query) + "&hl=en&gl=GB&ceid=GB:en"
-    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 CFO-Cockpit/3.0"})
-    with urllib.request.urlopen(request, timeout=20) as response:
-        root = ET.fromstring(response.read())
+def fetch(url):
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 CFO-Cockpit/1.0",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read()
 
-    now = dt.datetime.now(dt.timezone.utc)
-    result = []
-    for item in root.findall("./channel/item")[:MAX_ITEMS_PER_QUERY]:
-        title = item.findtext("title", "").strip()
-        link = item.findtext("link", "").strip()
-        raw_date = item.findtext("pubDate", "").strip()
-        published = parse_date(raw_date)
-        if not title or not link or not published:
-            continue
-        age = now - published
-        if age.total_seconds() < 0 or age.days > MAX_AGE_DAYS:
-            continue
-        source_node = item.find("source")
-        source = source_node.text.strip() if source_node is not None and source_node.text else "Google News"
-        result.append({
-            "branch": branch,
-            "title": title,
-            "link": link,
-            "pubDate": published.isoformat(),
-            "topic": "Mercato, consumatori, retailer, brand e competitor",
-            "source": source,
-        })
-    return result
+
+def clean(value):
+    return re.sub(r"\s+", " ", html.unescape(value or "")).strip()
+
+
+def google_news(query):
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": query,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    })
+    root = ET.fromstring(fetch(url))
+    items = []
+    for node in root.findall("./channel/item"):
+        title = clean(node.findtext("title"))
+        link = clean(node.findtext("link"))
+        description = clean(node.findtext("description"))
+        published = clean(node.findtext("pubDate"))
+        if title and link:
+            items.append({
+                "title": title,
+                "description": re.sub(r"<[^>]+>", " ", description).strip(),
+                "link": link,
+                "published_at": published,
+            })
+    return items
 
 
 def main():
-    items = []
-    jobs = {}
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        for branch, queries in BRANCHES.items():
-            for query in queries:
-                jobs[executor.submit(get_feed, branch, query)] = branch
-        for job in as_completed(jobs):
-            try:
-                items.extend(job.result())
-            except Exception as error:
-                print(f"Query filiale non disponibile ({jobs[job]}): {error}", flush=True)
+    output = {
+        "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "branches": [],
+    }
 
-    unique = {}
-    for item in items:
-        unique.setdefault((item["branch"], clean_key(item["title"])), item)
-    ordered = sorted(unique.values(), key=lambda x: x["pubDate"], reverse=True)
-    output = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "items": ordered}
-    with OUTPUT.open("w", encoding="utf-8") as file:
+    for code, branch in BRANCHES.items():
+        articles = []
+        seen = set()
+        geography = " OR ".join(f'"{word}"' for word in branch["keywords"])
+        business = " OR ".join(f'"{word}"' for word in SEARCH_TERMS)
+        query = f"({geography}) ({business}) when:7d"
+        try:
+            for article in google_news(query):
+                if article["link"] in seen:
+                    continue
+                seen.add(article["link"])
+                articles.append(article)
+                if len(articles) >= 20:
+                    break
+        except Exception as exc:
+            print(f"{code}: ricerca non disponibile: {exc}")
+
+        output["branches"].append({
+            "code": code,
+            "name": branch["label"],
+            "keywords": branch["keywords"],
+            "items": articles,
+        })
+        print(f"{code}: {len(articles)} risultati")
+
+    Path("data").mkdir(exist_ok=True)
+    with open("data/branches.json", "w", encoding="utf-8") as file:
         json.dump(output, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    print(f"Salvate {len(ordered)} news filiali", flush=True)
 
 
 if __name__ == "__main__":
