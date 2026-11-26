@@ -1,36 +1,25 @@
 {
-  "updated_at": "2026-11-25T12:24:16Z",
-  "headline": "Energia elevata e materie prime divergenti richiedono una lettura selettiva dei costi",
-  "intro": "Il segnale più rilevante della giornata è la persistenza di quotazioni energetiche elevate, mentre le materie prime alimentari mostrano movimenti non uniformi. Per un gruppo food/FMCG, il quadro suggerisce pressioni differenziate tra categorie, non un rincaro generalizzato degli input.",
+  "updated_at": "2026-11-26T12:06:24.065Z",
+  "headline": "Pressioni sui costi ancora disomogenee, mentre Bolton amplia il perimetro nel salmone affumicato",
+  "intro": "Il quadro di giornata non segnala una direzione uniforme per i costi: energia, zucchero e grano restano in rialzo rispetto all’inizio dell’anno, mentre caffè e cacao sono scesi. Sul fronte competitivo, l’acquisizione di Foodlab da parte di Bolton aggiunge un segnale di espansione in una categoria indicata come in crescita, ma i dati disponibili non consentono di valutarne dimensioni o impatto sul mercato.",
   "sections": [
     {
-      "title": "L’energia resta il principale punto di attenzione",
+      "title": "Una pressione sui costi che cambia da ingrediente a ingrediente",
       "items": [
         {
           "title": "",
-          "text": "Le notizie riportano il gas oltre 93 €/MWh il 23 novembre e a 91,35 €/MWh in apertura il 24, citando il freddo e il possibile impatto sulle scorte. Il TTF è a 88,451 €/MWh al 20 novembre; il PUN elettrico rilevato oggi è 258,16 €/MWh. Date e indicatori non sono perfettamente sovrapponibili, ma insieme descrivono un livello energetico da seguire con attenzione.\n\nL’interpretazione manageriale è che una persistenza di questi livelli potrebbe pesare sui costi di produzione e, indirettamente, sulle attività logistiche. I dati non quantificano l’esposizione del gruppo né dimostrano un trasferimento immediato sui costi effettivi: la priorità è confrontare le quotazioni con contratti, coperture e consumi interni prima di rivedere le ipotesi di margine o pricing.",
+          "text": "Il confronto con l’inizio dell’anno mostra una tensione rilevante sul gas TTF, a 88,451 €/MWh contro 29,004, e rincari anche per zucchero (+26%) e grano (+11%). In controtendenza, caffè e cacao risultano più bassi rispettivamente di circa il 26% e il 12%; rame e alluminio sono anch’essi sotto i livelli di inizio anno. Il PUN elettrico è pari a 258,16 €/MWh, ma senza un valore iniziale comparabile nei dati forniti non se ne può quantificare la variazione.",
           "market": "",
           "link": ""
         }
       ]
     },
     {
-      "title": "Le commodity si muovono in direzioni diverse",
+      "title": "Espansione di portafoglio, con implicazioni da verificare",
       "items": [
         {
           "title": "",
-          "text": "Rispetto all’inizio del 2026, i prezzi del grano e dello zucchero sono più alti, mentre caffè e cacao sono più bassi; anche rame e alluminio risultano inferiori ai rispettivi valori di inizio anno. Per il pomodoro industriale non è disponibile una quotazione. La fotografia non sostiene quindi una tesi di inflazione uniforme delle materie prime.\n\nPer il controllo dei margini conta l’esposizione effettiva per categoria, area e periodo di acquisto: una quotazione in calo non equivale automaticamente a un risparmio realizzato e non compensa necessariamente pressioni su altri input o sull’energia. Sarà opportuno leggere i segnali di mercato insieme a tempi contrattuali e mix di acquisto, senza generalizzare variazioni tra commodity.",
-          "market": "",
-          "link": ""
-        }
-      ]
-    },
-    {
-      "title": "Proteggere la flessibilità, senza anticipare conclusioni sulla domanda",
-      "items": [
-        {
-          "title": "",
-          "text": "Nel complesso emerge un rischio concentrato sull’energia, affiancato da dinamiche selettive sulle materie prime. I file non contengono indicazioni sufficienti su consumi, volumi, promozioni o negoziazioni retail; non è quindi possibile dedurre cambiamenti nella domanda o nel potere di prezzo. L’implicazione è mantenere distinte le decisioni di costo da quelle commerciali e verificare gli effetti sui margini con i dati interni, evitando correzioni generalizzate basate sulle sole quotazioni.\n\nNel breve termine, sarà importante capire se i livelli di gas ed elettricità persistono e come si riflettono nei costi effettivamente sostenuti, continuando a monitorare grano e zucchero per le categorie più esposte.",
+          "text": "Bolton, gruppo cui fa capo Rio Mare, ha acquisito Foodlab ed entra nel salmone affumicato, descritto dalla notizia come un settore in crescita. È un movimento di ampliamento del portafoglio verso una categoria adiacente, ma un singolo annuncio non basta a dimostrare un’accelerazione generale della domanda né a stimare sinergie, investimenti o ritorni.\n\nPer un gruppo food/FMCG, la lettura manageriale è quindi duplice: mantenere una visione selettiva dei costi, perché le materie prime si muovono in direzioni diverse, e valutare le mosse di portafoglio alla luce di domanda, competitività e capacità di integrazione. I dati disponibili non includono indicatori su consumi, prezzi retail, cambi o condizioni operative specifiche; non supportano quindi conclusioni più ampie su margini o potere di prezzo.",
           "market": "",
           "link": ""
         }
@@ -38,7 +27,8 @@
     }
   ],
   "watchlist": [
-    "Evoluzione di gas e PUN e scostamento rispetto ai costi energetici effettivi e alle coperture.",
-    "Andamento di grano e zucchero e impatto sulle categorie effettivamente esposte."
+    "Andamento del gas TTF e dell’elettricità, per valutare l’evoluzione dell’esposizione energetica.",
+    "Prezzi di zucchero e grano rispetto a caffè e cacao, per distinguere pressioni e possibili compensazioni nel costo degli input.",
+    "Sviluppi dell’ingresso di Bolton nel salmone affumicato, senza anticipare impatti commerciali non ancora documentati."
   ]
 }
