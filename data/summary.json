@@ -1,34 +1,45 @@
 {
-  "updated_at": "2026-11-26T12:06:24.065Z",
-  "headline": "Pressioni sui costi ancora disomogenee, mentre Bolton amplia il perimetro nel salmone affumicato",
-  "intro": "Il quadro di giornata non segnala una direzione uniforme per i costi: energia, zucchero e grano restano in rialzo rispetto all’inizio dell’anno, mentre caffè e cacao sono scesi. Sul fronte competitivo, l’acquisizione di Foodlab da parte di Bolton aggiunge un segnale di espansione in una categoria indicata come in crescita, ma i dati disponibili non consentono di valutarne dimensioni o impatto sul mercato.",
+  "updated_at": "2026-11-27T11:56:45Z",
+  "headline": "Costi energetici elevati e materie prime divergenti richiedono una gestione selettiva dei margini",
+  "intro": "Il quadro di giornata non segnala una dinamica unica dei costi: l’energia mostra il segnale di pressione più marcato, mentre le principali commodity alimentari si muovono in direzioni diverse. Per un gruppo food/FMCG, la priorità è distinguere l’esposizione per input e mercato, senza trattare i prezzi spot come un impatto immediato e uniforme sui conti.",
   "sections": [
     {
-      "title": "Una pressione sui costi che cambia da ingrediente a ingrediente",
+      "title": "L’energia è il principale fattore di attenzione sui costi",
       "items": [
         {
           "title": "",
-          "text": "Il confronto con l’inizio dell’anno mostra una tensione rilevante sul gas TTF, a 88,451 €/MWh contro 29,004, e rincari anche per zucchero (+26%) e grano (+11%). In controtendenza, caffè e cacao risultano più bassi rispettivamente di circa il 26% e il 12%; rame e alluminio sono anch’essi sotto i livelli di inizio anno. Il PUN elettrico è pari a 258,16 €/MWh, ma senza un valore iniziale comparabile nei dati forniti non se ne può quantificare la variazione.",
-          "market": "",
+          "text": "Il future TTF è a 88,451 €/MWh al 20 novembre, contro 29,004 €/MWh a inizio anno: il livello è circa tre volte quello iniziale. Il PUN Index GME si attesta a 277,41 €/MWh il 26 novembre, ma il file non riporta un valore di confronto storico. I dati indicano quindi un’esposizione energetica da seguire con attenzione, non quantificano da soli l’impatto sui costi effettivi del gruppo.\n\nPer le attività food/FMCG, energia e logistica possono incidere sulla base dei costi, ma il pass-through dipende da contratti, coperture, consumi e tempi di acquisto, informazioni qui non disponibili. Sul piano manageriale, conviene verificare l’esposizione per paese e processo e confrontarla con le assunzioni di budget, evitando di dedurre un effetto immediato sui margini dai soli prezzi di mercato.",
+          "market": "Europa",
           "link": ""
         }
       ]
     },
     {
-      "title": "Espansione di portafoglio, con implicazioni da verificare",
+      "title": "Le commodity alimentari si muovono in direzioni opposte",
       "items": [
         {
           "title": "",
-          "text": "Bolton, gruppo cui fa capo Rio Mare, ha acquisito Foodlab ed entra nel salmone affumicato, descritto dalla notizia come un settore in crescita. È un movimento di ampliamento del portafoglio verso una categoria adiacente, ma un singolo annuncio non basta a dimostrare un’accelerazione generale della domanda né a stimare sinergie, investimenti o ritorni.\n\nPer un gruppo food/FMCG, la lettura manageriale è quindi duplice: mantenere una visione selettiva dei costi, perché le materie prime si muovono in direzioni diverse, e valutare le mosse di portafoglio alla luce di domanda, competitività e capacità di integrazione. I dati disponibili non includono indicatori su consumi, prezzi retail, cambi o condizioni operative specifiche; non supportano quindi conclusioni più ampie su margini o potere di prezzo.",
-          "market": "",
+          "text": "Dall’inizio dell’anno lo zucchero è salito da 14,60 a 18,75 USD/lb e il grano da 506,5 a 564 USD/bu; cacao e caffè sono invece scesi, rispettivamente da 5.871 a 5.419 USD/t e da 357,3 a 276 USD/lb. Il rame è quasi invariato rispetto all’avvio d’anno, mentre l’alluminio è più basso. Le quotazioni hanno date di rilevazione non identiche e non sono disponibili prezzi per il pomodoro industriale.\n\nQuesta dispersione suggerisce che non è prudente assumere un sollievo o un aggravio generalizzato per il costo del venduto: l’effetto dipende dal mix di prodotti e dalle condizioni di approvvigionamento, non presenti nei dati. Per il controllo di gestione, la lettura utile è aggiornare le sensibilità per categoria e verificare quanto i movimenti siano già incorporati nei costi e nei prezzi di vendita. Le quotazioni delle commodity sono in dollari; senza dati sui cambi non è possibile valutare la conversione in valuta di reporting.",
+          "market": "Mercati globali",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Le notizie disponibili non confermano un cambio di scenario della domanda",
+      "items": [
+        {
+          "title": "",
+          "text": "Le due notizie riportate, entrambe del 23 novembre, riguardano la fiducia di Mundys sulla gara per l’aeroporto di Catania e la valutazione della Corte dei conti sugli equilibri dei bilanci regionali e sulle risorse del SSN. Non offrono elementi diretti su consumi, prezzi retail, promozioni o comportamento dei clienti; non sostengono quindi una conclusione sulla domanda FMCG.\n\nIl quadro suggerisce di mantenere separata questa informazione dal monitoraggio dei costi: in assenza di segnali specifici su vendite e retail, le priorità ravvicinate restano l’andamento dell’energia e la verifica dell’esposizione alle commodity più rilevanti per il portafoglio.",
+          "market": "Italia",
           "link": ""
         }
       ]
     }
   ],
   "watchlist": [
-    "Andamento del gas TTF e dell’elettricità, per valutare l’evoluzione dell’esposizione energetica.",
-    "Prezzi di zucchero e grano rispetto a caffè e cacao, per distinguere pressioni e possibili compensazioni nel costo degli input.",
-    "Sviluppi dell’ingresso di Bolton nel salmone affumicato, senza anticipare impatti commerciali non ancora documentati."
+    "Evoluzione del TTF e del PUN, tenendo conto delle diverse date delle ultime rilevazioni.",
+    "Prezzi di zucchero e grano e loro trasmissione ai costi effettivi di approvvigionamento.",
+    "Disponibilità di una quotazione del pomodoro industriale e di dati sui cambi per valutare meglio le esposizioni."
   ]
 }
