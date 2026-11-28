@@ -1,45 +1,34 @@
 {
-  "updated_at": "2026-11-27T11:56:45Z",
-  "headline": "Costi energetici elevati e materie prime divergenti richiedono una gestione selettiva dei margini",
-  "intro": "Il quadro di giornata non segnala una dinamica unica dei costi: l’energia mostra il segnale di pressione più marcato, mentre le principali commodity alimentari si muovono in direzioni diverse. Per un gruppo food/FMCG, la priorità è distinguere l’esposizione per input e mercato, senza trattare i prezzi spot come un impatto immediato e uniforme sui conti.",
+  "updated_at": "2026-11-28T11:30:23.194Z",
+  "headline": "Energia e alcune materie prime agricole segnalano pressione, ma il quadro dei costi resta disomogeneo",
+  "intro": "La lettura dei dati disponibili è dominata da segnali di costo divergenti: gas, grano e zucchero sono nettamente sopra i livelli di inizio anno, mentre caffè e cacao risultano più bassi. Le notizie raccolte non documentano sviluppi diretti su aziende food/FMCG o consumi; le implicazioni per il settore vanno quindi lette come esposizioni da verificare, non come effetti già osservati.",
   "sections": [
     {
-      "title": "L’energia è il principale fattore di attenzione sui costi",
+      "title": "Una pressione energetica e agricola non uniforme",
       "items": [
         {
           "title": "",
-          "text": "Il future TTF è a 88,451 €/MWh al 20 novembre, contro 29,004 €/MWh a inizio anno: il livello è circa tre volte quello iniziale. Il PUN Index GME si attesta a 277,41 €/MWh il 26 novembre, ma il file non riporta un valore di confronto storico. I dati indicano quindi un’esposizione energetica da seguire con attenzione, non quantificano da soli l’impatto sui costi effettivi del gruppo.\n\nPer le attività food/FMCG, energia e logistica possono incidere sulla base dei costi, ma il pass-through dipende da contratti, coperture, consumi e tempi di acquisto, informazioni qui non disponibili. Sul piano manageriale, conviene verificare l’esposizione per paese e processo e confrontarla con le assunzioni di budget, evitando di dedurre un effetto immediato sui margini dai soli prezzi di mercato.",
-          "market": "Europa",
+          "text": "Il segnale più marcato è il gas TTF a 88,451 €/MWh, rispetto a 29,004 a inizio anno: il dato suggerisce un’esposizione potenzialmente più onerosa per le attività ad alta intensità energetica, ma non permette da solo di stimare l’impatto sui costi aziendali. Il PUN italiano è pari a 287,64 €/MWh al 27 novembre; mancando un confronto storico nel dataset, è un’indicazione puntuale e non consente di quantificare una variazione.\n\nAnche gli input agricoli si muovono in direzioni diverse: grano e zucchero sono rispettivamente circa il 17% e il 29% sopra i valori di inizio anno, mentre caffè e cacao sono circa il 23% e il 6% sotto. Per un gruppo FMCG questo quadro può tradursi in pressioni selettive su alcune categorie e possibili attenuazioni su altre; l’effetto netto dipenderà da mix, coperture, contratti, tempi di trasferimento e valute, elementi non presenti nei dati.",
+          "market": "",
           "link": ""
         }
       ]
     },
     {
-      "title": "Le commodity alimentari si muovono in direzioni opposte",
+      "title": "Proteggere margini e flessibilità commerciale",
       "items": [
         {
           "title": "",
-          "text": "Dall’inizio dell’anno lo zucchero è salito da 14,60 a 18,75 USD/lb e il grano da 506,5 a 564 USD/bu; cacao e caffè sono invece scesi, rispettivamente da 5.871 a 5.419 USD/t e da 357,3 a 276 USD/lb. Il rame è quasi invariato rispetto all’avvio d’anno, mentre l’alluminio è più basso. Le quotazioni hanno date di rilevazione non identiche e non sono disponibili prezzi per il pomodoro industriale.\n\nQuesta dispersione suggerisce che non è prudente assumere un sollievo o un aggravio generalizzato per il costo del venduto: l’effetto dipende dal mix di prodotti e dalle condizioni di approvvigionamento, non presenti nei dati. Per il controllo di gestione, la lettura utile è aggiornare le sensibilità per categoria e verificare quanto i movimenti siano già incorporati nei costi e nei prezzi di vendita. Le quotazioni delle commodity sono in dollari; senza dati sui cambi non è possibile valutare la conversione in valuta di reporting.",
-          "market": "Mercati globali",
-          "link": ""
-        }
-      ]
-    },
-    {
-      "title": "Le notizie disponibili non confermano un cambio di scenario della domanda",
-      "items": [
-        {
-          "title": "",
-          "text": "Le due notizie riportate, entrambe del 23 novembre, riguardano la fiducia di Mundys sulla gara per l’aeroporto di Catania e la valutazione della Corte dei conti sugli equilibri dei bilanci regionali e sulle risorse del SSN. Non offrono elementi diretti su consumi, prezzi retail, promozioni o comportamento dei clienti; non sostengono quindi una conclusione sulla domanda FMCG.\n\nIl quadro suggerisce di mantenere separata questa informazione dal monitoraggio dei costi: in assenza di segnali specifici su vendite e retail, le priorità ravvicinate restano l’andamento dell’energia e la verifica dell’esposizione alle commodity più rilevanti per il portafoglio.",
-          "market": "Italia",
+          "text": "La combinazione non sostiene una conclusione generale di rincaro uniforme, né prova che i movimenti delle quotazioni si siano già trasferiti ai costi o ai prezzi al consumo. Suggerisce invece di leggere la marginalità per categoria e mercato: verificare l’esposizione effettiva a energia, grano e zucchero, confrontandola con le quotazioni più favorevoli di caffè e cacao e con i rispettivi tempi di acquisto. In assenza di dati su prezzi retail, promozioni e domanda, non è possibile dedurre cambiamenti nei consumi o nella capacità di trasferire i costi.\n\nLe due notizie disponibili riguardano una gara aeroportuale e l’equilibrio dei bilanci regionali con risorse sanitarie giudicate insufficienti; non forniscono evidenze sufficienti per collegarle alla domanda food/FMCG o alle dinamiche di costo osservate. La priorità manageriale è quindi mantenere prudenza nelle decisioni di prezzo e approvvigionamento, basandole sull’esposizione interna e non su un nesso causale che questi dati non dimostrano.",
+          "market": "",
           "link": ""
         }
       ]
     }
   ],
   "watchlist": [
-    "Evoluzione del TTF e del PUN, tenendo conto delle diverse date delle ultime rilevazioni.",
-    "Prezzi di zucchero e grano e loro trasmissione ai costi effettivi di approvvigionamento.",
-    "Disponibilità di una quotazione del pomodoro industriale e di dati sui cambi per valutare meglio le esposizioni."
+    "Evoluzione del TTF e del PUN, distinguendo il livello puntuale del PUN dalla variazione annua documentata per il gas.",
+    "Quotazioni di grano e zucchero e loro confronto con i prezzi effettivi di acquisto e le coperture aziendali.",
+    "Persistenza dei cali di caffè e cacao e relativo impatto sui costi, tenendo conto dei tempi di approvvigionamento."
   ]
 }

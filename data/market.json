@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-27T11:56:35.286026+00:00",
+  "updated_at": "2026-11-28T11:30:15.807426+00:00",
   "items": [
     {
       "name": "PUN Index GME",
-      "value": 277.41,
+      "value": 287.64,
       "unit": "€/MWh",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "source": "GME via Energy Index",
       "ytd_start": null,
       "ytd_start_date": null,
@@ -20,74 +20,74 @@
       "source": "ICE Endex Dutch TTF Natural Gas Futures",
       "ytd_start": 29.004,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 28.817,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 28.227,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Zucchero",
-      "value": 18.75,
+      "value": 18.77,
       "unit": "USD/lb",
       "date": "2026-11-27",
       "source": "Yahoo Finance",
       "ytd_start": 14.6,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 15.21,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 14.76,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Caffè",
-      "value": 276.0,
+      "value": 275.55,
       "unit": "USD/lb",
-      "date": "2026-11-27",
+      "date": "2026-11-25",
       "source": "Yahoo Finance",
       "ytd_start": 357.3,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 413.0,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 411.5,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Cacao",
-      "value": 5419.0,
+      "value": 5499.0,
       "unit": "USD/t",
-      "date": "2026-11-27",
+      "date": "2026-11-23",
       "source": "Yahoo Finance",
       "ytd_start": 5871.0,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 5404.0,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 5456.0,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Grano",
-      "value": 564.0,
+      "value": 591.0,
       "unit": "USD/bu",
-      "date": "2026-11-25",
+      "date": "2026-11-27",
       "source": "Yahoo Finance",
       "ytd_start": 506.5,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 531.0,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 530.25,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Rame",
-      "value": 5.66,
+      "value": 5.6,
       "unit": "USD/lb",
       "date": "2026-11-27",
       "source": "Yahoo Finance",
       "ytd_start": 5.64,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 5.19,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 5.22,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Alluminio",
-      "value": 2839.0,
+      "value": 2786.0,
       "unit": "USD/t",
       "date": "2026-11-27",
       "source": "Yahoo Finance",
       "ytd_start": 2938.0,
       "ytd_start_date": "2026-01-02",
-      "week52_start": 2808.0,
-      "week52_start_date": "2025-11-28"
+      "week52_start": 2843.25,
+      "week52_start_date": "2025-12-01"
     },
     {
       "name": "Pomodoro industriale",
